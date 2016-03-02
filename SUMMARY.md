@@ -1,4 +1,4 @@
 # Summary
 
-* about_thinkcmf
+* [about_thinkcmf](book/about_thinkcmf.md)
 

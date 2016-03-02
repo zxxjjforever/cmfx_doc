@@ -7,5 +7,5 @@
 * [基础](foundation.md)
    * [V版本和X版本](x_v_difference.md)
    * [开发规范](coding_standards.md)
-   * 调试模式
+   * [调试模式](debug_mode.md)
 

@@ -1,2 +1,2 @@
-# get_started
+#快速入门
 

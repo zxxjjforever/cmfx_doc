@@ -13,4 +13,5 @@
    * [环境要求](base/environmental_requirement.md)
    * [安装使用](base/install.md)
    * [备份与恢复](base/backup_restore.md)
+* 控制器
 

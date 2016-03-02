@@ -1,2 +1,3 @@
 # 环境要求
 
+ThinkCMFX可以支持Windows/Unix服务器环境，需要PHP5.3.0以上版本支持， 可运行于包括Apache、IIS和nginx在内的多种WEB服务器和模式，支持Mysql、 MsSQL、PgSQL、Sqlite、Oracle、Ibase、Mongo以及PDO等多种数据库和连接，推荐LAMP构架。框架本身没有什么特别模块要求，具体的应用系统运行环境要求视开发所涉及的模块。 ThinkCMF底层运行的内存消耗极低，而本身的文件大小也是轻量级的，因此不会出现 空间和内存占用的瓶颈。对于刚刚接触PHP或者ThinkCMF的新手，我们推荐使用集成开发 环境WAMPServer（wampserver是一个集成了Apache、PHP和MySQL的开发 套件，而且支持不同PHP版本、MySQL版本和Apache版本的切换）来使用ThinkCMF 进行本地开发和测试。

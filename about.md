@@ -1,2 +1,2 @@
-# about_thinkcmf
+# 关于ThinkCMF
 

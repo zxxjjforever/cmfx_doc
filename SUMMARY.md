@@ -1,4 +1,4 @@
 # Summary
 
-* [about_thinkcmf](aboutthinkcmfmd.md)
+* [about_thinkcmf](about_thinkcmf)
 

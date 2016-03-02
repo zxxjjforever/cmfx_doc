@@ -1,2 +1,2 @@
-# cmfx_doc
+# ThinkCMF文档
 ThinkCMFX document

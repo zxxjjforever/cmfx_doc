@@ -1,4 +1,4 @@
 # Summary
 
-* get_started
+* [get_started](getstarted.md)
 

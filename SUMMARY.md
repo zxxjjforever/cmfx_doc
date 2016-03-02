@@ -5,5 +5,5 @@
    * [关于ThinkCMF](about.md)
    * [关于BootStrap](bootstrap.md)
 * [基础](foundation.md)
-   * V版本和X版本
+   * [V版本和X版本](x_v_difference.md)
 

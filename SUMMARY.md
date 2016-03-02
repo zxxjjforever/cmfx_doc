@@ -1,4 +1,4 @@
 # Summary
 
-* [about_thinkcmf](about.md)
+* [关于ThinkCMF](about.md)
 

@@ -11,5 +11,5 @@
    * [应用](app.md)
    * [如何获取](base/get_methods.md)
    * [环境要求](base/environmental_requirement.md)
-   * 安装使用
+   * [安装使用](base/install.md)
 

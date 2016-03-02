@@ -4,7 +4,7 @@
 
 应用采用mvc的结构：
 
-拿 Blog应用举例
+拿Blog应用举例
 
 Blog
 

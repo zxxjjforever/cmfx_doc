@@ -21,5 +21,5 @@
    * [模板主题](theme_detail.md)
    * [模板赋值](assign.md)
    * [获取内容](fetch.md)
-   * 模板渲染
+   * [模板渲染](display.md)
 

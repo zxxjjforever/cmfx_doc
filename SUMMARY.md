@@ -22,4 +22,5 @@
    * [模板赋值](assign.md)
    * [获取内容](fetch.md)
    * [模板渲染](display.md)
+* 模型
 

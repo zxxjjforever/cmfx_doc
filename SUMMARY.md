@@ -39,5 +39,5 @@
    * SMTP配置
 * [专题](special.md)
    * 多语言开发
-* 部署
+* [部署](deploy.md)
 

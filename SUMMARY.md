@@ -26,5 +26,5 @@
    * [模型定义](model/definition.md)
    * [模型实例化](model/instancing.md)
 * [系统函数](functions/comments.md)
-   * Comments()
+   * [Comments](functions/comments.md)
 

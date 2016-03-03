@@ -39,9 +39,9 @@ $User = D('User');
 // 相当于 $User = new \\Home\\Model\\UserModel();
 // 执行具体的数据操作
 $User->select();
-<<<<<<< HEAD
 //$User->diy_select();//diy_select方法是您在\\Home\\Model\\UserModel.class.php中自定义的方法。
 ```
+
 *当 \\Home\\Model\\UserModel 类不存在的时候，D函数会尝试实例化公共模块下面的 \\Common\\Model\\UserModel 类*
 D方法还可以支持跨模块调用，需要使用：
 ```php
@@ -50,14 +50,16 @@ D('Admin/User');
 //实例化Extend扩展命名空间下的Info模型
 D('Extend://Editor/Info');
 ```
+
 *注意：跨模块实例化模型类的时候 不支持自动加载公共模块的模型类*
+
 #### M方法和D方法的区别
-1.M方法不用加载具体模型类效率更高。但仅能实现基础的CURD;
-2.D方法会先实例化具体的模型类，找不到后自动调用M方法来实例化模型类
+1. M方法不用加载具体模型类效率更高。但仅能实现基础的CURD;
+2. D方法会先实例化具体的模型类，找不到后自动调用M方法来实例化模型类
 
 
 *名词解释*
-1.CURD(Creat,Update,Read,Delect),数据库的增删查改操作
+1. CURD(Creat,Update,Read,Delect),数据库的增删查改操作
 
 *参考文献：*
-1.http://www.kancloud.cn/manual/thinkphp/1729
+1. http://www.kancloud.cn/manual/thinkphp/1729

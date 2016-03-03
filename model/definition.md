@@ -1,7 +1,7 @@
 # 模型定义
 
 **为方便框架的后续升级，thinkcmf与thinkphp框架模型定义方法完全一致。**
-***模型类并非必须定义，只有当存在独立的业务逻辑或者属性的时候才需要定义。***
+*模型类并非必须定义，只有当存在独立的业务逻辑或者属性的时候才需要定义。*
 
 模型类通常需要继承系统的\Think\Model类或其子类，下面是一个Home\Model\UserModel类的定义：
 
@@ -19,7 +19,7 @@ class UserModel extends Model {
 |UserModel|	cmf_user|
 如果你的规则和上面的系统约定不符合，那么需要设置Model类的数据表名称属性，以确保能够找到对应的数据表。
 
-1.数据表定义
+1. 数据表定义
 在ThinkPHP的模型里面，有几个关于数据表名称的属性定义：
 
 |属性	|说明|
@@ -90,7 +90,7 @@ class CategoryModel extends Model {
 
 系统的规则下，tableName会转换为小写定义，但是trueTableName定义的数据表名称是保持原样。因此，如果你的数据表名称需要区分大小写的情况，那么可以通过设置trueTableName定义来解决。
 
-2.这里谈下THINKPHP的自动验证和自动完成功能（thinkcmf也是完全一样的）
+2. 这里谈下THINKPHP的自动验证和自动完成功能（thinkcmf也是完全一样的）
 假设上文我们已经定义了Home\Model\UserModel.class.php
 代码完善后如下:
 
@@ -152,7 +152,9 @@ class UserModel extends Model {
 
 ```
 
-***参考文献***
-1.http://www.kancloud.cn/manual/thinkphp/1728
-2.http://www.thinkcmf.com/topic/topic/index/id/432.html
-文档问题联系@iwzh
+*参考文献*
+
+1. http://www.kancloud.cn/manual/thinkphp/1728
+2. http://www.thinkcmf.com/topic/topic/index/id/432.html
+
+文档问题联系['iwzh'](http://github.com/iwzh)

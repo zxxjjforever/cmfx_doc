@@ -31,5 +31,5 @@
    * [应用开发流程](extends/application_flow.md)
 * [模板](theme.md)
    * 全局变量
-* 门户应用
+* [门户应用](portal.md)
 

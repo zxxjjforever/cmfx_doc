@@ -16,4 +16,5 @@
 * [控制器](controller.md)
    * [控制器定义](controller/definition.md)
    * [URL生成](url.md)
+* 视图
 

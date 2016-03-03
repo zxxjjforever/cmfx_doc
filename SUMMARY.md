@@ -24,5 +24,5 @@
    * [模板渲染](view/display.md)
 * [模型](model.md)
    * [模型定义](model/definition.md)
-   * 模型实例化
+   * [模型实例化](model/instancing.md)
 

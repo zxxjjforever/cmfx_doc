@@ -28,5 +28,5 @@
 * [系统函数](core_functions.md)
    * [Comments](functions/comments.md)
 * [系统扩展](extends.md)
-   * [ThinkCMF应用开发流程](extends/application_flow.md)
+   * [应用开发流程](extends/application_flow.md)
 

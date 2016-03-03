@@ -30,4 +30,5 @@
 * [系统扩展](extends.md)
    * [应用开发流程](extends/application_flow.md)
 * [模板](theme.md)
+   * 全局变量
 

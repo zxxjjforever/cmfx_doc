@@ -12,7 +12,7 @@ ThinkCMF一直秉承ThinkPHP大道至简的理念，坚持做最简约的ThinkPH
 我们一直在坚持不懈地努力，并坚持让ThinkCMF完全开源免费，您的帮助将使我们更有动力和信心^_^！
 
 支付宝捐赠：(用手机支付宝扫描二维码支付)ThinkCMF支付宝捐赠二维码
-![dd]images/alipay_qrcode.png)
+![dd](images/alipay_qrcode.png)
 您的每一份捐赠将用来：
 深入ThinkCMF核心的开发
 

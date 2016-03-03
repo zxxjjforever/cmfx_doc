@@ -38,4 +38,5 @@
 * [后台管理](admin.md)
    * SMTP配置
 * [专题](special.md)
+   * 多语言开发
 

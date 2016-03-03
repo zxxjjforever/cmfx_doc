@@ -4,13 +4,14 @@
 ***模型类并非必须定义，只有当存在独立的业务逻辑或者属性的时候才需要定义。***
 
 模型类通常需要继承系统的\Think\Model类或其子类，下面是一个Home\Model\UserModel类的定义：
+
 ```php
 namespace Home\Model;
 use Think\Model;
 class UserModel extends Model {
 }
-```
 
+```
 模型类的作用大多数情况是操作数据表的，如果按照系统的规范来命名模型类的话，大多数情况下是可以自动对应数据表。
 模型类的命名规则是除去表前缀的数据表名称，采用驼峰法命名，并且首字母大写，然后加上模型层的名称（默认定义是Model），例如：
 |模型名|	约定对应数据表（假设数据库的前缀定义是 cmf_）|
@@ -48,20 +49,22 @@ use Think\Model;
 class UserModel extends Model {
     protected $tablePrefix = 'top_';
 }
+
 ```
 
 如果你的数据表直接就是user，而没有前缀，则可以设置tablePrefix为空字符串。
 
 ```php
+
 namespace Home\Model;
 use Think\Model;
 class UserModel extends Model {
     protected $tablePrefix = '';
 }
 ```
-
 没有表前缀的情况必须设置，否则会获取当前配置文件中的 DB_PREFIX。
 而对于另外一种特殊情况，我们需要操作的数据表是top_categories，这个时候我们就需要定义 trueTableName 属性
+
 
 ```php
 namespace Home\Model;
@@ -69,6 +72,7 @@ use Think\Model;
 class CategoryModel extends Model {
     protected $trueTableName = 'top_categories';
 }
+
 ```
 
 注意trueTableName需要完整的表名定义。
@@ -81,6 +85,7 @@ class CategoryModel extends Model {
     protected $trueTableName = 'top_categories';
     protected $dbName = 'top';
 }
+
 ```
 
 系统的规则下，tableName会转换为小写定义，但是trueTableName定义的数据表名称是保持原样。因此，如果你的数据表名称需要区分大小写的情况，那么可以通过设置trueTableName定义来解决。
@@ -144,8 +149,8 @@ class UserModel extends Model {
   }
   */
 }
-```
 
+```
 
 ***参考文献***
 1.http://www.kancloud.cn/manual/thinkphp/1728

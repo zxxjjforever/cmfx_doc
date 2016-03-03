@@ -23,5 +23,5 @@
    * [获取内容](view/fetch.md)
    * [模板渲染](view/display.md)
 * [模型](model.md)
-   * 模型定义
+   * [模型定义](definition.md)
 

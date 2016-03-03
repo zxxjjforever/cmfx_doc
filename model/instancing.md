@@ -7,12 +7,12 @@
 ##M方法：
 M(['模型名'],['数据表前缀'],['数据库连接信息']);
 
-~
+'''php
 //实例化模型
 $User=M('User');
 // 执行具体的数据操作
 $User->select();
-~
+'''
 M方法仅支持基本的CURD操作;但是性能会较D方法高。
 ***如果你的模型类有自己的业务逻辑，M方法是无法支持的，就算是你已经定义了具体的模型类，M方法实例化的时候是会直接忽略。***
 M方法的特殊用法：
@@ -31,22 +31,22 @@ User	对应的模型类文件的 \Home\Model\UserModel.class.php
 UserType	对应的模型类文件的 \Home\Model\UserTypeModel.class.php
 
 用法示例:
-~
+'''php
 //实例化模型
 $User = D('User');
 // 相当于 $User = new \Home\Model\UserModel();
 // 执行具体的数据操作
 $User->select();
 //$User->diy_select();//diy_select方法是您在\Home\Model\UserModel.class.php中自定义的方法。
-~
+'''
 ***当 \Home\Model\UserModel 类不存在的时候，D函数会尝试实例化公共模块下面的 \Common\Model\UserModel 类***
 D方法还可以支持跨模块调用，需要使用：
-~
+'''php
 //实例化Admin模块的User模型
 D('Admin/User');
 //实例化Extend扩展命名空间下的Info模型
 D('Extend://Editor/Info');
-~
+'''
 ***注意：跨模块实例化模型类的时候 不支持自动加载公共模块的模型类***
 
 ####M方法和D方法的区别

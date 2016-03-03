@@ -1,7 +1,8 @@
 # 模型定义
 
 **为方便框架的后续升级，thinkcmf与thinkphp框架模型定义方法完全一致。**
-***模型类并非必须定义，只有当存在独立的业务逻辑或者属性的时候才需要定义。***
+
+*模型类并非必须定义，只有当存在独立的业务逻辑或者属性的时候才需要定义。*
 
 模型类通常需要继承系统的\Think\Model类或其子类，下面是一个Home\Model\UserModel类的定义：
 
@@ -152,7 +153,8 @@ class UserModel extends Model {
 
 ```
 
-***参考文献***
-1.http://www.kancloud.cn/manual/thinkphp/1728
-2.http://www.thinkcmf.com/topic/topic/index/id/432.html
+*参考文献*
+
+1. http://www.kancloud.cn/manual/thinkphp/1728
+* http://www.thinkcmf.com/topic/topic/index/id/432.html
 文档问题联系@iwzh

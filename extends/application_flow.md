@@ -76,7 +76,7 @@ function index(){
 }
 后台Controller一般都要继承AdminbaseController
 登陆后台，在后台菜单管理添加一个后台菜单
-后台菜单添加.jpeg 
+![后台菜单添加.jpeg ](565e8c0ad7253.jpg)
 
 
 

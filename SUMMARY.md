@@ -41,7 +41,7 @@
 * [后台管理](admin.md)
    * SMTP配置
 * [专题](special.md)
-   * 多语言开发
+   * [多语言开发](special/multi_lang.md)
 * [部署](deploy.md)
    * [迁移到正式环境](deploy/production.md)
 

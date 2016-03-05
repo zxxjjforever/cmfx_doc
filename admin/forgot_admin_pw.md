@@ -33,4 +33,5 @@ class IndexController extends HomebaseController {
 
 ps:让以后你还忘记密码！
 
+![](../images/j_0050.gif)
 开源不容易，多少给点支持行不？别删链接呀也！

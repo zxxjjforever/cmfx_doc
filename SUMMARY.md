@@ -40,7 +40,7 @@
    * 钩子，插件与模板
 * [后台管理](admin.md)
    * [SMTP配置](admin/smtp.md)
-   * 忘记后台密码？
+   * [忘记后台密码？](admin/forgot_admin_pw.md)
 * [专题](special.md)
    * [多语言开发](special/multi_lang.md)
    * Restful Api

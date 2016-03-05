@@ -30,7 +30,7 @@
 * [系统扩展](extends.md)
    * [应用开发流程](extends/application_flow.md)
    * [后台隐藏的后台菜单管理功能](extends/admin_menu.md)
-   * 几个重要基类
+   * [几个重要基类](extends/base_class.md)
 * [模板](theme.md)
    * 全局变量
 * [门户应用](portal.md)

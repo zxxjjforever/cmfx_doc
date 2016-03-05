@@ -41,6 +41,7 @@
 * [后台管理](admin.md)
    * [SMTP配置](admin/smtp.md)
    * [忘记后台密码？](admin/forgot_admin_pw.md)
+   * 后台地址是啥？
 * [专题](special.md)
    * [多语言开发](special/multi_lang.md)
    * Restful Api

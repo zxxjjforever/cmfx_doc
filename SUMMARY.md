@@ -43,7 +43,7 @@
    * [忘记后台密码？](admin/forgot_admin_pw.md)
    * [后台地址是啥？](admin/admin_index_url.md)
    * [后台菜单管理](menu.md)
-   * 管理员权限管理
+   * [管理员权限管理](admin/rbac.md)
 * [专题](special.md)
    * [多语言开发](special/multi_lang.md)
    * Restful Api

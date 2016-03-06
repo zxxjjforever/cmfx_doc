@@ -6,9 +6,10 @@
 
 ThinkCMF目录结构：
 
+```php
 |--admin                                /管理后台URL重定向目录，你可以将文件夹名改为任何你喜欢的
 
-        |--themes                      /后台模板文件目录
+    |--themes                      /后台模板文件目录
 
 |--api                                    /主要是放 ucenter
 
@@ -20,7 +21,8 @@ ThinkCMF目录结构：
 
 |--public                               /静态文件存放包，包含bootstrap资源
 
-|--themes                                     /前台模板文件目录                     
+|--themes                                     /前台模板文件目录             
+```        
 
 application 目录结构：
 

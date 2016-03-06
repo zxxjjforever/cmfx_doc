@@ -29,7 +29,7 @@ ThinkCMF系统内置了很多钩子；http://www.thinkcmf.com/document/hooks.htm
 
 如portal应用：
 
-untitled1.png
+![](../images/54aa91de3ca54.png)
 
 hooks.php文件内容
 
@@ -45,7 +45,8 @@ return array(
 
 如simplebootx模板：
 
-untitled1.png
+![](../images/54aa9283b5d3a.png)
+
 
 hooks.html文件内容：
 

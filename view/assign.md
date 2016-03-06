@@ -5,7 +5,9 @@
 
 1.传递一个$name 到模板
 
+```php
 $this->assign('name','this is name');
+```
 这样就可以在模板使用$name 了，直接输出变量可以{$name}
 
 也可以直接在 php 标签里使用这个变量；

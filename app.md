@@ -40,7 +40,7 @@ nav.php 前台导航文件（可选）
 
 在模块Controller目录下创建一个IndexController.class.php文件
 
-```
+```php
 <?php
 
 namespace Blog\Controller;

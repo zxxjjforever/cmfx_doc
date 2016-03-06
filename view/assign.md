@@ -12,9 +12,11 @@ $this->assign('name','this is name');
 
 也可以直接在 php 标签里使用这个变量；
 
+```php
 <php>
 echo $name;
 </php>
+```
 2.传递一个数组
 
 $user=array(

@@ -41,6 +41,7 @@
    * [插件钩子](plugin/hook.md)
    * [插件配置文件](plugin/config.md)
    * [插件类主文件](plugin/class.md)
+   * 插件开发流程
 * [后台管理](admin.md)
    * [SMTP配置](admin/smtp.md)
    * [忘记后台密码？](admin/forgot_admin_pw.md)

@@ -14,7 +14,6 @@
    * [安装使用](base/install.md)
    * [备份与恢复](base/backup_restore.md)
 * [控制器](controller.md)
-   * [控制器定义](controller/definition.md)
    * [URL生成](url.md)
 * [视图](view.md)
    * [模板定义](view/theme.md)

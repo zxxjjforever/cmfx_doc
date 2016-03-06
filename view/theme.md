@@ -8,7 +8,7 @@
 
 前台默认模板是 simplebootx,以后也可能会换，我们先以这个为例；
 
-![默认模板](images/view_5695911cf31e7.png.jpg)
+![默认模板](../images/view_5695911cf31e7.png.jpg)
 
 这是前台模板的结构；应用之间彼此分开，Portal 目录下就对应的是application/Portal应用的模板文件；
 
@@ -17,7 +17,7 @@
 
 
 后台默认模板也是 simplebootx 只是和前台的名字一样而已，实质它是后台主题；
-![thinkcmf后台主题](images/5695949f3e2f1.png.jpg)
+![thinkcmf后台主题](../images/5695949f3e2f1.png.jpg)
 
 
 和前台的模式基本一样，一个后台模板文件大致路径是这样的: admin/themes/主题名/应用名/控制器名/操作名+(.html) 或者 admin/themes/主题名/应用名/自定义模板名+(.html)，如：admin/themes/simplebootx/Admin/Link/add.html;

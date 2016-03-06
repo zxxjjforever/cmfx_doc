@@ -10,6 +10,7 @@ ThinkCMF目前分为两种控制器，前台和后台控制器；
 
 在Blog应用Controller目录下创建一个IndexController.class.php文件
 
+```php
 <?php
 
 namespace Blog\Controller;
@@ -18,7 +19,7 @@ class IndexController extends HomebaseController{
     public function index(){
       echo "this is blog index !";
     }
-}
+}```
 访问地址：http://你的域名/?g=blog&m=index&a=index;
 
 如果只让用户在登录时才能访问此控制器，只需把HomebaseController换成MemberbaseController；

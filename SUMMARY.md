@@ -44,6 +44,7 @@
    * [后台地址是啥？](admin/admin_index_url.md)
    * [后台菜单管理](admin/menu.md)
    * [管理员权限管理](admin/rbac.md)
+   * 第三方登录配置
 * [专题](special.md)
    * [多语言开发](special/multi_lang.md)
    * Restful Api

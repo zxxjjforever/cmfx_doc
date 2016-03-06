@@ -11,8 +11,6 @@ ThinkCMF目录结构：
 
     |--themes                      /后台模板文件目录
 
-|--api                                    /主要是放 ucenter
-
 |--application                        /应用目录
 
 |--data                                  /各类数据存放目录，包括缓存数据

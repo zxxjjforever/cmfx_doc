@@ -24,29 +24,33 @@ ThinkCMF目录结构：
 
 application 目录结构：
 
+```
 |--application 
 
-            |--Admin                    /后台管理应用
+  |--Admin                    /后台管理应用
 
-            |--Api                        /公共接口
+  |--Api                        /公共接口
 
-            |--Asset                    /资源管理应用
+  |--Asset                    /资源管理应用
 
-            |--Comment                /评论应用
+  |--Comment                /评论应用
 
-            |--Common                /应用公共模块
+  |--Common                /应用公共模块
 
-            |--Portal                    /门户应用
+  |--Portal                    /门户应用
+```
 
 应用的目录结构规范：
 
 举例应用Portal
 
+```
 |--Portal
 
-            |--Controller                    /必须目录，存放应用的操作模块如：/IndexController.class.php
+  |--Controller                    /必须目录，存放应用的操作模块如：/IndexController.class.php
 
-            |--Conf                      /可选，应用配置文件存放目录，如应用无配置文件则不需要
+  |--Conf                      /可选，应用配置文件存放目录，如应用无配置文件则不需要
 
-            |--Common                /可选，应用函数库，如无则不需要
+  |--Common                /可选，应用函数库，如无则不需要
+```
 

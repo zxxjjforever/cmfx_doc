@@ -25,9 +25,8 @@ class IndexController extends HomebaseController{
 
 如果只让用户在登录时才能访问此控制器，只需把HomebaseController换成MemberbaseController；
 
-```
+```php
 <?php
-
 namespace Blog\Controller;
 use Common\Controller\MemberbaseController;
 class IndexController extends MemberbaseController{

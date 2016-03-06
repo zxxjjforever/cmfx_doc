@@ -1,1 +1,4 @@
-{"plugins":["highlight"]}
+{
+	"plugins":["-highlight"],
+	"language": "zh-hans"
+}

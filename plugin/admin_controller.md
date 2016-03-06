@@ -1,10 +1,10 @@
 # 插件后台管理控制器
 
-在插件类主文件里加has_admin为1的属性；
+1. 在插件类主文件里加has_admin为1的属性；
 
-默认后台管理控制器AdminIndex,默认方法index,不可更改
+2. 默认后台管理控制器AdminIndex,默认方法index,不可更改
 
-sp_get_current_admin_id();可获取后台管理员id，可用于判断是否登录
+3. sp_get_current_admin_id();可获取后台管理员id，可用于判断是否登录
 
 ```php
 namespace plugins\Demo\Controller; //Demo插件英文名，改成你的插件英文就行了

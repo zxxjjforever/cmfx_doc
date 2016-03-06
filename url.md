@@ -29,7 +29,6 @@ U('Blog/Index/index?cat=1&status=1')
 U('Blog/Index/index','cat=1&status=1',true,true)
 ```
 
-
 ThinkCMF leuu/UU方法
 
 为了配合后台设置的 url 美化规则，cmf 增加了 leuu/UU两个方法，UU方法只是 leuu 的别名用法一样；
@@ -54,9 +53,10 @@ url的美化规则设置：
 
 leuu("portall/list/index",array('id'=>1)) //生成的 url为/cases.html
 列出常用的优化方案：
+```php
 portal/list/index?id=1 news   http://demo.thinkcmf.com/news.html
 portal/list/index?id=2 discovery http://demo.thinkcmf.com/discovery.html
 portal/page/index?id=2 contacts http://demo.thinkcmf.com/contacts.html
 portal/page/index?id=14 about http://demo.thinkcmf.com/about.html
 portal/article/index article/:id\d http://demo.thinkcmf.com/article/1.html
-portal/list/index list/:id\d http://demo.thinkcmf.com/list/1.html
+portal/list/index list/:id\d http://demo.thinkcmf.com/list/1.html```

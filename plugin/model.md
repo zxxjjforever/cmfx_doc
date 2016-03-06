@@ -1,5 +1,4 @@
 # 插件数据库模型
-
 创建插件自定义模型
 ```php
 namespace plugins\Demo\Model;//Demo插件英文名，改成你的插件英文就行了
@@ -25,7 +24,6 @@ class PluginDemoModel extends CommonModel{ //Demo插件英文名，改成你的�
 
 
 实例化模型：
-
 ```php
 $plugin_demo_model=D("plugins://Demo/PluginDemo");//实例化自定义模型PluginDemo
 $plugin_demo_model->test();//调用自定义模型PluginDemo里的test方法

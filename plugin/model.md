@@ -2,7 +2,6 @@
 
 创建插件自定义模型
 
-<?php
 ```php
 namespace plugins\Demo\Model;//Demo插件英文名，改成你的插件英文就行了
 use Common\Model\CommonModel;//继承CommonModel

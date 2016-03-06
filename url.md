@@ -6,10 +6,12 @@ U方法的定义规则如下（方括号内参数根据实际应用决定）：
 
 U('地址表达式',['参数'],['伪静态后缀'],['是否显示域名'])
 
+```php
 U('Blog/Index/index') // 生成Blog应用Index控制器的index操作的URL地址
 U('Portal/Article/index?id=1') // 生成Portal应用Article控制器的index操作 并且参数id为1的URL地址
 U('Portal/Article/index',array('id'=>1) // 生成Portal应用Article控制器的index操作 并且参数id为1的URL地址
 U('User/index') // 生成当前应用的User控制器的index操作的URL地址
+```
 参数：
 
 U方法的第二个参数支持数组和字符串两种定义方式，如果只是字符串方式的参数可以在第一个参数中定义，例如：

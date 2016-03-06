@@ -4,7 +4,7 @@ ThinkCMF完全按ThinkPHP开发规范进行
 
 开发前请详细阅读：
 
-http://document.thinkphp.cn/manual_3_2.html#develop_standard
+[http://document.thinkphp.cn/manual_3_2.html#develop_standard](http://document.thinkphp.cn/manual_3_2.html#develop_standard)
 
 ##ThinkCMF特别开发规范
 
@@ -12,7 +12,7 @@ http://document.thinkphp.cn/manual_3_2.html#develop_standard
 
 应用后台控件器命名
 
-以****adminController.class.php或者Admin****Controller.class.php命名的是后台Controller, 在后台菜单导入时会自动识别
+以\*\*\*\*adminController.class.php或者Admin\*\*\*\*Controller.class.php命名的是后台Controller, 在后台菜单导入时会自动识别
 
 应用后台控件器方法命名：
 

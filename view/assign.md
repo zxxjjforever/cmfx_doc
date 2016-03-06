@@ -19,10 +19,12 @@ echo $name;
 ```
 2.传递一个数组
 
+```php
 $user=array(
     'name'=>'Dean',
     'email'=>'cmf@simplewind.net',
     'phone'=>'15121010086'
 );
 $this->assign($user);
+```
 模板里就被传递了$name,$email,$phone 三个变量了，你可以直接输出{$name},{$email},{$phone}

@@ -25,7 +25,9 @@ U('Blog/Index/index?cat=1&status=1')
 
 添加生成带域名的 url,只要把第四个参数设置为 true
 
+```php
 U('Blog/Index/index','cat=1&status=1',true,true)
+```
 
 
 ThinkCMF leuu/UU方法

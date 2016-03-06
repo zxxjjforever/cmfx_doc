@@ -46,7 +46,6 @@ $domain:是否添加域名，默认false
 
 模板使用：
 
-```html
+```php
 {:sp_plugin_url('Demo://Index/index',array('id'=>2),true)}
-
 {:sp_plugin_url('Demo://List/index',array('id'=>2))}```

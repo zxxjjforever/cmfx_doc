@@ -22,7 +22,6 @@ class PluginDemoModel extends CommonModel{ //Demo插件英文名，改成你的�
 }
 ```
 
-
 实例化模型：
 ```php
 $plugin_demo_model=D("plugins://Demo/PluginDemo");//实例化自定义模型PluginDemo

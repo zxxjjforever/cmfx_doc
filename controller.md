@@ -12,7 +12,6 @@ ThinkCMF目前分为两种控制器，前台和后台控制器；
 
 ```php
 <?php
-
 namespace Blog\Controller;
 use Common\Controller\HomebaseController;
 class IndexController extends HomebaseController{
@@ -37,13 +36,11 @@ class IndexController extends MemberbaseController{
 ```
 这里 IndexController 下的所有方法，用户只能在登录后才能访问，否则会报错，让用户登录；
 
-
-
 创建后台控制器：
 
 在Blog应用Controller目录下创建一IndexadminController.class.php文件（注意：这里有文件命名规则，以****adminController.class.php或 Admin***Controller.class.php命名的是后台Controller, 在后台菜单导入时会自动识别；）
 
-```
+```php
 <?php
 namespace Blog\Controller;
 use Common\Controller\AdminbaseController;

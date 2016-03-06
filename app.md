@@ -42,7 +42,6 @@ nav.php 前台导航文件（可选）
 
 ```php
 <?php
-
 namespace Blog\Controller;
 use Common\Controller\HomebaseController;
 class IndexController extends HomebaseController{

@@ -16,9 +16,11 @@ U('User/index') // 生成当前应用的User控制器的index操作的URL地址
 
 U方法的第二个参数支持数组和字符串两种定义方式，如果只是字符串方式的参数可以在第一个参数中定义，例如：
 
+```php
 U('Blog/Index/index',array('cat'=>1,'status'=>1))
 U('Blog/Index/index','cat=1&status=1')
 U('Blog/Index/index?cat=1&status=1')
+```
 
 
 添加生成带域名的 url,只要把第四个参数设置为 true

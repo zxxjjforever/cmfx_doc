@@ -21,7 +21,8 @@ class PluginDemoModel extends CommonModel{ //Demo插件英文名，改成你的�
 	function test(){
 		echo "hello";
 	}
-}```
+}
+```
 
 
 实例化模型：

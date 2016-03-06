@@ -55,6 +55,7 @@ class IndexadminController extends AdminbaseController{
 
 如果你想这个控制不用管理员登录也能被访问到，只给IndexadminController加个空的_initialize()方法；
 
+```php
 <?php
 namespace Blog\Controller;
 use Common\Controller\AdminbaseController;
@@ -68,3 +69,4 @@ class IndexadminController extends AdminbaseController{
         echo "this is admin controller!";
     }
 }
+```

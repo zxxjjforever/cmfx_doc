@@ -1,5 +1,5 @@
 { 
   "language": "zh-hans",
-  "plugins": ['highlight','search','fontsettings','livereload']
+  "plugins": []
 
 }

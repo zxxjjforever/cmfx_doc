@@ -51,7 +51,7 @@ class IndexadminController extends AdminbaseController{
     }
 }
 ```
-访问地址：http://你的域名/?g=blog&m=indexadmin&a=index，这里你一定要先登录后台，才能访问；
+访问地址：[http://你的域名/?g=blog&m=indexadmin&a=index]()，这里你一定要先登录后台，才能访问；
 
 如果你想这个控制不用管理员登录也能被访问到，只给IndexadminController加个空的_initialize()方法；
 

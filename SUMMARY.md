@@ -38,7 +38,7 @@
    * 主程序结构
 * [插件](plugin.md)
    * 钩子，插件与模板
-   * 插件钩子
+   * [插件钩子](plugin/hook.md)
 * [后台管理](admin.md)
    * [SMTP配置](admin/smtp.md)
    * [忘记后台密码？](admin/forgot_admin_pw.md)

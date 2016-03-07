@@ -33,43 +33,38 @@ class IndexController extends HomebaseController{
 前台Controller一般都要继承HomebaseController
 * 为前台 IndexController的index方法创建一个模板
   1. 修改IndexController.class.php  
-```php
-<?php
-namespace Blog\Controller;
-use Common\Controller\HomebaseController;
+    ```php
+    <?php
+    namespace Blog\Controller;
+    use Common\Controller\HomebaseController;
 
-class IndexController extends HomebaseController{
-    function index(){
-      $this->display(":index");
+    class IndexController extends HomebaseController{
+        function index(){
+          $this->display(":index");
+        }
     }
-}
-```
-
-
-b.在程序前台当前模板目录下创建Blog目录(假设当前模板是simplebootx，当前模板目录./themes/simplebootx)
+    ```
+  * 在程序前台当前模板目录下创建Blog目录(假设当前模板是simplebootx，当前模板目录./themes/simplebootx)
 在Blog目录下创建index.html文件
 
-
-4.在浏览器里运行http://你的域名/index.php?g=blog&m=index&a=index
-
-
+* 在浏览器里运行http://你的域名/index.php?g=blog&m=index&a=index  
 到此为止，一个应用基本创建完成
 
+* 创建一个后台控件器（Controller）
+在模块Controller目录下创建一IndexadminController.class.php文件(注意：这里有文件命名规则，以\*\*\*\*adminController.class.php命名的是后台Controller, 在后台菜单导入时会自动识别)
 
-5.创建一个后台控件器（Controller）
-在模块Controller目录下创建一IndexadminController.class.php文件(注意：这里有文件命名规则，以****adminController.class.php命名的是后台Controller, 在后台菜单导入时会自动识别)
-
+```php
 <?php
 namespace Blog\Controller;
 use Common\Controller\AdminbaseController;
 
 class IndexadminController extends AdminbaseController{
 
-
-function index(){
-  $this->display();
+    function index(){
+      $this->display();
+    }
 }
-}
+```
 后台Controller一般都要继承AdminbaseController
 登陆后台，在后台菜单管理添加一个后台菜单
 ![后台菜单添加.jpeg ](../images/565e8c0ad7253.jpg)

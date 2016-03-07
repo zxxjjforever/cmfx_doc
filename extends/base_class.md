@@ -4,9 +4,9 @@
 
 ```
 |-AppframeController     — ThinkCMF框架控件器基类，继承至Controller
-      |-AdminbaseController   — ThinkCMF框架后台控件器基类，继承至AppframeController
-      |-HomebaseController     — ThinkCMF框架前台控件器基类，继承至AppframeController
-        |-MemberbaseController — ThinkCMF框架会员控件器基类，继承至HomebaseController
+  |-AdminbaseController   — ThinkCMF框架后台控件器基类，继承至AppframeController
+  |-HomebaseController     — ThinkCMF框架前台控件器基类，继承至AppframeController
+  |-MemberbaseController — ThinkCMF框架会员控件器基类，继承至HomebaseController
 ```
 
 对于AdminbaseController和HomebaseController它们一个重要的方法display,分别用于管理后台和前台的模板显示，如果你的controller继承了AdminbaseController，在你调用display方法时，它会帮你去找admin/themes目录下的文件，同样HomebaseController也会帮你去找themes目录下的文件，这样就很好的实现了前后台模板的分离。

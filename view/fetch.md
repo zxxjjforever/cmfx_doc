@@ -20,7 +20,6 @@ $content=$this->fetch(':index');
 ```
 此种方式表示调用此应用下 index 控制器的模板；
 
-
 ```php
 $str_content='this is a template file content,{$name}';
 $content=$this->fetch('',$str_content);

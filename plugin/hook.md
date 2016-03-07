@@ -4,8 +4,6 @@
 
 插件只有实现相应钩子方法，并安装启用成功后才能执行；
 
-
-
 ThinkCMF系统内置了很多钩子；http://www.thinkcmf.com/document/hooks.html 
 
 开发者也可以用hook('test')方法在控制器只加入钩子，让你的应用具有更好的扩展性；
@@ -13,10 +11,6 @@ ThinkCMF系统内置了很多钩子；http://www.thinkcmf.com/document/hooks.htm
 同时也可以模板里加入钩子{:hook('footer')}；
 
 钩子也支持传入参数hook('footer',array('test'=>1));
-
-
-
-
 
 向系统暴露你的钩子
 
@@ -33,10 +27,12 @@ ThinkCMF系统内置了很多钩子；http://www.thinkcmf.com/document/hooks.htm
 
 hooks.php文件内容
 
+```php
 <?php
 return array(
 		//'test',
 );
+```
 暴露你的模板钩子：
 
 在你的模板根目录加上hooks.html文件；

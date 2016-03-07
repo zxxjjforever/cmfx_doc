@@ -51,18 +51,18 @@ class IndexController extends HomebaseController{
 到此为止，一个应用基本创建完成
 
 5. 创建一个后台控件器（Controller）在模块Controller目录下创建一IndexadminController.class.php文件(注意：这里有文件命名规则，以\*\*\*\*adminController.class.php命名的是后台Controller, 在后台菜单导入时会自动识别）
-```php
-<?php
-namespace Blog\Controller;
-use Common\Controller\AdminbaseController;
+    ```php
+    <?php
+    namespace Blog\Controller;
+    use Common\Controller\AdminbaseController;
 
-class IndexadminController extends AdminbaseController{
+    class IndexadminController extends AdminbaseController{
 
-    function index(){
-      $this->display();
+        function index(){
+          $this->display();
+        }
     }
-}
-```
+    ```
 后台Controller一般都要继承AdminbaseController
 登陆后台，在后台菜单管理添加一个后台菜单
 ![后台菜单添加.jpeg ](../images/565e8c0ad7253.jpg)
@@ -70,5 +70,5 @@ class IndexadminController extends AdminbaseController{
 * 创建index方法模板
 在程序当前后台模板目录下创建Blog目录(当前后台模板为simplebootx，当前后台模板目录admin/themes/simplebootx)
 创建Indexadmin/index.html（后台模板目录分隔符是自己可以在应用配置里自己定义的，'TMPL_FILE_DEPR'        => '/'，新建应用默认为/）
-7.刷新后台，点击在5步骤里添加的后台菜单
-8.Blog应用开发流程完毕
+7. 刷新后台，点击在5步骤里添加的后台菜单
+8. Blog应用开发流程完毕

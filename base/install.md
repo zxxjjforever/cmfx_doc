@@ -8,17 +8,11 @@ ThinkCMF目录结构：
 
 ```
 |--admin                                /管理后台URL重定向目录，你可以将文件夹名改为任何你喜欢的
-
     |--themes                      /后台模板文件目录
-
 |--application                        /应用目录
-
 |--data                                  /各类数据存放目录，包括缓存数据
-
 |--simplewind                        /核心包，无特殊情况请勿改动
-
 |--public                               /静态文件存放包，包含bootstrap资源
-
 |--themes                                     /前台模板文件目录             
 ```        
 
@@ -26,17 +20,11 @@ application 目录结构：
 
 ```
 |--application 
-
   |--Admin                    /后台管理应用
-
   |--Api                        /公共接口
-
   |--Asset                    /资源管理应用
-
   |--Comment                /评论应用
-
   |--Common                /应用公共模块
-
   |--Portal                    /门户应用
 ```
 
@@ -46,11 +34,8 @@ application 目录结构：
 
 ```
 |--Portal
-
   |--Controller                    /必须目录，存放应用的操作模块如：/IndexController.class.php
-
   |--Conf                      /可选，应用配置文件存放目录，如应用无配置文件则不需要
-
   |--Common                /可选，应用函数库，如无则不需要
 ```
 

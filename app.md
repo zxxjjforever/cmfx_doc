@@ -43,8 +43,7 @@ class IndexController extends HomebaseController{
 
 4.访问 [http://你的域名/index.php?g=blog&m=index&a=index;]()
 
-注意控制器的命名规范：
+> 注意控制器的命名规范：  
+> 控制器类的命名方式是：控制器名（驼峰法，首字母大写）+Controller （如 IndexController）;  
+> 控制器文件的命名方式是：类名+class.php（类文件后缀）（如 IndexController.class.php);
 
-控制器类的命名方式是：控制器名（驼峰法，首字母大写）+Controller （如 IndexController）;
-
-控制器文件的命名方式是：类名+class.php（类文件后缀）（如 IndexController.class.php);

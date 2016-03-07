@@ -15,6 +15,7 @@ ThinkCMF一直秉承ThinkPHP大道至简的理念，坚持做最简约的ThinkPH
 
 支付宝捐赠：(用手机支付宝扫描二维码支付)ThinkCMF支付宝捐赠二维码
 ![支付宝二维码](images/alipay_qrcode.png)
+
 您的每一份捐赠将用来：
 1. 深入ThinkCMF核心的开发
 * 做丰富的应用

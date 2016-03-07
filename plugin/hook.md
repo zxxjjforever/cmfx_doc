@@ -30,7 +30,7 @@ hooks.php文件内容
 ```php
 <?php
 return array(
-		//'test',
+	//'test',
 );
 ```
 暴露你的模板钩子：

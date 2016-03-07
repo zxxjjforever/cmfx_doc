@@ -15,7 +15,9 @@ $content=$this->fetch('edit');
 ```
 此种方式表示调用此控制器下的 edit 操作的模板；
 
+```php
 $content=$this->fetch(':index');
+```
 此种方式表示调用此应用下 index 控制器的模板；
 
 

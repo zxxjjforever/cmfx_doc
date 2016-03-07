@@ -4,8 +4,7 @@
 
 应用采用mvc的结构：
 
-拿Blog应用举例
-
+拿Blog应用举例:
 ```
 Blog
   Controller 控制器目录（必备）

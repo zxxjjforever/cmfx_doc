@@ -17,7 +17,9 @@ vendor('phpqrcode.phpqrcode','simplewind/Core/Library/Vendor','.php');
 ```
 vendor方法：
 
+```php
 vendor($class, $baseUrl, $ext)
+```
 功能：
 
 快速导入第三方框架类库，所有第三方框架的类库文件统一放到系统的simplewind/Core/Library/Vendor目录下面

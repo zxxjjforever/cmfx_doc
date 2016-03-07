@@ -21,9 +21,10 @@ $content=$this->fetch(':index');
 此种方式表示调用此应用下 index 控制器的模板；
 
 
-
+```php
 $str_content='this is a template file content,{$name}';
 $content=$this->fetch('',$str_content);
+```
 此种方式是表示直接渲染传入的字符串里的模板内容；
 
 通过以上方式得到渲染后的模板内容后，你可以对此内容做进一步处理；

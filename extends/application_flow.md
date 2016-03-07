@@ -18,7 +18,7 @@ Blog
 Blog结构  
 同时在application/Common/Conf/config.php里的MODULE_ALLOW_LIST加上你新加的Blog 
 
-* 创建一个前台控件器（Controller）
+2. 创建一个前台控件器（Controller）
 在模块Controller目录下创建一个IndexController.class.php文件
 ```php
 <?php
@@ -31,7 +31,7 @@ class IndexController extends HomebaseController{
 }
 ```
 前台Controller一般都要继承HomebaseController
-* 为前台 IndexController的index方法创建一个模板
+3. 为前台 IndexController的index方法创建一个模板
   1. 修改IndexController.class.php  
     ```php
     <?php
@@ -47,10 +47,10 @@ class IndexController extends HomebaseController{
   * 在程序前台当前模板目录下创建Blog目录(假设当前模板是simplebootx，当前模板目录./themes/simplebootx)
 在Blog目录下创建index.html文件
 
-* 在浏览器里运行http://你的域名/index.php?g=blog&m=index&a=index  
+4. 在浏览器里运行http://你的域名/index.php?g=blog&m=index&a=index  
 到此为止，一个应用基本创建完成
 
-* 创建一个后台控件器（Controller）在模块Controller目录下创建一IndexadminController.class.php文件(注意：这里有文件命名规则，以\*\*\*\*adminController.class.php命名的是后台Controller, 在后台菜单导入时会自动识别) 
+5. 创建一个后台控件器（Controller）在模块Controller目录下创建一IndexadminController.class.php文件(注意：这里有文件命名规则，以\*\*\*\*adminController.class.php命名的是后台Controller, 在后台菜单导入时会自动识别）
 ```php
 <?php
 namespace Blog\Controller;

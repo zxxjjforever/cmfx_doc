@@ -6,29 +6,20 @@
 
 拿Blog应用举例
 
+```
 Blog
-
-Controller 控制器目录（必备）
-
-Common 函数库（可选）
-
-Conf 配置（可选）
-
-Lang 多语言包（可选）
-
-Menu 后台菜单（可选）
-
-Model 模型（可选）
-
-nav.php 前台导航文件（可选）
-
-
+  Controller 控制器目录（必备）
+  Common 函数库（可选）
+  Conf 配置（可选）
+  Lang 多语言包（可选）
+  Menu 后台菜单（可选）
+  Model 模型（可选）
+  nav.php 前台导航文件（可选）
+```
 
 而在 CMF 中应用的 View 是独立于应用之外的，它分为前台view 和后台view
 
  分别存放在 themes/前台主题/应用名，和 admin/themes/前台主题/应用名下；
-
-
 
 创建一个Blog应用
 

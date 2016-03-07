@@ -1,10 +1,12 @@
 # 序言
-版权声明
+###版权声明
 未经版权所有者(thinkcmf.com)明确授权，禁止发行本文档及其被实质上修改的版本。 
+
 未经版权所有者(thinkcmf.com)事先授权，禁止将此作品及其衍生作品以标准（纸质）书籍形式发行。 
+
 如果有兴趣再发行或再版本手册的全部或部分内容，不论修改过与否，或者有任何问题，请联系版权所有者(cmf@simplewind.net)。
 
-捐赠我们
+##捐赠我们
 ThinkCMF一直秉承ThinkPHP大道至简的理念，坚持做最简约的ThinkPHP开源软件！
 
 您的每一份帮助都将支持ThinkCMF做的更好，走的更远！
@@ -12,7 +14,7 @@ ThinkCMF一直秉承ThinkPHP大道至简的理念，坚持做最简约的ThinkPH
 我们一直在坚持不懈地努力，并坚持让ThinkCMF完全开源免费，您的帮助将使我们更有动力和信心^_^！
 
 支付宝捐赠：(用手机支付宝扫描二维码支付)ThinkCMF支付宝捐赠二维码
-![dd](images/alipay_qrcode.png)
+![支付宝二维码](images/alipay_qrcode.png)
 您的每一份捐赠将用来：
 深入ThinkCMF核心的开发
 

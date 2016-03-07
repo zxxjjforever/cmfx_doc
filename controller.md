@@ -20,7 +20,7 @@ class IndexController extends HomebaseController{
     }
 }
 ```
-访问地址：http://你的域名/?g=blog&m=index&a=index;
+访问地址：[http://你的域名/?g=blog&m=index&a=index]();
 
 如果只让用户在登录时才能访问此控制器，只需把HomebaseController换成MemberbaseController；
 

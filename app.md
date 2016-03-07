@@ -21,10 +21,7 @@ Blog
 创建一个Blog应用
 1. 在application/Common/Conf/config.php文件里的MODULE_ALLOW_LIST里加上应用名Blog  
 * 在application下创建上面讲到的 blog 目录结构；
-* 创建一个控制器
-
-在模块Controller目录下创建一个IndexController.class.php文件
-
+* 创建一个控制器,在模块Controller目录下创建一个IndexController.class.php文件
 ```php
 <?php
 namespace Blog\Controller;
@@ -35,8 +32,7 @@ class IndexController extends HomebaseController{
     }
 }
 ```
-
-4.访问 [http://你的域名/index.php?g=blog&m=index&a=index;]()
+* 访问 [http://你的域名/index.php?g=blog&m=index&a=index;]()
 
 > 注意控制器的命名规范：  
 > 控制器类的命名方式是：控制器名（驼峰法，首字母大写）+Controller （如 IndexController）;  

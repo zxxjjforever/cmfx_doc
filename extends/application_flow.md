@@ -67,8 +67,8 @@ class IndexController extends HomebaseController{
 登陆后台，在后台菜单管理添加一个后台菜单
 ![后台菜单添加.jpeg ](../images/565e8c0ad7253.jpg)
 项目，模块，方法一一定要保证和程序代码里的大小写一致性
-* 创建index方法模板
-在程序当前后台模板目录下创建Blog目录(当前后台模板为simplebootx，当前后台模板目录admin/themes/simplebootx)
-创建Indexadmin/index.html（后台模板目录分隔符是自己可以在应用配置里自己定义的，'TMPL_FILE_DEPR'        => '/'，新建应用默认为/）
+6. 创建index方法模板  
+在程序当前后台模板目录下创建`Blog`目录(当前后台模板为`simplebootx`，当前后台模板目录`admin/themes/simplebootx`)
+创建Indexadmin/index.html（后台模板目录分隔符是自己可以在应用配置里自己定义的，`'TMPL_FILE_DEPR'=> '/'`，新建应用默认为/）
 7. 刷新后台，点击在5步骤里添加的后台菜单
 8. Blog应用开发流程完毕

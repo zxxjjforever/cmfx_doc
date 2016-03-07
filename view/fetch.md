@@ -10,7 +10,9 @@ $content=$this->fetch();
 ```
 此种方式系统会自动判断模板路径，并渲染出模板内容，此种方式模板路径是：主题名/应用名/控制器名/操作名+模板文件后缀名；
 
+```php
 $content=$this->fetch('edit');
+```
 此种方式表示调用此控制器下的 edit 操作的模板；
 
 $content=$this->fetch(':index');

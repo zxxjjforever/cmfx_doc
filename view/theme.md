@@ -4,8 +4,6 @@
 
 前台模板位于 themes 目录下，后台模板位于 admin/themes 目录下，前后台都是多主题机制的,可以分开设置不同的主题；
 
-
-
 前台默认模板是 simplebootx,以后也可能会换，我们先以这个为例；
 
 ![默认模板](../images/view_5695911cf31e7.png.jpg)
@@ -13,7 +11,6 @@
 这是前台模板的结构；应用之间彼此分开，Portal 目录下就对应的是application/Portal应用的模板文件；
 
 一个模板文件大致路径是这样的:themes/主题名/应用名/控制器名/操作名+(.html) 或者 themes/主题名/应用名/自定义模板名+(.html)，如：themes/simplebootx/User/Profile/password.html,themes/simplebootx/Portal/index.html;
-
 
 
 后台默认模板也是 simplebootx 只是和前台的名字一样而已，实质它是后台主题；

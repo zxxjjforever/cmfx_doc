@@ -45,9 +45,9 @@ namespace Blog\Controller;
 use Common\Controller\HomebaseController;
 
 class IndexController extends HomebaseController{
-function index(){
-  $this->display(":index");
-}
+    function index(){
+      $this->display(":index");
+    }
 }
 ```
 

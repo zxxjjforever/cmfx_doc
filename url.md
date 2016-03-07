@@ -22,7 +22,6 @@ U('Blog/Index/index','cat=1&status=1')
 U('Blog/Index/index?cat=1&status=1')
 ```
 
-
 添加生成带域名的 url,只要把第四个参数设置为 true
 
 ```php
@@ -42,8 +41,6 @@ url的美化规则设置：
 
 原始网址规则：应用名（小写）/控制器名/操作名?参数 如：portal/list/index?id=1
 显示网址：英文字母加数字，不带后缀；
-
-
 
 如：
 

@@ -22,7 +22,7 @@ vendor($class, $baseUrl, $ext)
 功能：  
 快速导入第三方框架类库，所有第三方框架的类库文件统一放到系统的simplewind/Core/Library/Vendor目录下面
 
-参数：
+参数：  
 $class:类库,如phpqrcode.phpqrcode  
 $baseUrl:基础目录，默认simplewind/Core/Library/Vendor  
 $ext:类库后缀,默认为.php  

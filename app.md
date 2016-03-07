@@ -24,7 +24,7 @@ Blog
 
 1.在application/Common/Conf/config.php文件里的MODULE_ALLOW_LIST里加上应用名Blog  
 
-2.在 application 下创建上面讲到的 blog 目录结构；
+2.在application下创建上面讲到的 blog 目录结构；
 
 3.创建一个控制器
 

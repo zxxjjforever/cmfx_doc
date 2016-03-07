@@ -39,6 +39,7 @@ class IndexController extends HomebaseController{
 3. 为前台 IndexController的index方法创建一个模板
 a.修改IndexController.class.php
 
+```php
 <?php
 namespace Blog\Controller;
 use Common\Controller\HomebaseController;
@@ -48,6 +49,7 @@ function index(){
   $this->display(":index");
 }
 }
+```
 
 
 b.在程序前台当前模板目录下创建Blog目录(假设当前模板是simplebootx，当前模板目录./themes/simplebootx)

@@ -35,7 +35,6 @@ class IndexController extends HomebaseController{
 }
 ```
 
-
 前台Controller一般都要继承HomebaseController
 3. 为前台 IndexController的index方法创建一个模板
 a.修改IndexController.class.php

@@ -2,9 +2,8 @@
 
 以下教程适用于ThinkCMFX系列版本
 以Blog模块为例(相关问题已经更新)
-1.在application目录下创建Blog目录
+1. 在application目录下创建Blog目录
 Blog结构:
-
 ```php
 Blog    
   Controller 控制器目录
@@ -14,16 +13,13 @@ Blog
   Menu 后台菜单    
   Model 模型
   nav.php 前台导航
-```
-    
+``` 
 ![](../images/20141209121334548676ee3afc8.png)
-Blog结构
-
+Blog结构  
 同时在application/Common/Conf/config.php里的MODULE_ALLOW_LIST加上你新加的Blog 
 
-2.创建一个前台控件器（Controller）
+* 创建一个前台控件器（Controller）
 在模块Controller目录下创建一个IndexController.class.php文件
-
 ```php
 <?php
 namespace Blog\Controller;
@@ -34,11 +30,9 @@ class IndexController extends HomebaseController{
     }
 }
 ```
-
 前台Controller一般都要继承HomebaseController
-3. 为前台 IndexController的index方法创建一个模板
-a.修改IndexController.class.php
-
+* 为前台 IndexController的index方法创建一个模板
+  1. 修改IndexController.class.php  
 ```php
 <?php
 namespace Blog\Controller;

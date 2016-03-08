@@ -43,6 +43,7 @@
    * [sp_get_current_admin_id()](functions/sp_get_current_admin_id.md)
    * [sp_get_current_user()](functions/sp_get_current_user.md)
    * [sp_get_current_userid()](functions/sp_get_current_userid.md)
+   * sp_get_favorite_key()
 * [系统扩展](extends.md)
    * [应用开发流程](extends/application_flow.md)
    * [后台隐藏的后台菜单管理功能](extends/admin_menu.md)

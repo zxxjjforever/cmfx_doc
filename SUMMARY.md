@@ -100,6 +100,7 @@
    * [公共模板](theme/public.md)
        * [菜单导航制作](theme/public/nav.md)
        * [幻灯片制作](theme/public/slide.md)
+       * 广告位制作
 * [门户应用](portal.md)
    * 主程序结构
 * [插件](plugin.md)

@@ -56,7 +56,7 @@
    * [sp_getslide()](functions/sp_getslide.md)
    * [sp_is_mobile()](functions/sp_is_mobile.md)
    * [sp_getcontent_imgs()](functions/sp_getcontent_imgs.md)
-   * sp_is_sae()
+   * [sp_is_sae()](functions/sp_is_sae.md)
 * [系统扩展](extends.md)
    * [应用开发流程](extends/application_flow.md)
    * [后台隐藏的后台菜单管理功能](extends/admin_menu.md)

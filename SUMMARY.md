@@ -80,6 +80,7 @@
    * [变量输出](theme/var_echo.md)
    * [使用函数](theme/use_functions.md)
    * [模板结构](theme/structure.md)
+   * 模板自定义函数库
 * [门户应用](portal.md)
    * 主程序结构
 * [插件](plugin.md)

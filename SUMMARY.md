@@ -88,7 +88,7 @@
        * [foreach](theme/tags/foreach.md)
        * [volist](theme/tags/volist.md)
        * [php](theme/tags/php.md)
-       * if else
+       * [if else](theme/tags/if_else.md)
 * [门户应用](portal.md)
    * 主程序结构
 * [插件](plugin.md)

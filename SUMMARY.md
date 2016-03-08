@@ -60,7 +60,7 @@
    * [sp_is_user_login()](functions/sp_is_user_login.md)
    * [sp_param_lable()](functions/sp_param_lable.md)
    * [sp_password()](functions/sp_password.md)
-   * sp_plugin_url()
+   * [sp_plugin_url()](functions/sp_plugin_url.md)
 * [系统扩展](extends.md)
    * [应用开发流程](extends/application_flow.md)
    * [后台隐藏的后台菜单管理功能](extends/admin_menu.md)

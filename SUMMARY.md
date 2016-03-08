@@ -64,6 +64,7 @@
    * [sp_random_string()](functions/sp_random_string.md)
    * [sp_scan_dir()](functions/sp_scan_dir.md)
    * [sp_send_email()](functions/sp_send_email.md)
+   * sp_set_dynamic_config()
 * [系统扩展](extends.md)
    * [应用开发流程](extends/application_flow.md)
    * [后台隐藏的后台菜单管理功能](extends/admin_menu.md)

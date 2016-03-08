@@ -29,7 +29,7 @@
    * [hook()](functions/hook.md)
    * [leuu()](functions/leuu.md)
    * [sp_asset_relative_url()](functions/sp_asset_relative_url.md)
-   * sp_auth_check()
+   * [sp_auth_check()](functions/sp_auth_check.md)
 * [系统扩展](extends.md)
    * [应用开发流程](extends/application_flow.md)
    * [后台隐藏的后台菜单管理功能](extends/admin_menu.md)

@@ -77,7 +77,7 @@
    * [模板注释](theme/comments.md)
    * [模板常量](theme/constant.md)
    * 前台模板多语言
-   * 变量输出
+   * [变量输出](theme/var_echo.md)
 * [门户应用](portal.md)
    * 主程序结构
 * [插件](plugin.md)

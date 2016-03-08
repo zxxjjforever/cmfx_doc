@@ -74,6 +74,7 @@
    * [引入第三方库](extends/thirdpart_lib.md)
 * [模板](theme.md)
    * [全局变量](theme/global_var.md)
+   * 模板注释
 * [门户应用](portal.md)
    * 主程序结构
 * [插件](plugin.md)

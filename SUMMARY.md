@@ -91,7 +91,7 @@
        * [if else](theme/tags/if_else.md)
    * [前端组件](theme/js_components.md)
        * [js-count-btn](theme/js/js-count-btn.md)
-       * js-favorite-btn
+       * [js-favorite-btn](theme/js/js-favorite-btn.md)
 * [门户应用](portal.md)
    * 主程序结构
 * [插件](plugin.md)

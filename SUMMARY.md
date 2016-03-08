@@ -52,6 +52,7 @@
    * [sp_get_theme_path()](functions/sp_get_theme_path.md)
    * [sp_get_users()](functions/sp_get_users.md)
    * [sp_getad()](functions/sp_getad.md)
+   * sp_getlinks()
 * [系统扩展](extends.md)
    * [应用开发流程](extends/application_flow.md)
    * [后台隐藏的后台菜单管理功能](extends/admin_menu.md)

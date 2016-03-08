@@ -96,7 +96,7 @@
        * [js-ajax-delete](theme/js/js-ajax-delete.md)
        * [js-date](theme/js/js-date.md)
        * [js-datetime](theme/js/js-datetime.md)
-       * js-ajax-form
+       * [js-ajax-form](theme/js/js-ajax-form.md)
 * [门户应用](portal.md)
    * 主程序结构
 * [插件](plugin.md)

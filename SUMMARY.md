@@ -58,6 +58,7 @@
    * [sp_getcontent_imgs()](functions/sp_getcontent_imgs.md)
    * [sp_is_sae()](functions/sp_is_sae.md)
    * [sp_is_user_login()](functions/sp_is_user_login.md)
+   * sp_param_lable()
 * [系统扩展](extends.md)
    * [应用开发流程](extends/application_flow.md)
    * [后台隐藏的后台菜单管理功能](extends/admin_menu.md)

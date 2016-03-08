@@ -73,7 +73,7 @@
    * [几个重要基类](extends/base_class.md)
    * [引入第三方库](extends/thirdpart_lib.md)
 * [模板](theme.md)
-   * [全局变量](theme/global_var.md)
+   * [全局变量](theme/base/global_var.md)
    * [模板注释](theme/comments.md)
    * [模板常量](theme/constant.md)
    * 前台模板多语言

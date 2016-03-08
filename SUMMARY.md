@@ -26,6 +26,7 @@
    * [模型实例化](model/instancing.md)
 * [系统函数](core_functions.md)
    * [Comments](functions/comments.md)
+   * hook()
 * [系统扩展](extends.md)
    * [应用开发流程](extends/application_flow.md)
    * [后台隐藏的后台菜单管理功能](extends/admin_menu.md)

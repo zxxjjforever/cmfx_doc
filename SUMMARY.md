@@ -45,7 +45,7 @@
    * [sp_get_current_userid()](functions/sp_get_current_userid.md)
    * [sp_get_favorite_key()](functions/sp_get_favorite_key.md)
    * [sp_get_host()](functions/sp_get_host.md)
-   * sp_get_menu()
+   * [sp_get_menu()](functions/sp_get_menu.md)
 * [系统扩展](extends.md)
    * [应用开发流程](extends/application_flow.md)
    * [后台隐藏的后台菜单管理功能](extends/admin_menu.md)

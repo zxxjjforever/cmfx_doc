@@ -27,7 +27,7 @@
 * [系统函数](core_functions.md)
    * [Comments](functions/comments.md)
    * [hook()](functions/hook.md)
-   * [leuu()](functions/leuu.md)
+   * [leuu()/UU()](functions/leuu.md)
    * [sp_asset_relative_url()](functions/sp_asset_relative_url.md)
    * [sp_auth_check()](functions/sp_auth_check.md)
    * [sp_authcode()](functions/sp_auth_code.md)

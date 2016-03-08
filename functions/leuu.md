@@ -1,6 +1,6 @@
-# leuu()
+# leuu()/UU()
 
-leuu是ThinkCMF X1.2增加有url美化方法；
+UU和leuu是ThinkCMF X1.2增加有url美化方法,两个用法完全一样，UU就是leuu的别名；
 
 用法和U方法一样；对于需要美化的url要用到这个方法；
 

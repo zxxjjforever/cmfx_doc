@@ -101,6 +101,7 @@
        * [菜单导航制作](theme/public/nav.md)
        * [幻灯片制作](theme/public/slide.md)
        * [广告位制作](theme/public/ad.md)
+       * 友情链接制作
 * [门户应用](portal.md)
    * 主程序结构
 * [插件](plugin.md)

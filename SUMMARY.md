@@ -76,6 +76,7 @@
    * [全局变量](theme/global_var.md)
    * [模板注释](theme/comments.md)
    * [模板常量](theme/constant.md)
+   * 前台模板多语言
 * [门户应用](portal.md)
    * 主程序结构
 * [插件](plugin.md)

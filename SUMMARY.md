@@ -94,6 +94,7 @@
        * [js-favorite-btn](theme/js/js-favorite-btn.md)
        * [js-ajax-dialog-btn](theme/js/js-ajax-dialog-btn.md)
        * [js-ajax-delete](theme/js/js-ajax-delete.md)
+       * js-date
 * [门户应用](portal.md)
    * 主程序结构
 * [插件](plugin.md)

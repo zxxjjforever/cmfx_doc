@@ -87,6 +87,7 @@
        * [tc_include](theme/tags/tc_include.md)
        * [foreach](theme/tags/foreach.md)
        * [volist](theme/tags/volist.md)
+       * php
 * [门户应用](portal.md)
    * 主程序结构
 * [插件](plugin.md)

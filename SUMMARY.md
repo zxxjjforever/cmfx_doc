@@ -97,6 +97,7 @@
        * [js-date](theme/js/js-date.md)
        * [js-datetime](theme/js/js-datetime.md)
        * [js-ajax-form](theme/js/js-ajax-form.md)
+   * 公共模板
 * [门户应用](portal.md)
    * 主程序结构
 * [插件](plugin.md)

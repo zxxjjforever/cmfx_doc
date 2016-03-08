@@ -74,14 +74,14 @@
    * [引入第三方库](extends/thirdpart_lib.md)
 * [模板](theme.md)
    * [全局变量](theme/base/global_var.md)
-   * [模板注释](theme/comments.md)
-   * [模板常量](theme/constant.md)
+   * [模板注释](theme/base/comments.md)
+   * [模板常量](theme/base/constant.md)
    * 前台模板多语言
-   * [变量输出](theme/var_echo.md)
-   * [使用函数](theme/use_functions.md)
-   * [模板结构](theme/structure.md)
+   * [变量输出](theme/base/var_echo.md)
+   * [使用函数](theme/base/use_functions.md)
+   * [模板结构](theme/base/structure.md)
    * 模板自定义函数库
-   * [模板资源文件引入](theme/assets_import.md)
+   * [模板资源文件引入](theme/base/assets_import.md)
 * [门户应用](portal.md)
    * 主程序结构
 * [插件](plugin.md)

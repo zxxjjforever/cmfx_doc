@@ -98,6 +98,7 @@
        * [js-datetime](theme/js/js-datetime.md)
        * [js-ajax-form](theme/js/js-ajax-form.md)
    * [公共模板](theme/public.md)
+       * 菜单导航制作
 * [门户应用](portal.md)
    * 主程序结构
 * [插件](plugin.md)

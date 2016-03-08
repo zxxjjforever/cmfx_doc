@@ -68,21 +68,22 @@
    * [sp_update_current_user()](functions/sp_update_current_user.md)
    * [sp_verifycode_img()](functions/sp_verifycode_img.md)
 * [系统扩展](extends.md)
-   * [应用开发流程](extends/application_flow.md)
-   * [后台隐藏的后台菜单管理功能](extends/admin_menu.md)
-   * [几个重要基类](extends/base_class.md)
-   * [引入第三方库](extends/thirdpart_lib.md)
-* [模板](theme.md)
-   * [全局变量](theme/base/global_var.md)
-   * [模板注释](theme/base/comments.md)
-   * [模板常量](theme/base/constant.md)
-   * 前台模板多语言
-   * [变量输出](theme/base/var_echo.md)
-   * [使用函数](theme/base/use_functions.md)
-   * [模板结构](theme/base/structure.md)
-   * 模板自定义函数库
-   * [模板资源文件引入](theme/base/assets_import.md)
    * [基础](theme/base.md)
+      * [应用开发流程](extends/application_flow.md)
+      * [后台隐藏的后台菜单管理功能](extends/admin_menu.md)
+      * [几个重要基类](extends/base_class.md)
+      * [引入第三方库](extends/thirdpart_lib.md)
+      * [模板](theme.md)
+      * [全局变量](theme/base/global_var.md)
+      * [模板注释](theme/base/comments.md)
+      * [模板常量](theme/base/constant.md)
+      * 前台模板多语言
+      * [变量输出](theme/base/var_echo.md)
+      * [使用函数](theme/base/use_functions.md)
+      * [模板结构](theme/base/structure.md)
+      * 模板自定义函数库
+      * [模板资源文件引入](theme/base/assets_import.md)
+   
 * [门户应用](portal.md)
    * 主程序结构
 * [插件](plugin.md)

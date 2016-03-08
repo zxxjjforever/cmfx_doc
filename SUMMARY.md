@@ -81,6 +81,7 @@
    * [使用函数](theme/use_functions.md)
    * [模板结构](theme/structure.md)
    * 模板自定义函数库
+   * 模板资源文件引入
 * [门户应用](portal.md)
    * 主程序结构
 * [插件](plugin.md)

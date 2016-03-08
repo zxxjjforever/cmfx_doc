@@ -83,7 +83,7 @@
        * [模板结构](theme/base/structure.md)
        * 模板自定义函数库
        * [模板资源文件引入](theme/base/assets_import.md)
-   * 模板标签
+   * [模板标签](theme/tag.md)
        * tc_include
 * [门户应用](portal.md)
    * 主程序结构

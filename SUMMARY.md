@@ -38,7 +38,7 @@
    * [sp_content_page()](functions/sp_content_page.md)
    * [sp_file_write()](functions/sp_file_write.md)
    * [sp_get_asset_upload_path()](functions/sp_get_asset_upload_path.md)
-   * sp_get_cmf_settings()
+   * [sp_get_cmf_settings()](functions/sp_get_cmf_settings.md)
 * [系统扩展](extends.md)
    * [应用开发流程](extends/application_flow.md)
    * [后台隐藏的后台菜单管理功能](extends/admin_menu.md)

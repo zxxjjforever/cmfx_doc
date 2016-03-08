@@ -35,6 +35,7 @@
    * [sp_check_user_action()](functions/sp_check_user_action.md)
    * [sp_check_verify_code()](functions/sp_check_verify_code.md)
    * [sp_clear_cache()](functions/sp_clear_cache.md)
+   * sp_content_page()
 * [系统扩展](extends.md)
    * [应用开发流程](extends/application_flow.md)
    * [后台隐藏的后台菜单管理功能](extends/admin_menu.md)

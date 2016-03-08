@@ -79,7 +79,7 @@
    * 前台模板多语言
    * [变量输出](theme/var_echo.md)
    * [使用函数](theme/use_functions.md)
-   * 案例
+   * [案例](theme/demo.md)
 * [门户应用](portal.md)
    * 主程序结构
 * [插件](plugin.md)

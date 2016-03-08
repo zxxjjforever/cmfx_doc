@@ -7,6 +7,7 @@
 ?>
 模板中用法：
 
+```html
 <php>
     $links=sp_getlinks();
 </php>
@@ -20,4 +21,4 @@
     <a href="{$vo.link_url}" target="{$vo.link_target}">
         {$vo.link_name}
     </a>
-</foreach>
+</foreach>```

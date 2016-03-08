@@ -49,7 +49,7 @@
    * [sp_get_plugin_class()](functions/sp_get_plugin_class.md)
    * [sp_get_plugin_config()](functions/sp_get_plugin_config.md)
    * [sp_get_relative_url()](functions/sp_get_relative_url.md)
-   * sp_get_theme_path()
+   * [sp_get_theme_path()](functions/sp_get_theme_path.md)
 * [系统扩展](extends.md)
    * [应用开发流程](extends/application_flow.md)
    * [后台隐藏的后台菜单管理功能](extends/admin_menu.md)

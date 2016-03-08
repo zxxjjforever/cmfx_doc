@@ -40,6 +40,7 @@
    * [sp_get_asset_upload_path()](functions/sp_get_asset_upload_path.md)
    * [sp_get_cmf_settings()](functions/sp_get_cmf_settings.md)
    * [sp_get_comments()](functions/sp_get_comments.md)
+   * sp_get_current_admin_id()
 * [系统扩展](extends.md)
    * [应用开发流程](extends/application_flow.md)
    * [后台隐藏的后台菜单管理功能](extends/admin_menu.md)

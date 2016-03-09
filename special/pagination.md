@@ -6,5 +6,5 @@
         $show       = $Page->show();// 分页显示输出
         $list  = $Wxch_indent->where($where)->order('id desc')->limit($Page->firstRow . ',' . $Page->listRows)->select();
 
-        $this->assign('Page', show);
+        $this->assign('Page',￥show);
 

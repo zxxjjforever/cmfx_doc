@@ -161,7 +161,7 @@
 * [专题](special.md)
    * [多语言开发](special/multi_lang.md)
    * Restful Api
-   * [分页](special/pagination.md)
+   * [数据分页](special/pagination.md)
 * [部署](deploy.md)
    * [迁移到正式环境](deploy/production.md)
 

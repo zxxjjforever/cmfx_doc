@@ -1,8 +1,10 @@
 # sp_check_verify_code()
 
-X1.6.0新增
+> X1.6.0新增
 
+```php
 sp_check_verify_code()
+```
 功能：
 
 验证码检查，验证完后销毁验证码增加安全性

@@ -105,7 +105,7 @@
        * [添加留言控件](theme/public/guestbook.md)
        * [如何收藏](theme/public/favorite.md)
        * [点赞组件](theme/public/like.md)
-       * [最新评论组件制作](theme/public/comment.md)
+       * [最新评论组件制作](theme/public/last_comment.md)
        * [最新加入组件制作](theme/public/last_join.md)
        * [本站用户登录模板制作](theme/public/login.md)
        * [本站用户注册模板制作](theme/public/register.md)

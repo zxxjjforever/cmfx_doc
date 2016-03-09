@@ -8,5 +8,5 @@ $# 利用Page类和limit方法分页
         $list  = $Wxch_indent->where('1')->order('id desc')->limit($Page->firstRow . ',' . $Page->listRows)->select();
         $this->assign('list',$list);// 赋值数据集
         $this->assign('Page',$show);// 赋值分页输出
-$this->display(); // 输出模板
+        $this->display(); // 输出模板
 

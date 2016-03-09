@@ -130,7 +130,7 @@
        * [sp_sql_posts_paged_bycatid()](portal/functions/sp_sql_posts_paged_bycatid.md)
        * [sp_sql_posts_paged_bykeyword()](portal/functions/sp_sql_posts_paged_bykeyword.md)
    * [门户模板制作](portal/template.md)
-       * 文章列表页制作
+       * [文章列表页制作](portal/template/list.md)
 * [插件](plugin.md)
    * 钩子，插件与模板
    * [插件钩子](plugin/hook.md)

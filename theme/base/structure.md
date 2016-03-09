@@ -2,13 +2,12 @@
 
 ThinkCMF模板目录结构如下：
 
+```
 |--themes
-
-    |--simplebootx
-
-        |--Portal
-
-            |--index.html
+  |--simplebootx
+    |--Portal
+      |--index.html
+```
 
 
 

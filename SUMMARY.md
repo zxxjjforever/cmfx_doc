@@ -138,6 +138,7 @@
        * [seo优化](portal/template/seo.md)
        * 文章相册制作
        * 文章列表推荐功能制作
+       * 文章列表置顶功能制作
 * [插件](plugin.md)
    * 钩子，插件与模板
    * [插件钩子](plugin/hook.md)

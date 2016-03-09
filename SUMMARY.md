@@ -133,6 +133,7 @@
        * [文章列表页制作](portal/template/list.md)
        * [文章内页制作](portal/template/article.md)
        * [页面制作](portal/template/page.md)
+       * 获取文章的各种方式
 * [插件](plugin.md)
    * 钩子，插件与模板
    * [插件钩子](plugin/hook.md)

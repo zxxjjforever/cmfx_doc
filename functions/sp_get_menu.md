@@ -1,6 +1,7 @@
 # sp_get_menu()
 模板中用法：
 
+```html
 <php>
     $effected_id="menu-header";
     $filetpl="<a href='\$href' target='\$target'>\$label</a>";
@@ -13,8 +14,9 @@
 </php>
 
 {:sp_get_menu("main",$effected_id,$filetpl,$foldertpl,$ul_class,$li_class,$style,$showlevel,$dropdown)}
+```
 
-
+```php
 <!--生成的代码如下：-->
 
 <ul class="nav">
@@ -29,3 +31,4 @@
 	    </ul>
 	</li>
 </ul>
+```

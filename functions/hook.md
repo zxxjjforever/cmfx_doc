@@ -13,14 +13,11 @@ hook($hook,$param)
 `$hook`:钩子名称  
 `$param`:传入参数，默认为空数组
 
-
-
-返回：
-
+返回：  
 无
 
 模板使用：
-
+```html
 {:hook('footer')}
 
-{:hook('sider',array('text'=>'hello ThinkCMF')}
+{:hook('sider',array('text'=>'hello ThinkCMF')}```

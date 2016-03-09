@@ -1,5 +1,5 @@
 # sp_random_string()
-
+```php
 <?php
 $random=sp_random_string();//不指定位数，默认为6位
 echo $random;
@@ -7,3 +7,4 @@ echo $random;
 $random=sp_random_string(8);//指定返回8位随机字符串
 echo $random;
 ?>
+```

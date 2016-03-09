@@ -116,7 +116,7 @@
        * [七牛图片处理](advanced/qiniu.md)
 * [门户应用](portal.md)
    * [基础](portal/base.md)
-       * 主程序结构
+       * [主程序结构](portal/base/structure.md)
 * [插件](plugin.md)
    * 钩子，插件与模板
    * [插件钩子](plugin/hook.md)

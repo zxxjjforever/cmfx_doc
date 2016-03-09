@@ -8,13 +8,15 @@
 <a href="{:U('user/favorite/do_favorite',array('id'=>$object_id))}" class="js-favorite-btn" data-title="{$post_title}" data-url="{:U('article/index',array('id'=>$tid))}" data-key="{:sp_get_favorite_key('posts',$object_id)}">
  <i class="fa fa-star-o"></i></a>
 ```
-sp_get_favorite_key($table,$object_id)说明：
+```php
+sp_get_favorite_key($table,$object_id)
+```
 
 参数1：收藏内容所在的表，不带表前缀的表名称，如cmf_posts应该改为“posts”;
 
 参数2：收藏内容的id:
 
-{:sp_get_favorite_key('posts',$object_id)}
+
 data-title:收藏的内容标题；
 
 data-url:收藏内容的url；

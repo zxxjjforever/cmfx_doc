@@ -5,8 +5,7 @@
 ```php
 sp_check_user_action($object,$count_limit,$ip_limit,$expire)
 ```
-功能：
-
+功能：  
 检查用户对某个url,内容的可访问性，用于记录如是否赞过，是否访问过等等;开发者可以自由控制，对于没有必要做的检查可以不做，以减少服务器压力
 
 

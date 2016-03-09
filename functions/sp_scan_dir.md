@@ -1,19 +1,16 @@
 # sp_scan_dir()
 
-X1.4.0新增
+> X1.4.0新增
 
+```php
 sp_scan_dir($pattern,$flags)
-功能：
-
+```
+功能：  
 替代scan_dir的方法
 
-
-
-参数：
-
-$pattern:检索模式 搜索模式 *.txt,*.doc; (同glog方法)
-
-$flags:返回模式 同glog方法
+参数：  
+`$pattern`:检索模式 搜索模式 *.txt,*.doc; (同glog方法)  
+`$flags`:返回模式 同glog方法
 
 
 

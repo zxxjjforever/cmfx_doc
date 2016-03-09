@@ -128,7 +128,7 @@
        * [sp_sql_page()](portal/functions/sp_sql_page.md)
        * [sp_sql_posts_bycatid()](portal/functions/sp_sql_posts_bycatid.md)
        * [sp_sql_posts_paged_bycatid()](portal/functions/sp_sql_posts_paged_bycatid.md)
-       * sp_sql_posts_paged_bykeyword()
+       * [sp_sql_posts_paged_bykeyword()](portal/functions/sp_sql_posts_paged_bykeyword.md)
 * [插件](plugin.md)
    * 钩子，插件与模板
    * [插件钩子](plugin/hook.md)

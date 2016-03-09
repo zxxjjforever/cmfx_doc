@@ -2,6 +2,7 @@
 
 在后台扩展工具》幻灯片分类 添加分类标识为"portal_index"的分类，然后在此分类添加幻灯片；
 
+```html
 <php>
 $home_slides=sp_getslide("portal_index");
 </php>
@@ -12,3 +13,4 @@ $home_slides=sp_getslide("portal_index");
     <img src="{:sp_get_asset_upload_path($vo['slide_pic'])}" alt="">
 </a>
 </foreach>
+```

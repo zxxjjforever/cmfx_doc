@@ -103,7 +103,7 @@
        * [广告位制作](theme/public/ad.md)
        * [友情链接制作](theme/public/link.md)
        * [添加留言控件](theme/public/guestbook.md)
-       * 如何收藏
+       * [如何收藏](theme/public/favorite.md)
 * [门户应用](portal.md)
    * 主程序结构
 * [插件](plugin.md)

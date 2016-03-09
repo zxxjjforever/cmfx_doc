@@ -110,6 +110,7 @@
        * [本站用户登录模板制作](theme/public/login.md)
        * [本站用户注册模板制作](theme/public/register.md)
        * [忘记密码模板制作](theme/public/forgot_password.md)
+       * 密码重置模板制作
 * [门户应用](portal.md)
    * 主程序结构
 * [插件](plugin.md)

@@ -112,6 +112,7 @@
        * [忘记密码模板制作](theme/public/forgot_password.md)
        * [密码重置模板制作](theme/public/password_reset.md)
        * [评论组件](theme/public/comment.md)
+   * 进阶
 * [门户应用](portal.md)
    * 主程序结构
 * [插件](plugin.md)

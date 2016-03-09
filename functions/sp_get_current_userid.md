@@ -1,6 +1,8 @@
 # sp_get_current_userid()
 
+```php
 sp_get_current_userid()
+```
 功能：
 
 获取当前登录的用户id

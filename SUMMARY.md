@@ -132,7 +132,7 @@
    * [门户模板制作](portal/template.md)
        * [文章列表页制作](portal/template/list.md)
        * [文章内页制作](portal/template/article.md)
-       * 页面制作
+       * [页面制作](portal/template/page.md)
 * [插件](plugin.md)
    * 钩子，插件与模板
    * [插件钩子](plugin/hook.md)

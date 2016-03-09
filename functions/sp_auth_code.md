@@ -2,7 +2,6 @@
 
 > V1.1.1新增
 
-
 ```php
 <?php
 $string='1324123i412qewrwerqwe';

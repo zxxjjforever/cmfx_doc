@@ -1,8 +1,10 @@
 # sp_get_comments()
 
-X1.2新增
+> X1.2新增
 
+```php
 sp_get_comments($tag,$where);
+```
 功能：
 
 获取评论；

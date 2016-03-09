@@ -12,15 +12,15 @@ sp_check_verify_code()
 参数：  
 无
 
-返回：
-
-类型boolean
-
-true|false;
+返回：  
+类型boolean true|false;
 
 使用：
 
+```php
 if(!sp_check_verify_code()){
     echo '验证码不正确';
 }
-注：表单提交时验证码name为verify；支持POST和GET方法
+```
+
+> 注：表单提交时验证码name为verify；支持POST和GET方法

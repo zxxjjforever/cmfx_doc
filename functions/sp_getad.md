@@ -11,6 +11,6 @@ echo $ad_content;
 模板中用法：
 ```html
 <div>
-    {:sp_getad('top_ad')}<!--top_ad是后台设置的广告名称-->
+    {:sp_getad('top_ad')} <!--top_ad是后台设置的广告名称-->
 </div>
 ```

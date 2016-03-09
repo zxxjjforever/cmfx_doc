@@ -1,4 +1,4 @@
-# 利用Page类和limit方法分页
+$# 利用Page类和limit方法分页
 
         $Wxch_indent = M("Wxch_indent"); // 实例化Wxch_indent对象
         $count = $Wxch_indent->where($where)->count();// 查询满足要求的总记录数

@@ -10,10 +10,8 @@ sp_check_user_action($object,$count_limit,$ip_limit,$expire)
 
 参数说明：  
 `$object`: 访问对象的id,格式：不带前缀的表名+id;如posts1表示xx_posts表里id为1的记录;如果object为空，表示只检查对某个url访问的合法性
-
- $count_limit 访问次数限制,如1，表示只能访问一次
-
- $ip_limit ip限制,false为不限制，true为限制
+`$count_limit`: 访问次数限制,如1，表示只能访问一次
+`$ip_limit`: ip限制,false为不限制，true为限制
 
  $expire 距离上次访问的最小时间单位s，0表示不限制，大于0表示最后访问$expire秒后才可以访问
 

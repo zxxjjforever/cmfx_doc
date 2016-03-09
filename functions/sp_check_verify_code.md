@@ -16,7 +16,6 @@ sp_check_verify_code()
 类型boolean true|false;
 
 使用：
-
 ```php
 <?php
 if(!sp_check_verify_code()){

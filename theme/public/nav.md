@@ -1,7 +1,7 @@
 # 菜单导航制作
 
 bootstrap导航：
-
+```php
 <?php
 /*生成菜单的 id*/
 $effected_id="main-nav";
@@ -29,3 +29,4 @@ $showlevel=6;
 
 echo sp_get_menu("main",$effected_id,$filetpl,$foldertpl,$ul_class,$li_class,$style,$showlevel,$dropdown);
 ?>
+```

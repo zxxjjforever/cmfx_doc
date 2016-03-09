@@ -1,6 +1,6 @@
 # js-ajax-form
 ajax表单组件
-
+```html
 <form class="js-ajax-form" action="{:U('user/login/dologin')}" method="post">
     <label for="input_username">账号</label>
     <input type="text" id="input_username" name="username" placeholder="请输入用户名或者邮箱" class="span3">
@@ -14,7 +14,7 @@ ajax表单组件
 	
     <button class="btn btn-primary js-ajax-submit" type="submit" data-wait="1500">确定</button>
 </form>
-
+```
 
 功能：
 

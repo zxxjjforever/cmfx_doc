@@ -1,21 +1,17 @@
 # sp_get_host()
-X1.0新增
 
+> X1.0新增
+
+```php
 sp_get_host()
-功能：
+```
 
+功能：  
 返回带协议的域名
 
-
-
-参数：
-
+参数：  
 无
 
-
-
-返回：
-
-类型string
-
+返回：  
+类型string  
 带协议的域名,如http://www.thinkcmf.com

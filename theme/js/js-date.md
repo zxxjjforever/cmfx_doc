@@ -1,9 +1,9 @@
 # js-date
 
 日期选择组件
-
+```html
 <input class="js-date" type="text" id="input-birthday" placeholder="2013-01-04" name="birthday">
-
+```
 
 功能：
 

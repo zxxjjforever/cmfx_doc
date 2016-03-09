@@ -1,15 +1,16 @@
 # sp_getslide()
 
 示例：
-
+```php
 <?php>
     $slides=sp_getslide('top_slide');    //top_slide是你在后台创建的幻灯片标识
     print_r($slides);       //打印出获取的结果
 ?>
+```
 
 
 模板中用法：
-
+```html
 <php>
     $slides=sp_getslide('top_slide');
     print_r($slides);
@@ -26,3 +27,4 @@
         <img src="/data/upload/{$vo.slide_pic}"/>
     </a>
 </foreach>
+```

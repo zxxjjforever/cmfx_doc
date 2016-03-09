@@ -18,6 +18,7 @@ sp_check_verify_code()
 使用：
 
 ```php
+<?php
 if(!sp_check_verify_code()){
     echo '验证码不正确';
 }

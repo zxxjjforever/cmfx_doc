@@ -124,6 +124,7 @@
        * [sp_get_term()](portal/functions/sp_get_term.md)
        * [sp_get_terms()](portal/functions/sp_get_terms()
        * [sp_get_child_terms()](portal/functions/sp_get_child_terms.md)
+       * sp_sql_posts_paged()
 * [插件](plugin.md)
    * 钩子，插件与模板
    * [插件钩子](plugin/hook.md)

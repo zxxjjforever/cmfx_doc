@@ -17,4 +17,8 @@ $# 利用Page类和limit方法分页
          // 进行分页数据查询 注意limit方法的参数要使用Page类的属性
         $list  = $Wxch_indent->where($where)->order('id desc')->limit($Page->firstRow . ',' . $Page->listRows)->select();
         注意：$_GET会自己把查询的条件自动传进分页代码内
+        
+        
+        最后在视图就可以直接调用了
+        <div class="meneame">{$Page}</div>
 

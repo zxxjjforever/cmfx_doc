@@ -6,6 +6,6 @@ $# 利用Page类和limit方法分页
         $show       = $Page->show();// 分页显示输出
         // 进行分页数据查询 注意limit方法的参数要使用Page类的属性
         $list  = $Wxch_indent->where('1')->order('id desc')->limit($Page->firstRow . ',' . $Page->listRows)->select();
-
+        $this->assign('list',$list);// 赋值数据集
         $this->assign('Page',$show);
 

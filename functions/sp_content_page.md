@@ -1,7 +1,10 @@
 # sp_content_page()
-X1.0新增
 
+> X1.0新增
+
+```php
 sp_content_page($content,$pagetpl')
+```
 功能：
 
 对文本内容进行分页处理，返回当前页的内容，和分页html

@@ -16,9 +16,8 @@
 {:sp_get_menu("main",$effected_id,$filetpl,$foldertpl,$ul_class,$li_class,$style,$showlevel,$dropdown)}
 ```
 
-```php
+```html
 <!--生成的代码如下：-->
-
 <ul class="nav">
 	<li class="active" id="menu-item-1"><a href="/" target="">首页</a></li>
 	<li class="" id="menu-item-11"><a href="" target="">产品与服务</a></li>

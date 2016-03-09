@@ -134,6 +134,7 @@
        * [文章内页制作](portal/template/article.md)
        * [页面制作](portal/template/page.md)
        * [获取文章的各种方式](portal/template/get_articles.md)
+       * 热门文章组件制作
 * [插件](plugin.md)
    * 钩子，插件与模板
    * [插件钩子](plugin/hook.md)

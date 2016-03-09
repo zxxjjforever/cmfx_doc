@@ -136,6 +136,7 @@
        * [获取文章的各种方式](portal/template/get_articles.md)
        * [热门文章组件制作](portal/template/hot_articles.md)
        * [seo优化](portal/template/seo.md)
+       * 文章相册制作
 * [插件](plugin.md)
    * 钩子，插件与模板
    * [插件钩子](plugin/hook.md)

@@ -10,5 +10,11 @@ $# 利用Page类和limit方法分页
         $this->assign('Page',$show);// 赋值分页输出
         $this->display(":index"); // 输出模板
         带入查询条件
-        
+        //分页带条件
+        $_GET = array_merge($_GET,$_POST);
+         //分页带条件
+        $_GET = array_merge($_GET,$_POST);
+        $count = $Wxch_indent->where($where)->count();
+        $Page  = $this->Page($count, 15);
+        $list  = $Wxch_indent->where($where)->order('id desc')->limit($Page->firstRow . ',' . $Page->listRows)->select();
 

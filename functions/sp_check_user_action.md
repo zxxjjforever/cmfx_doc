@@ -14,8 +14,5 @@ sp_check_user_action($object,$count_limit,$ip_limit,$expire)
 `$ip_limit`: ip限制,false为不限制，true为限制  
 `$expire`: 距离上次访问的最小时间单位s，0表示不限制，大于0表示最后访问$expire秒后才可以访问
 
-
-
-返回：
-
- true 可访问，false不可访问
+返回：  
+`true` 可访问，`false`不可访问

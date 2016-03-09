@@ -1,7 +1,7 @@
 # 模板资源文件引入
 
 引入css文件：
-
+```html
 <!-- 引入simpleboot库,此文件必须引入-->
 <link href="__TMPL__Public/simpleboot/themes/simplebootx/theme.min.css" rel="stylesheet">
 
@@ -18,12 +18,12 @@
 
 <!-- 引入自定义css库，用户可加入自己的css组件-->
 <link href="__TMPL__Public/css/style.css" rel="stylesheet">
+```
 以上内容加在</head>标签以前
 
 
-
 引入js文件：
-
+```html
 <script type="text/javascript">
 //全局变量,必须加入
 var GV = {
@@ -42,4 +42,5 @@ var GV = {
 
 <!-- 引入ThinkCMF前端库，包含ThinkCMF各种组件，方法，如评论，赞等-->
 <script src="__PUBLIC__/js/frontend.js"></script>
+```
 以上内容加在</body>标签以前

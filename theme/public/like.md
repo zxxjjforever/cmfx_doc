@@ -1,12 +1,15 @@
 # 点赞组件
 
 点赞组件
-
+```html
 <a href="{:U('article/do_like',array('id'=>$object_id))}" class="js-count-btn"><i class="fa fa-thumbs-up"></i><span class="count">{$post_like}</span></a>
-分解组件：
+```
 
+分解组件：
+```html
 <!-- 点赞链接 须传入文章id -->
 href="{:U('article/do_like',array('id'=>$vo['object_id']))}"
+```
 js类名：
 
 js-count-btn 

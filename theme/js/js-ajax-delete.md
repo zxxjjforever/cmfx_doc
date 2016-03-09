@@ -1,9 +1,9 @@
 # js-ajax-delete
 
 ajax 删除组件
-
+```html
 <a href="你的删除url" class="js-ajax-delete" data-msg="确定删除它吗？">删除</a>
-
+```
 
 功能：
 

@@ -118,6 +118,7 @@
    * [基础](portal/base.md)
        * [主程序结构](portal/base/structure.md)
        * [模板结构](portal/base/theme_structure.md)
+   * 函数库
 * [插件](plugin.md)
    * 钩子，插件与模板
    * [插件钩子](plugin/hook.md)

@@ -17,7 +17,7 @@ hook($hook,$param)
 无
 
 模板使用：
-```html
+```php
 {:hook('footer')}
-
-{:hook('sider',array('text'=>'hello ThinkCMF')}```
+{:hook('sider',array('text'=>'hello ThinkCMF')}
+```

@@ -121,6 +121,7 @@
    * [函数库](portal/functions.md)
        * [sp_sql_posts()](portal/functions/sp_sql_posts.md)
        * [sp_sql_post()](portal/functions/sp_sql_post.md)
+       * sp_get_term()
 * [插件](plugin.md)
    * 钩子，插件与模板
    * [插件钩子](plugin/hook.md)

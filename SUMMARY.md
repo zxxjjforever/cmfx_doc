@@ -122,7 +122,7 @@
        * [sp_sql_posts()](portal/functions/sp_sql_posts.md)
        * [sp_sql_post()](portal/functions/sp_sql_post.md)
        * [sp_get_term()](portal/functions/sp_get_term.md)
-       * [sp_get_terms()](portal/functions/sp_get_terms()
+       * [sp_get_terms()](portal/functions/sp_get_terms.md)
        * [sp_get_child_terms()](portal/functions/sp_get_child_terms.md)
        * [sp_sql_posts_paged()](portal/functions/sp_sql_posts_paged.md)
        * [sp_sql_page()](portal/functions/sp_sql_page.md)

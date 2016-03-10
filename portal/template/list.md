@@ -12,8 +12,10 @@
 {$seo_description}<br>
 {$list_tpl}<br><!--分类列表页的模板，对应于模板目录下Portal/文件名+.html，文件名默认为list-->
 {$one_tpl}<br><!--分类单文章页的模板，对应于模板目录下Portal/文件名+.html，文件名默认为article-->
+```
 
-
+例子：
+```html
 <php>
     $lists = sp_sql_posts_paged("cid:$cat_id;order:post_date DESC;",10);
 </php>

@@ -11,7 +11,7 @@ ThinkCMF是一款基于PHP+MYSQL开发的中文内容管理框架。ThinkCMF提�
 1. 在 GitHub 上 `fork` 到自己的仓库，如 `your_username/cmfx_doc`，然后 `clone` 到本地，并设置用户信息。
 ```
 $ git clone git@github.com:your_username/cmfx_doc.git
-$ cd docker_practice
+$ cd cmfx_doc
 $ git config user.name "yourname"
 $ git config user.email "your email"
 ```

@@ -12,7 +12,7 @@ sp_sql_posts_paged_bykeyword($keyword,$tag,$pagesize=20,$pagetpl)
 `$keyword`:查询关键字；  
 `$tag`:查询标签,以字符串方式传入,例："field:post_title,post_content;limit:0,8;order:post_date desc,listorder desc;where:id>0;"
 ```
-field:调用post指定字段,如(id,post_title...) 默认全部<br>
+field:调用post指定字段,如(id,post_title...) 默认全部
 
 limit:数据条数,默认值为10,可以指定从第几条开始,如3,8(表示共调用8条,从第3条开始)
 

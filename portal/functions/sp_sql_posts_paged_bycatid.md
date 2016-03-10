@@ -13,30 +13,25 @@ sp_sql_posts_paged_bycatid($cid,$tag,$pagesize,$pagetpl)
 `$cid`:分类id  
 `$tag`:查询标签,以字符串方式传入,例："field:post_title,post_content;limit:0,8;order:post_date desc,listorder desc;where:id>0;"
 ```
-field:调用post指定字段,如(id,post_title...) 默认全部<br>
-
-limit:数据条数,默认值为10,可以指定从第几条开始,如3,8(表示共调用8条,从第3条开始)<br>
-
-order:排序方式，如：post_date desc<br>
-
+field:调用post指定字段,如(id,post_title...) 默认全部
+limit:数据条数,默认值为10,可以指定从第几条开始,如3,8(表示共调用8条,从第3条开始)
+order:排序方式，如：post_date desc
 where:查询条件，字符串形式，和sql语句一样
-
 $pagesize:每页显示文章数
-
 $pagetpl:分页模板，例："{first}{prev}{liststart}{list}{listend}{next}{last}"
 ```
 
-
-返回：
-
+返回：  
 类型数组,符合条件的文章列表，及分页html
-
+```php
 array(
     'content'=>'',//符合条件的文章列表
     'page'=>''//分页html
 )
-模板使用方法：
+```
 
+模板使用方法：
+```html
 <div class="main-title">
 	<php>
 	    $result=sp_sql_posts_paged_bycatid($cat_id,"",20);
@@ -71,4 +66,4 @@ array(
 		{$result['page']}
 	</ul>
 </div>
-
+```

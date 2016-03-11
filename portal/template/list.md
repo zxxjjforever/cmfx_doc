@@ -1,6 +1,6 @@
 # 文章列表页制作
 可用变量
-
+```html
 {$term_id}<br><!--分类id-->
 {$cat_id}<br><!--分类id,同上-->
 {$name}<br><!--分类名称-->
@@ -12,8 +12,10 @@
 {$seo_description}<br>
 {$list_tpl}<br><!--分类列表页的模板，对应于模板目录下Portal/文件名+.html，文件名默认为list-->
 {$one_tpl}<br><!--分类单文章页的模板，对应于模板目录下Portal/文件名+.html，文件名默认为article-->
+```
 
-
+例子：
+```html
 <php>
     $lists = sp_sql_posts_paged("cid:$cat_id;order:post_date DESC;",10);
 </php>
@@ -43,3 +45,4 @@
 	{$lists['page']}
     </ul>
 </div>			
+```

@@ -1,5 +1,5 @@
 # 最新评论组件制作
-
+```html
 <php>$last_comments=sp_get_comments("field:*;limit:0,5;order:createtime desc;");</php>
 <foreach name="last_comments" item="vo">
     <div class="comment-ranking-inner">
@@ -11,3 +11,4 @@
     </span>
     </div>
 </foreach>
+```

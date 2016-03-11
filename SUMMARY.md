@@ -122,7 +122,7 @@
        * [sp_sql_posts()](portal/functions/sp_sql_posts.md)
        * [sp_sql_post()](portal/functions/sp_sql_post.md)
        * [sp_get_term()](portal/functions/sp_get_term.md)
-       * [sp_get_terms()](portal/functions/sp_get_terms()
+       * [sp_get_terms()](portal/functions/sp_get_terms.md)
        * [sp_get_child_terms()](portal/functions/sp_get_child_terms.md)
        * [sp_sql_posts_paged()](portal/functions/sp_sql_posts_paged.md)
        * [sp_sql_page()](portal/functions/sp_sql_page.md)
@@ -136,7 +136,7 @@
        * [获取文章的各种方式](portal/template/get_articles.md)
        * [热门文章组件制作](portal/template/hot_articles.md)
        * [seo优化](portal/template/seo.md)
-       * 文章相册制作
+       * [文章相册制作](portal/wen_zhang_xiang_ce_zhi_zuo.md)
        * 文章列表推荐功能制作
        * 文章列表置顶功能制作
        * 文章列表相册功能制作

@@ -1,7 +1,7 @@
 # 本站用户注册模板制作
 
 模板文件：User/register.html
-
+```html
 <form class="form-horizontal js-ajax-form" action="{:U('user/register/doregister')}" method="post">
     <label class="control-label" for="input_username">账号</label>
     <input type="text" id="input_username" name="username" placeholder="请输入账号" class="span3">
@@ -21,3 +21,4 @@
     
     <button class="btn btn-primary js-ajax-form" type="submit" data-wait="1500">确定注册</button>
 </form>
+```

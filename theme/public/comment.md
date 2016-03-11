@@ -1,23 +1,22 @@
 # 评论组件
 显示评论组件：
-
+```php
 {:Comments("posts",$object_id)}
-
 <!-- 评论文章表里的某个id为$object_id的文章-->
+```
 Comments方法说明：
 
-参数1：评论内容所在的表，不带表前缀的表名称，如cmf_posts应该改为“posts”;
+`参数1`：评论内容所在的表，不带表前缀的表名称，如cmf_posts应该改为“posts”;
 
-参数2：评论内容的id:
+`参数2`：评论内容的id:
 
-参数3：数组，目前支持tpl参数，如array("tpl"=>"comment_custom"),这样设置就会加载模板目录Comment/coment_custom.html这个模板。
+`参数3`：数组，目前支持tpl参数，如array("tpl"=>"comment_custom"),这样设置就会加载模板目录Comment/coment_custom.html这个模板。
 
 
 
-评论模板：
-
+评论模板：  
 默认评论模板文件：Comment/comment.html
-
+```html
 <br>
 <h3>评论</h3>
 <div class="comment-area">
@@ -98,3 +97,4 @@ Comments方法说明：
 	</div>
 	
 </div>
+```

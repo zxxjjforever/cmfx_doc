@@ -1,38 +1,36 @@
 # sp_sql_posts_paged()
 
+```php
 sp_sql_posts_paged($tag,$pagesize,$pagetpl)
-功能：
+```
 
+功能：  
 文章分页查询方法
 
-参数：
-
-$tag:查询标签,以字符串方式传入,例："field:post_title,post_content;limit:0,8;order:post_date desc,listorder desc;where:id>0;"
-
-    field:调用post指定字段,如(id,post_title...) 默认全部<br>
-
-    limit:数据条数,默认值为10,可以指定从第几条开始,如3,8(表示共调用8条,从第3条开始)<br>
-
-    order:排序方式，如：post_date desc<br>
-
-    where:查询条件，字符串形式，和sql语句一样
-
+参数：  
+`$tag`:查询标签,以字符串方式传入,例："field:post_title,post_content;limit:0,8;order:post_date desc,listorder desc;where:id>0;"
+```
+field:调用post指定字段,如(id,post_title...) 默认全部
+limit:数据条数,默认值为10,可以指定从第几条开始,如3,8(表示共调用8条,从第3条开始)
+order:排序方式，如：post_date desc
+where:查询条件，字符串形式，和sql语句一样
 $pagesize:每页显示文章数
-
 $pagetpl:分页模板，例："{first}{prev}{liststart}{list}{listend}{next}{last}"
+```
 
-返回：
-
+返回：  
 类型数组,带分页数据的文章列表
 
 示例：
-
+```php
 <? php
 $tag='cid:6;field:post_title,post_content;order:listorder asc';
 $content=sp_sql_posts_paged($tag); 
 $posts=$content['posts'];
 $pager=$content['page'];
 ?>
+```
+
 $tag规则：
 
 cid 分类id；
@@ -64,7 +62,7 @@ user_nicename     管理员昵称
 user_email     管理员邮箱
 
 模板中用法：
-
+```html
 <php>
 $content=sp_sql_posts_paged('cid:6;field:post_title,post_content;order:listorder asc');
 </php>
@@ -87,3 +85,4 @@ $content=sp_sql_posts_paged('cid:6;field:post_title,post_content;order:listorder
 </foreach>
 
 <div>{$content.page}</div><!--分页-->
+```

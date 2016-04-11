@@ -20,17 +20,17 @@ Blog结构
 
 2. 创建一个前台控件器（Controller）
 在模块Controller目录下创建一个IndexController.class.php文件
-```php
-<?php
-namespace Blog\Controller;
-use Common\Controller\HomebaseController;
+  ```php
+  <?php
+  namespace Blog\Controller;
+  use Common\Controller\HomebaseController;
 
-class IndexController extends HomebaseController{
-    function index(){
-      echo "this is blog index !";
-    }
-}
-```
+  class IndexController extends HomebaseController{
+      function index(){
+        echo "this is blog index !";
+      }
+  }
+  ```
 前台Controller一般都要继承HomebaseController
 3. 为前台 IndexController的index方法创建一个模板
   1. 修改IndexController.class.php  

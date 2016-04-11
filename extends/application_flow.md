@@ -6,13 +6,13 @@
 Blog结构:
 ```php
 Blog    
-  Controller 控制器目录
-  Common 函数库
-  Conf 配置
-  Lang 多语言包
-  Menu 后台菜单    
-  Model 模型
-  nav.php 前台导航
+    Controller 控制器目录
+    Common 函数库
+    Conf 配置
+    Lang 多语言包
+    Menu 后台菜单    
+    Model 模型
+    nav.php 前台导航
 ``` 
 ![](../images/20141209121334548676ee3afc8.png)
 Blog结构  

@@ -18,7 +18,7 @@ $content=$this->fetch('edit');
 ```php
 $content=$this->fetch(':index');
 ```
-此种方式表示调用此应用下 index 控制器的模板；
+此种方式表示调用此应用下index控制器的模板；
 
 ```php
 $str_content='this is a template file content,{$name}';

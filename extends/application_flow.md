@@ -14,7 +14,7 @@ Blog
     Model 模型
     nav.php 前台导航
 ``` 
-![](../images/20141209121334548676ee3afc8.png)
+![](../images/20141209121334548676ee3afc8.png)   
 Blog结构  
 同时在application/Common/Conf/config.php里的MODULE_ALLOW_LIST加上你新加的Blog 
 
@@ -24,10 +24,11 @@ Blog结构
 <?php
 namespace Blog\Controller;
 use Common\Controller\HomebaseController;
+
 class IndexController extends HomebaseController{
-    function index(){
-      echo "this is blog index !";
-    }
+  function index(){
+    echo "this is blog index !";
+  }
 }
 ```
 前台Controller一般都要继承HomebaseController

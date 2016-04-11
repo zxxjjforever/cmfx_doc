@@ -24,10 +24,11 @@ Blog结构
 <?php
 namespace Blog\Controller;
 use Common\Controller\HomebaseController;
+
 class IndexController extends HomebaseController{
-function index(){
+    function index(){
       echo "this is blog index !";
-}
+    }
 }
 ```
 前台Controller一般都要继承HomebaseController

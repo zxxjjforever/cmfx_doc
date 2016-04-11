@@ -1,7 +1,7 @@
 # 忘记密码模板制作
 
 模板文件：User/forgot_password.html
-
+```html
 <form class="form-horizontal js-ajax-form" action="{:U('user/login/doforgot_password')}" method="post">
     <label class="control-label" for="input_email">注册邮箱</label>
     <input type="email" id="input_email" name="email" class="span3">
@@ -13,3 +13,4 @@
     
     <button class="btn btn-primary js-ajax-form" type="submit">确定</button>
 </form>
+```

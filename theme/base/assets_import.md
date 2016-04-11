@@ -43,4 +43,4 @@ var GV = {
 <!-- 引入ThinkCMF前端库，包含ThinkCMF各种组件，方法，如评论，赞等-->
 <script src="__PUBLIC__/js/frontend.js"></script>
 ```
-以上内容加在</body>标签以前
+以上内容加在`</body>`标签以前

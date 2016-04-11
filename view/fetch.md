@@ -13,7 +13,7 @@ $content=$this->fetch();
 ```php
 $content=$this->fetch('edit');
 ```
-此种方式表示调用此控制器下的 edit 操作的模板；
+此种方式表示调用此控制器下的edit操作的模板；
 
 ```php
 $content=$this->fetch(':index');

@@ -136,7 +136,7 @@
        * [获取文章的各种方式](portal/template/get_articles.md)
        * [热门文章组件制作](portal/template/hot_articles.md)
        * [seo优化](portal/template/seo.md)
-       * [文章相册制作](portal/wen_zhang_xiang_ce_zhi_zuo.md)
+       * [文章相册制作](portal/wenzhang_xiang_ce_zhi_zuo_md.md)
        * [文章列表推荐功能制作](portal/template/wen_zhang_lie_biao_tui_jian_gong_neng_zhi_zuo.md)
        * [文章列表置顶功能制作](portal/template/wen_zhang_lie_biao_zhi_ding_gong_neng_zhi_zuo.md)
        * 文章列表相册功能制作

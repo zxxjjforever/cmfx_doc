@@ -2,9 +2,8 @@
 
 ThinkCMF完全按ThinkPHP开发规范进行
 
-开发前请详细阅读：
-
-[http://document.thinkphp.cn/manual_3_2.html#develop_standard](http://document.thinkphp.cn/manual_3_2.html#develop_standard)
+开发前请详细阅读：  
+[http://www.kancloud.cn/manual/thinkphp/1687](http://www.kancloud.cn/manual/thinkphp/1687)
 
 ##ThinkCMF特别开发规范
 

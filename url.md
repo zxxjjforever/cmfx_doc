@@ -1,6 +1,6 @@
 # URL生成
 
-**ThinkCMF遵循 ThinkPHP 的 url 生成方法：**
+**ThinkCMF遵循ThinkPHP的url生成方法：**
 
 U方法的定义规则如下（方括号内参数根据实际应用决定）：
 
@@ -43,7 +43,7 @@ leuu 的参数列表和  U 方法一样，只是要配合后台设置的 url美�
 显示网址：cases
 
 ```php
-leuu("portall/list/index",array('id'=>1)) //生成的 url为/cases.html
+leuu("portal/list/index",array('id'=>1)) //生成的 url为/cases.html
 ```
 列出常用的优化方案：
 ```php

@@ -19,8 +19,8 @@ Blog
 而在 CMF 中应用的 View 是独立于应用之外的，它分为前台view 和后台view,  分别存放在 themes/前台主题/应用名，和 admin/themes/前台主题/应用名下；
 
 创建一个Blog应用
-1. 在application/Common/Conf/config.php文件里的MODULE_ALLOW_LIST里加上应用名Blog  
-* 在application下创建上面讲到的 blog 目录结构；
+1. 在application/Common/Conf/config.php文件MODULE_ALLOW_LIST数组里加上应用名Blog  
+* 在application下创建上面讲到的blog目录结构；
 * 创建一个控制器,在模块Controller目录下创建一个IndexController.class.php文件
 ```php
 <?php

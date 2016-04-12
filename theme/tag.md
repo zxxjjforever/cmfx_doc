@@ -41,7 +41,7 @@ $article = array
 </div>
 </foreach>
 ```
-<volist></volist>按条件遍历，示例代码：
+`<volist></volist>`按条件遍历，示例代码：
 ```html
 <php>                     //遍历一个二维数组
 $article = array
@@ -67,7 +67,7 @@ $article = array
 </div>
 </volist>
 ```
-<for></for>循环标签，实例代码：
+`<for></for>`循环标签，实例代码：
 ```html
 <for start="开始值" end="结束值" name="循环变量名" >
  循环语句。。。

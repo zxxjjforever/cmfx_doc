@@ -6,7 +6,7 @@ ThinkCMF封装了前台模板开发时常用的一些变量，这些变量是全
 {$site_name}                    /站点名称
 {$site_host}                    /站点域名
 {$site_root}                    /安装目录
-{$site_icp}                    /备案信息
+{$site_icp}                     /备案信息
 {$site_admin_email}             /管理员邮箱
 {$site_tongji}                  /页面统计代码
 {$site_seo_title}               /SEO标题

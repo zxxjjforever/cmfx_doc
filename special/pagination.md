@@ -21,9 +21,9 @@ $show       = $Page->show("Admin");// 分页显示输出
 $list  = $Wxch_indent->where($where)->order('id desc')
 ->limit($Page->firstRow . ',' . $Page->listRows)->select();
 ```
-        注意：$_GET会自己把查询的条件自动传进分页代码内
-        
-        
+
+> 注意：$_GET会自己把查询的条件自动传进分页代码内
+
 最后在视图就可以直接调用了
 ```html
 <div class="meneame">{$Page}</div>

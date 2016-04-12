@@ -51,7 +51,7 @@ Blog结构
 4. 在浏览器里运行http://你的域名/index.php?g=blog&m=index&a=index  
 到此为止，一个应用基本创建完成
 
-5. 创建一个后台控件器（Controller）在模块Controller目录下创建一IndexadminController.class.php文件(注意：这里有文件命名规则，以\*\*\*\*adminController.class.php命名的是后台Controller, 在后台菜单导入时会自动识别）
+5. 创建一个后台控件器（Controller）在模块Controller目录下创建一IndexadminController.class.php文件(注意：这里有文件命名规则，以\*\*\*\*adminController.class.php或者Admin\*\*\*\*Controller.class.php命名的是后台Controller, 在后台菜单导入时会自动识别）
     ```php
     <?php
     namespace Blog\Controller;

@@ -1,7 +1,6 @@
 # 插件控制器
 
 插件写法：
-
 ```php
 <?php
 namespace plugins\Demo\Controller; //Demo插件英文名，改成你的插件英文就行了

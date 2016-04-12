@@ -1,6 +1,6 @@
 # 后台隐藏的后台菜单管理功能
 
-应用Controller目录下文件命名规则，以\*\*\*\*adminController.class.php命名的是后台controller, 在后台菜单导入时会自动识别
+应用Controller目录下文件命名规则，以\*\*\*\*adminController.class.php或者Admin\*\*\*\*Controller.class.php命名的是后台controller, 在后台菜单导入时会自动识别
 
 
 以下几个功能是debug开启时才会出现的：

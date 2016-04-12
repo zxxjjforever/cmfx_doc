@@ -9,6 +9,7 @@
 你只要在任何一个前台可以访问控制器里,如application/Portal/Controller/IndexController.class.php
 
 ```php
+<?php
 namespace Portal\Controller;
 use Common\Controller\HomebaseController; 
 /**

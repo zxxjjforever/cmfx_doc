@@ -2,7 +2,7 @@
 
 ThinkCMF目前分为两种控制器，前台和后台控制器； 
 
-无论是前台，还是后台控制器都位于应用的 Controller目录下.  
+无论是前台，还是后台控制器都位于应用的Controller目录下.  
 前台控制器一般继承 Common\Controller\HomebaseController,如果你需要用户登录才访问或操作此控制器，就要继承 Common\Controller\MemberbaseController；
 
 我们来创建一个前台控制器：  
@@ -11,6 +11,7 @@ ThinkCMF目前分为两种控制器，前台和后台控制器；
 <?php
 namespace Blog\Controller;
 use Common\Controller\HomebaseController;
+
 class IndexController extends HomebaseController{
     public function index(){
       echo "this is blog index !";
@@ -25,6 +26,7 @@ class IndexController extends HomebaseController{
 <?php
 namespace Blog\Controller;
 use Common\Controller\MemberbaseController;
+
 class IndexController extends MemberbaseController{
     public function index(){
       echo "this is blog index !";

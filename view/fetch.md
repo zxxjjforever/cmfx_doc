@@ -1,8 +1,8 @@
 # 获取内容
 
-还有一种调用模板的情况是我们只想渲染后返回模板渲染后的数据而不是直接输出，这时我们会用 fetch方法；
+还有一种调用模板的情况是我们只想渲染后返回模板渲染后的数据而不是直接输出，这时我们会用fetch方法；
 
-fetch 的用法和 display 完全一样，只是不直接输出了；
+fetch的用法和display 完全一样，只是不直接输出了；
 
 ```php
 //不带任何参数
@@ -13,12 +13,12 @@ $content=$this->fetch();
 ```php
 $content=$this->fetch('edit');
 ```
-此种方式表示调用此控制器下的 edit 操作的模板；
+此种方式表示调用此控制器下的edit操作的模板；
 
 ```php
 $content=$this->fetch(':index');
 ```
-此种方式表示调用此应用下 index 控制器的模板；
+此种方式表示调用此应用下index控制器的模板；
 
 ```php
 $str_content='this is a template file content,{$name}';

@@ -1,5 +1,5 @@
 # 主程序结构
- ```
+```
 |--Portal
     |--Common
         |--funtion.php                //应用函数库

@@ -1,6 +1,6 @@
 # 调试模式
 
-ThinkCMFX调试模式：
+ThinkCMF调试模式：
 
 程序根目录index.php
 

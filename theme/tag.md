@@ -4,11 +4,12 @@
 
 ThinkCMF系统内置的标签有：
 
-<php></php>用来在模板中执行php的代码，示例代码：
-
+`<php></php>`用来在模板中执行php的代码，示例代码：
+```html
 <php>echo "这个是在模板中执行的php程序"</php>
-<foreach></foreach>遍历标签，示例代码：
-
+```
+`<foreach></foreach>`遍历标签，示例代码：
+```html
 <php>$title=array("简介","产品","新闻");</php>        //遍历一个一维数组
 <foreach name='title' item='vo'>
 <div style="样式">
@@ -39,6 +40,7 @@ $article = array
 <p>{$vo.content}</p>
 </div>
 </foreach>
+```
 <volist></volist>按条件遍历，示例代码：
 
 <php>                     //遍历一个二维数组

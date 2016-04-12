@@ -15,7 +15,7 @@ array 文章列表
 
 示例：
 ```php
-<? php
+<?php
 $tag='cid:6;field:post_title,post_content;order:listorder asc';
 $posts=sp_sql_posts($tag); 
 print_r($posts);

@@ -15,10 +15,7 @@ class IndexController extends PluginController{
 }
 ```
 
-
 插件url生成方法，sp_plugin_url();
-
-
 
 X1.4.0新增
 ```php

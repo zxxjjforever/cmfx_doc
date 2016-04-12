@@ -7,6 +7,7 @@
 3. sp_get_current_admin_id();可获取后台管理员id，可用于判断是否登录
 
 ```php
+<?php
 namespace plugins\Demo\Controller; //Demo插件英文名，改成你的插件英文就行了
 use Api\Controller\PluginController;//插件控制器基类
 

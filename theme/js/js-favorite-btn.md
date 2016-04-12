@@ -4,10 +4,10 @@
 ```html
 <a href="{:U('user/favorite/do_favorite')}" class="js-favorite-btn" data-title="收藏的内容标题" data-url="收藏的内容的url" data-key="{:sp_get_favorite_key('收藏内容所在表',收藏内容的id)}"></a>
 
-
 <!--如文章收藏：-->
 <a href="{:U('user/favorite/do_favorite',array('id'=>$object_id))}" class="js-favorite-btn" data-title="{$post_title}" data-url="{:U('article/index',array('id'=>$tid))}" data-key="{:sp_get_favorite_key('posts',$object_id)}">
- <i class="fa fa-star-o"></i></a>
+  <i class="fa fa-star-o"></i>
+</a>
  ```
 
 ```php

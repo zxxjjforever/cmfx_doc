@@ -20,7 +20,7 @@ Blog
 
 创建一个Blog应用
 1. 在application/Common/Conf/config.php文件MODULE_ALLOW_LIST数组里加上应用名Blog  
-* 在application下创建上面讲到的 blog 目录结构；
+* 在application下创建上面讲到的blog目录结构；
 * 创建一个控制器,在模块Controller目录下创建一个IndexController.class.php文件
 ```php
 <?php

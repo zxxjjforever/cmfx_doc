@@ -7,13 +7,13 @@
 ```html
 <div class="span9">
   <div>
-      <php>
+      <div>
           $lists = sp_sql_posts_paged("cid:$cat_id;order:istop desc , post_modified desc;",10);
-      </php>
-      <volist name="lists['posts']" id="vo">
-      <php>
+      </div>
+      <div name="lists['posts']" id="vo">
+      <div>
           $smeta=json_decode($vo['smeta'], true);
-      </php>
+      </div>
 
       <div class="list-boxes">
           <h2><a href="{:leuu('article/index',array('id'=>$vo['tid'],'cid'=>$vo['term_id']))}" <if condition="$vo['recommended'] eq 1">style="color: red;" </if> >{$vo.post_title}</a></h2>
@@ -31,7 +31,7 @@
               <a class="btn btn-warning pull-right" href="{:leuu('article/index',array('id'=>$vo['tid'],'cid'=>$vo['term_id']))}">查看更多</a>
           </div>
       </div>
-      </volist>
+      </div>
 
   </div>
   <div class="pagination"><ul>{$lists['page']}</ul></div>

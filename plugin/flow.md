@@ -10,7 +10,7 @@
 
 5. 确定是否可以外部访问，如需要请加Controller目录，再添加Controller文件
 
-6. 给自己的模板（tpl/simplebootx）添加钩子，把{:hook('钩子名')}放到模板相应位置，再在模板根目录添加hooks.html文件，让系统可以获取你模板里的钩子，如tpl/simplebootx/hooks.html文件，文件中以英文逗号分隔钩子，不能有空格；
+6. 给自己的模板（themes/simplebootx）添加钩子，把{:hook('钩子名')}放到模板相应位置，再在模板根目录添加hooks.html文件，让系统可以获取你模板里的钩子，如themes/simplebootx/hooks.html文件，文件中以英文逗号分隔钩子，不能有空格；
 hooks.html文件可以这样：
 footer_end,footer
 

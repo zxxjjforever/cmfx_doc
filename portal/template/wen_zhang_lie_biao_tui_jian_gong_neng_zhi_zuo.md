@@ -6,17 +6,18 @@
 
 ```html
 <div class="span9">
-  <div>
-      <div>
+  <div class="">
+      <php>
           $lists = sp_sql_posts_paged("cid:$cat_id;order:istop desc , post_modified desc;",10);
-      </div>
-      <div name="lists['posts']" id="vo">
-      <div>
+      </php>
+      <volist name="lists['posts']" id="vo">
+      <php>
           $smeta=json_decode($vo['smeta'], true);
-      </div>
+      </php>
 
       <div class="list-boxes">
-          <h2><a href="{:leuu('article/index',array('id'=>$vo['tid'],'cid'=>$vo['term_id']))}" <if condition="$vo['recommended'] eq 1">style="color: red;" </if> >{$vo.post_title}</a></h2>
+          <php>$recommended_style=$vo['recommended']==1?"color:red;":"";</php>
+          <h2><a href="{:leuu('article/index',array('id'=>$vo['tid'],'cid'=>$vo['term_id']))}" style="{$recommended_style}">{$vo.post_title}</a></h2>
           <p>{$vo.post_excerpt|msubstr=0,256}</p>
           <div>
               <div class="pull-left">
@@ -31,7 +32,7 @@
               <a class="btn btn-warning pull-right" href="{:leuu('article/index',array('id'=>$vo['tid'],'cid'=>$vo['term_id']))}">查看更多</a>
           </div>
       </div>
-      </div>
+      </volist>
 
   </div>
   <div class="pagination"><ul>{$lists['page']}</ul></div>

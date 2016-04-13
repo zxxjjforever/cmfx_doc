@@ -3,6 +3,7 @@
 在模版调用推荐功能：recommended，1推荐 0不推荐
 
 我们在模板只要判断recommended等于1时给标题个样式变红就是推荐的文章
+
 ```html
 <div class="span9">
   <div class="">

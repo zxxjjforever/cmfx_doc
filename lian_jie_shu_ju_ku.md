@@ -31,7 +31,7 @@ return array(
     "AUTHCODE" => '2oF6v4m67BdQnfwMSf',
     //cookies
     "COOKIE_PREFIX" => '03a9uH_',
-'DB_CONFIG2' => array(
+    'DB_CONFIG2' => array(
         'db_type'  => 'mysql',
         'db_user'  => 'repast',
         'db_pwd'   => 'repastPass',

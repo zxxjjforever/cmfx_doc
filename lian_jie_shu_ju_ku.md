@@ -45,5 +45,5 @@ return array(
 ```
 三、实例化定义
 ```php
-$User = M('User','other_','DB_CONFIG2'); 
+$User = M('User','cmf_','DB_CONFIG2'); 
 ```

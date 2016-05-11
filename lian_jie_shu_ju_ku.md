@@ -35,9 +35,9 @@ return array(
     //数据库2
     'DB_CONFIG2' => array(
         'db_type'  => 'mysql',
-        'db_user'  => 'repast',
-        'db_pwd'   => 'repastPass',
-        'db_host'  => '112.74.82.7',
+        'db_user'  => 'root',
+        'db_pwd'   => 'root',
+        'db_host'  => '127.0.0.1',
         'db_port'  => '3306',
         'db_name'  => 'repast'
        ),

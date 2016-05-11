@@ -40,7 +40,7 @@ return array(
         'db_host'  => '112.74.82.7',
         'db_port'  => '3306',
         'db_name'  => 'repast'
-    ),
+      ),
     );
 ```
 二、实例化定义

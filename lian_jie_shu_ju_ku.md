@@ -20,7 +20,7 @@ return array(
 
 ```php
 return array(
-//数据库1
+    //数据库1
     'DB_TYPE' => 'mysql',
     'DB_HOST' => '127.0.0.1',
     'DB_NAME' => 'thinkcmf',

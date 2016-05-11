@@ -47,4 +47,4 @@ return array(
 ```php
 $User = M('User','cmf_','DB_CONFIG2'); 
 ```
-作者：小夏
+                                                                                作者：小夏

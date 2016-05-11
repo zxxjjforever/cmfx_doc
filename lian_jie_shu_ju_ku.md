@@ -20,6 +20,7 @@ return array(
 
 ```php
 return array(
+//数据库1
     'DB_TYPE' => 'mysql',
     'DB_HOST' => '127.0.0.1',
     'DB_NAME' => 'thinkcmf',
@@ -31,6 +32,7 @@ return array(
     "AUTHCODE" => '2oF6v4m67BdQnfwMSf',
     //cookies
     "COOKIE_PREFIX" => '03a9uH_',
+    //数据库2
     'DB_CONFIG2' => array(
         'db_type'  => 'mysql',
         'db_user'  => 'repast',

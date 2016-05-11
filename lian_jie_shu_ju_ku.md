@@ -43,7 +43,7 @@ return array(
     ),
     );
 ```
-三、实例化定义
+二、实例化定义
 ```php
 $User = M('User','cmf_','DB_CONFIG2'); 
 ```

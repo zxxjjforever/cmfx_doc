@@ -4,7 +4,7 @@
 ```php
 return array(
     'DB_TYPE' => 'mysql',
-    'DB_HOST' => '112.74.82.7',
+    'DB_HOST' => '127.0.0.1',
     'DB_NAME' => 'thinkcmf',
     'DB_USER' => 'root',
     'DB_PWD' => 'root',

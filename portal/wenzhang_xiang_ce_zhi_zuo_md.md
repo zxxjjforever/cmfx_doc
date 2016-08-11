@@ -7,6 +7,6 @@
         <img src="{:sp_get_asset_upload_path($vo['url'])}" /> 
     </foreach>
 </div>
-
+作者：小夏
 
 ```

@@ -1,4 +1,4 @@
-#  sp\_compare\_password\(\)
+# sp\_compare\_password\(\)
 
 > X2.1.0新增
 
@@ -21,13 +21,12 @@ CMF密码比较方法,所有涉及用户密码比较的地方都用这个方法
 
 类型boolean
 
-true：手机验证码正确，false：手机验证码错误
+密码相同，返回true
 
 使用：
 
 ```php
 
-$is_right_mobile_code = sp_check_mobile_verify_code('15121000000','123456');
-
+$is_right = sp_compare_password('123456','###adfasfasdkfjaslkdjflksajerwqe');
 ```
 

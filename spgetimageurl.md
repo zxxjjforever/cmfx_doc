@@ -2,6 +2,7 @@
 
 
 > X2.2.0新增
+
 ```php
 sp_get_image_url($file,$style='')
 ```

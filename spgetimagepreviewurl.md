@@ -1,6 +1,7 @@
 # sp_get_image_preview_url()
 
 > X2.2.0新增
+
 ```php
 sp_get_image_preview_url($file,$style='watermark')
 ```

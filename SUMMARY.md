@@ -58,6 +58,7 @@
     * [sp\_get\_plugin\_config\(\)](functions/sp_get_plugin_config.md)
     * [sp\_get\_relative\_url\(\)](functions/sp_get_relative_url.md)
     * [sp\_get\_theme\_path\(\)](functions/sp_get_theme_path.md)
+    * [sp\_get\_user\_avatar\_url\(\)](spgetuseravatarurl.md)
     * [sp\_get\_users\(\)](functions/sp_get_users.md)
     * [sp\_getad\(\)](functions/sp_getad.md)
         * sp\_get\_file\_extension\(\)

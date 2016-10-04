@@ -76,6 +76,7 @@
     * [sp\_scan\_dir\(\)](functions/sp_scan_dir.md)
     * [sp\_send\_email\(\)](functions/sp_send_email.md)
     * [sp\_set\_dynamic\_config\(\)](functions/sp_set_dynamic_config.md)
+    * [sp\_set\_option\(\)](spsetoption.md)
     * [sp\_update\_current\_user\(\)](functions/sp_update_current_user.md)
     * sp\_check\_mobile\_verify\_code\(\)
 * [系统扩展](extends.md)

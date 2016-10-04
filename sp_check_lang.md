@@ -1,19 +1,24 @@
-# sp_check_lang()
+# sp\_check\_lang\(\)
 
-> V1.1.1新增
-
-
+> X2.2.0新增
 
 ```php
-
-<?php
-
-$file='/data/upload/1.png';//文件路径
-
-$path=sp_asset_relative_url($file);//转化
-
-echo $path;//输出数据库保存的文件路径（都是相对于data/upload文件夹的）,结果为1.png
-
+sp_check_lang()
 ```
 
+功能：
+判断当前的语言包，并返回语言包名
+
+参数：
+无
+
+返回：
+类型string 包名,如:zh-cn
+
+使用：
+
+```php
+$lang=sp_check_lang();
+
+```
 

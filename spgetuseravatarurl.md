@@ -20,7 +20,3 @@ sp_get_user_avatar_url($avatar)
 ```php
 $url = sp_get_user_avatar_url('avatart/2231rweqrqwer.png')
 ```
-
-
-
-

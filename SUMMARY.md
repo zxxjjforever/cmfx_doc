@@ -68,6 +68,7 @@
     * [sp\_getcontent\_imgs\(\)](functions/sp_getcontent_imgs.md)
     * [sp\_is\_sae\(\)](functions/sp_is_sae.md)
     * [sp\_is\_user\_login\(\)](functions/sp_is_user_login.md)
+    * [sp\_is\_weixin\(\)](spisweixin.md)
     * [sp\_param\_lable\(\)](functions/sp_param_lable.md)
     * [sp\_password\(\)](functions/sp_password.md)
     * [sp\_plugin\_url\(\)](functions/sp_plugin_url.md)

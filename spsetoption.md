@@ -20,14 +20,11 @@ sp_set_option($key,$data)
 类型boolean,true设置成功
 
 
-
-
-
 ###### 使用：
 
 ```php
 
-$url = sp_get_user_avatar_url('avatart/2231rweqrqwer.png')
+$result = sp_set_option('portal_custom_settings',array('test'=>1))
 
 ```
 

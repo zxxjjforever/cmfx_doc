@@ -43,6 +43,7 @@
     * [sp\_get\_cmf\_settings\(\)](functions/sp_get_cmf_settings.md)
     * [sp\_get\_comments\(\)](functions/sp_get_comments.md)
     * [sp\_get\_current\_admin\_id\(\)](functions/sp_get_current_admin_id.md)
+    * [sp\_get\_current\_theme\(\)](spgetcurrenttheme.md)
     * [sp\_get\_current\_user\(\)](functions/sp_get_current_user.md)
     * [sp\_get\_current\_userid\(\)](functions/sp_get_current_userid.md)
     * [sp\_get\_favorite\_key\(\)](functions/sp_get_favorite_key.md)

@@ -157,4 +157,4 @@ class UserModel extends Model {
 1. http://www.kancloud.cn/manual/thinkphp/1728
 2. http://www.thinkcmf.com/topic/topic/index/id/432.html
 
-文档问题联系['iwzh'](http://github.com/iwzh)
+文档问题联系[iwzh](http://github.com/iwzh)

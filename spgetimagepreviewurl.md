@@ -17,35 +17,5 @@ sp_get_image_preview_url($file,$style='watermark')
 
 ###### 使用：
 ```php
-$suffix = sp_get_image_preview_url('portal/23232.png');
+$url = sp_get_image_preview_url('portal/23232.png');
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

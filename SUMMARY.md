@@ -52,6 +52,7 @@
     * [sp\_get\_file\_extension\(\)](spgetfileextension.md)
     * [sp\_get\_host\(\)](functions/sp_get_host.md)
     * [sp\_get\_image\_preview\_url\(\)](spgetimagepreviewurl.md)
+    * [sp\_get\_image\_url\(\)](spgetimageurl.md)
     * [sp\_get\_menu\(\)](functions/sp_get_menu.md)
     * [sp\_get\_plugin\_class\(\)](functions/sp_get_plugin_class.md)
     * [sp\_get\_plugin\_config\(\)](functions/sp_get_plugin_config.md)

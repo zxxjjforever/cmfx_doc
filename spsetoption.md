@@ -24,7 +24,7 @@ sp_set_option($key,$data)
 
 ```php
 
-$result = sp_set_option('portal_custom_settings',array('test'=>1))
+$result = sp_set_option('portal_custom_settings',array('test'=>1));
 
 ```
 

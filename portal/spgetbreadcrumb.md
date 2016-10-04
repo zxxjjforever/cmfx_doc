@@ -19,9 +19,3 @@ sp_get_breadcrumb($term_id)
 ```php
 $breadcrumb = sp_get_breadcrumb(3);
 ```
-
-
-
-
-
-

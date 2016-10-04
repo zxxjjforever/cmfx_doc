@@ -19,6 +19,5 @@ sp_check_lang()
 
 ```php
 $lang=sp_check_lang();
-
 ```
 

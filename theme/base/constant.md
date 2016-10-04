@@ -11,5 +11,5 @@
 如:前台 simplebootx 模板根目录是/themes/simplebootx/  
 后台 simplebootx模板根目录是/admin/themes/simplebootx/
 
-\_\_PUBLIC\_\_:  
+`__PUBLIC__`:  
 public目录,不带/;

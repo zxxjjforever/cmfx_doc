@@ -16,7 +16,6 @@ sp_check_lang()
 类型string 包名,如:zh-cn
 
 使用：
-
 ```php
 $lang=sp_check_lang();
 ```

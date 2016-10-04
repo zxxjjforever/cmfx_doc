@@ -17,11 +17,8 @@ sp_is_weixin()
 
 
 ###### 使用：
-
 ```php
-
-$url = sp_get_user_avatar_url('avatart/2231rweqrqwer.png')
-
+$is_weixin = sp_is_weixin();
 ```
 
 

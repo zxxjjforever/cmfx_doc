@@ -2,44 +2,47 @@
 
 ThinkCMF是一款基于ThinkPHP+MySQL开发的中文内容管理框架。ThinkCMF提出灵活的应用机制，框架自身提供基础的管理功能，而开发者可以根据自身的需求以应用的形式进行扩展。每个应用都能独立的完成自己的任务，也可通过系统调用其他应用进行协同工作。在这种运行机制下，开发商场应用的用户无需关心开发SNS应用时如何工作的，但他们之间又可通过系统本身进行协调，大大的降低了开发成本和沟通成本。
 
+## MVC分层模式
 
-##MVC分层模式
 使用MVC应用程序被分成三个核心部件：模型（M）、视图（V）、控制器（C），他不是一个新的概念，只是ThinkCMF将其发挥到了极致。
 
-##用户管理
+## 用户管理
+
 ThinkCMF内置了灵活的用户管理方式，并可直接与第三方站点进行互联互通，如果你愿意甚至可以对单个用户或群体用户的行为进行记录及分享，为您的运营决策提供有效参考数据。
 
-##云端部署
+## 云端部署
+
 通过驱动的方式可以轻松支持云平台的部署，让你的网站无缝迁移，内置已经支持SAE、BAE，正式版将对云端部署进行进一步优化。
 
-##安全策略
+## 安全策略
+
 提供的稳健的安全策略，包括备份恢复，容错，防治恶意攻击登陆，网页防篡改等多项安全管理功能，保证系统安全，可靠，稳定的运行。
 
-##应用模块化
+## 应用模块化
+
 提出全新的应用模式进行扩展，不管是你开发一个小功能还是一个全新的站点，在ThinkCMF中你只是增加了一个APP，每个独立运行互不影响，便于灵活扩展和二次开发。
 
-##免费开源
+## 免费开源
+
 代码遵循Apache2开源协议，免费使用，对商业用户也无任何限制
 
 ## README
 
 ThinkCMF是一款基于PHP+MYSQL开发的中文内容管理框架。ThinkCMF提出灵活的应用机制，框架自身提供基础的管理功能，而开发者可以根据自身的需求以应用的形式进行扩展。每个应用都能独立的完成自己的任务，也可通过系统调用其他应用进行协同工作。在这种运行机制下，开发商场应用的用户无需关心开发SNS应用时如何工作的，但他们之间又可通过系统本身进行协调，大大的降低了开发成本和沟通成本。
 
-官网:http://www.thinkcmf.com
+官网:[http:\/\/www.thinkcmf.com](http://www.thinkcmf.com)
 
-文档:http://www.thinkcmf.com/document
+文档:[http:\/\/www.thinkcmf.com\/document](http://www.thinkcmf.com/document)
 
+## 更新日志
 
+### X2.2.0
 
-## UPDATE
-
-### X2.2.0 Beta2
-
-[Core]
+\[Core\]
 
 * 增加wind.js可以自定义重写js，css的版本
 
-* 增加$_GET统一urldecode
+* 增加$\_GET统一urldecode
 
 * 增加cdn支持
 
@@ -70,8 +73,7 @@ ThinkCMF是一款基于PHP+MYSQL开发的中文内容管理框架。ThinkCMF提�
 * 默认取消后台多语言功能
 
 
-
-[Admin]
+\[Admin\]
 
 * 增加后台管理员搜索功能
 
@@ -94,8 +96,7 @@ ThinkCMF是一款基于PHP+MYSQL开发的中文内容管理框架。ThinkCMF提�
 * 修复后台留言列表留言时间错误
 
 
-
-[Asset]
+\[Asset\]
 
 * 增加七牛cdn整体解决方案
 
@@ -116,16 +117,14 @@ ThinkCMF是一款基于PHP+MYSQL开发的中文内容管理框架。ThinkCMF提�
 * 修复七牛华北分区不能上传
 
 
-
-[User]
+\[User\]
 
 * 增加后台用户搜索功能
 
 * 增加前台未登录redirect
 
 
-
-[Portal]
+\[Portal\]
 
 * 增加后台文章批量复制功能
 
@@ -135,24 +134,18 @@ ThinkCMF是一款基于PHP+MYSQL开发的中文内容管理框架。ThinkCMF提�
 
 * 更改后台文章列表，以posts表为主表显示
 
-* 更改article控制器参数(cid,id),id是posts表的主键id,cid是分类id
+* 更改article控制器参数\(cid,id\),id是posts表的主键id,cid是分类id
 
 * 修复文章编辑界面没有取消审核功能
 
 * 修复禁用的文章，在上一篇下一篇里还是会出现
 
 
-
-[Install]
+\[Install\]
 
 * 增加安装程序优化验证必须模块
 
-* 安装程序优化，再次安装时清除data/conf/config.php文件
-
-
-
-
-
+* 安装程序优化，再次安装时清除data\/conf\/config.php文件
 
 
 ### X2.1.0
@@ -186,10 +179,7 @@ ThinkCMF是一款基于PHP+MYSQL开发的中文内容管理框架。ThinkCMF提�
 * 修复导航添加时导航分类选择问题
 
 
-
 祝新年愉快，合家欢乐！
-
-
 
 ### X2.0.0
 
@@ -197,7 +187,7 @@ ThinkCMF是一款基于PHP+MYSQL开发的中文内容管理框架。ThinkCMF提�
 
 * 移动Common里的Portal model到Portal下；
 
-* 规范前后台模板目录，themes ,admin/themes；
+* 规范前后台模板目录，themes ,admin\/themes；
 
 * **注意以上升级，有助于您升级到最新版本**
 
@@ -234,7 +224,6 @@ ThinkCMF是一款基于PHP+MYSQL开发的中文内容管理框架。ThinkCMF提�
 * 去除文章访问次数统计的ip限制；
 
 
-
 ### X1.6.1
 
 * 修复登录时仍然可以打开登录和注册界面
@@ -247,20 +236,19 @@ ThinkCMF是一款基于PHP+MYSQL开发的中文内容管理框架。ThinkCMF提�
 
 * 增加对php格式模板文件的支持
 
-* 优化sp_get_menu方法,id为空时，默认为主菜单
+* 优化sp\_get\_menu方法,id为空时，默认为主菜单
 
-* 修复后台模板缺失</head>问题
+* 修复后台模板缺失&lt;\/head&gt;问题
 
 * 修复Portal应用下文章，页面，和分类不存在时，无404状态码
 
-* 增加对模板继承标签tc_extend的支持
+* 增加对模板继承标签tc\_extend的支持
 
 * 优化会员的拉黑起用功能，改为实时验证
 
 * 增加url模式更改后出现不能访问问题的提示和解决方法
 
 * 修复文章，幻灯片添加重复提交问题
-
 
 
 ### X1.6.0
@@ -287,13 +275,13 @@ ThinkCMF是一款基于PHP+MYSQL开发的中文内容管理框架。ThinkCMF提�
 
 * 修复邮件配置更新时，不会立刻更新问题
 
-* 修复后台手动新加的菜单时没有同步到auth_rule表
+* 修复后台手动新加的菜单时没有同步到auth\_rule表
 
 * 修复角色禁止后登陆报错
 
 * 修复角色无法删除问题
 
-* 修复后台视频上传出错！请注意上传大小限制,php.ini post_max_size,upload_max_filesize
+* 修复后台视频上传出错！请注意上传大小限制,php.ini post\_max\_size,upload\_max\_filesize
 
 * 修复后台菜单过多不显示
 
@@ -304,14 +292,13 @@ ThinkCMF是一款基于PHP+MYSQL开发的中文内容管理框架。ThinkCMF提�
 * 修复启用后被删除的插件执行报错
 
 
-
 ### X1.5.0
 
 * 增加插件机制
 
 * 增加编辑器附件上传功能
 
-* 核心升级至thinkphp 3.2.3，必须开启php_pdo_mysql扩展
+* 核心升级至thinkphp 3.2.3，必须开启php\_pdo\_mysql扩展
 
 * 优化系统权限管理，增加auth+rbac混合认证模式
 
@@ -347,7 +334,7 @@ ThinkCMF是一款基于PHP+MYSQL开发的中文内容管理框架。ThinkCMF提�
 
 * 修复后台邮件发件人无法设置
 
-* 修复入口文件SITE_PATH常量部分服务器异常
+* 修复入口文件SITE\_PATH常量部分服务器异常
 
 * 修复sae头像裁剪
 
@@ -355,27 +342,22 @@ ThinkCMF是一款基于PHP+MYSQL开发的中文内容管理框架。ThinkCMF提�
 
 * 修复备份还原数据为空
 
-* 统一所有模块模板路径分割符为/
+* 统一所有模块模板路径分割符为\/
 
 * 删除thinkphp Vendor目录第三方类库
 
 * 移除SendMail方法
 
-* 替换scandir方法为sp_scan_dir
+* 替换scandir方法为sp\_scan\_dir
 
 * 统一SAE判断方法
 
-* 统一ajaxReturn为thinkphp 3.2.*以后用法，如果一直用thinkphp 3.0以前的用法，扩展时注意用sp_ajax_return()做一下升级
+* 统一ajaxReturn为thinkphp 3.2.\*以后用法，如果一直用thinkphp 3.0以前的用法，扩展时注意用sp\_ajax\_return\(\)做一下升级
 
 
-
-注：后台模板分割符已经统一为/，原来的类似Admin/Main.index.html文件已经改为Admin/Main/index.html请后台开发时注意
+注：后台模板分割符已经统一为\/，原来的类似Admin\/Main.index.html文件已经改为Admin\/Main\/index.html请后台开发时注意
 
 ThinkCMF全体贡献者祝大家2015年大吉大利，开心幸福！《给你一个吻》
-
-
-
-
 
 ### X1.3.0
 
@@ -385,13 +367,13 @@ ThinkCMF全体贡献者祝大家2015年大吉大利，开心幸福！《给你�
 
 * 增加前台编辑器
 
-* 增加模板常量__STATICS__
+* 增加模板常量**STATICS**
 
 * 增加最后评论时间写入
 
 * 修复leuu bug
 
-* CommonModel _before_write 数据过滤bug
+* CommonModel \_before\_write 数据过滤bug
 
 * 后台评论管理,默认所有评论
 
@@ -403,18 +385,17 @@ ThinkCMF全体贡献者祝大家2015年大吉大利，开心幸福！《给你�
 
 * 后台文章编辑所有文章链接错误
 
-* 修复bug#4验证码不显示
+* 修复bug\#4验证码不显示
 
-* 优化bug#3页面使用LEUU函数后每个页面都查询
+* 优化bug\#3页面使用LEUU函数后每个页面都查询
 
 * 优化公共模型的调用方法，以兼容php5.3.0-5.3.2
 
-* 修复sp_sql_posts_bycatid和sp_sql_posts_paged_bycatid两个方法where语句问题
+* 修复sp\_sql\_posts\_bycatid和sp\_sql\_posts\_paged\_bycatid两个方法where语句问题
 
 * 修复bluesky主题分页样式问题
 
 * 修复文章推荐，置顶bug
-
 
 
 ### X1.2.0
@@ -434,14 +415,9 @@ ThinkCMF全体贡献者祝大家2015年大吉大利，开心幸福！《给你�
 * 评论计数
 
 
-
 ### X1.1.0
 
-
-
 全新的ThinkPHP 3.2.2架构，使用php命名空间，让开发快起来吧！
-
-
 
 * 统一Member应用为User,合并前台会员和后台管理员
 
@@ -465,19 +441,14 @@ ThinkCMF全体贡献者祝大家2015年大吉大利，开心幸福！《给你�
 
 * 优化数据库中一些不规范字段
 
-* 增加前台标签库TagLibHome，统一include标签为tc_include
-
+* 增加前台标签库TagLibHome，统一include标签为tc\_include
 
 
 ### X1.0.0
 
-
-
 全新的ThinkPHP 3.2.2架构，使用php命名空间，让开发快起来吧！
 
-
-
-* 统一前后台UI框架为simpleboot(bootstrap 2.3.2 ThinkCMF优化版)
+* 统一前后台UI框架为simpleboot\(bootstrap 2.3.2 ThinkCMF优化版\)
 
 * 集成Ucenter
 
@@ -502,13 +473,10 @@ ThinkCMF全体贡献者祝大家2015年大吉大利，开心幸福！《给你�
 * 修复ueditor chrome模板功能bug
 
 * 修复文件上传bug
-
 
 
 ### X1.0.0 alpha2
 
-
-
 * 修复SAE，linux下类库加载失败
 
 * 修复ueditor chrome模板功能bug
@@ -516,12 +484,7 @@ ThinkCMF全体贡献者祝大家2015年大吉大利，开心幸福！《给你�
 * 修复文件上传bug
 
 
-
-
-
 ### X1.0.0 alpha
-
-
 
 全新的ThinkPHP 3.2.2架构，使用php命名空间，让开发快起来吧！
 
@@ -544,48 +507,25 @@ ThinkCMF全体贡献者祝大家2015年大吉大利，开心幸福！《给你�
 * 修复后台密码会偶然不对的错误
 
 
-
-
-
 ## INSTALL
 
-安装请执行http://yourdomain/install/index.php
-
-
-
-安装完成后请删除或改名install/index.php
-
-
+安装请执行[http:\/\/yourdomain\/](http://yourdomain/)
 
 ## ThinkCMF 免责声明
 
- 1、利用 ThinkCMF 构建的网站的任何信息内容以及导致的任何版权纠纷和法律争议及后果，ThinkCMF 官方不承担任何责任。
+1、利用 ThinkCMF 构建的网站的任何信息内容以及导致的任何版权纠纷和法律争议及后果，ThinkCMF 官方不承担任何责任。
 
-
-
- 2、您一旦安装使用ThinkCMF，即被视为完全理解并接受本协议的各项条款，在享有上述条款授予的权力的同时，受到相关的约束和限制。
-
-
+2、您一旦安装使用ThinkCMF，即被视为完全理解并接受本协议的各项条款，在享有上述条款授予的权力的同时，受到相关的约束和限制。
 
 ## ThinkCMF 使用建议
 
-
-
-请在您的网站首页加上ThinkCMF相关链接，O(∩_∩)O~ ！
-
-
+请在您的网站首页加上ThinkCMF相关链接，O\(∩\_∩\)O~ ！
 
 ## 捐赠ThinkCMF
 
-http://www.thinkcmf.com/donate/index.html
-
-
+[http:\/\/www.thinkcmf.com\/donate\/index.html](http://www.thinkcmf.com/donate/index.html)
 
 您的每一份帮助都将支持ThinkCMF做的更好，走的更远！
-
-
-
-
 
 ThinkCMF 正在为你开放更多....
 

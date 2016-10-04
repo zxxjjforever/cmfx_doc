@@ -33,12 +33,11 @@
     * [sp\_auth\_check\(\)](functions/sp_auth_check.md)
     * [sp\_authcode\(\)](functions/sp_auth_code.md)
     * [sp\_authencode\(\)](functions/sp_auth_encode.md)
+    * [sp\_check\_lang\(\)](sp_check_lang.md)
     * [sp\_check\_user\_action\(\)](functions/sp_check_user_action.md)
     * [sp\_check\_verify\_code\(\)](functions/sp_check_verify_code.md)
     * [sp\_clear\_cache\(\)](functions/sp_clear_cache.md)
     * [sp\_content\_page\(\)](functions/sp_content_page.md)
-    * [sp\_file\_write\(\)](functions/sp_file_write.md)
-    * [sp\_get\_asset\_upload\_path\(\)](functions/sp_get_asset_upload_path.md)
     * [sp\_get\_cmf\_settings\(\)](functions/sp_get_cmf_settings.md)
     * [sp\_get\_comments\(\)](functions/sp_get_comments.md)
     * [sp\_get\_current\_admin\_id\(\)](functions/sp_get_current_admin_id.md)
@@ -138,7 +137,6 @@
         * [热门文章组件制作](portal/template/hot_articles.md)
         * [seo优化](portal/template/seo.md)
         * [文章相册制作](portal/wenzhang_xiang_ce_zhi_zuo_md.md)
-            * 
         * [文章列表推荐功能制作](portal/template/wen_zhang_lie_biao_tui_jian_gong_neng_zhi_zuo.md)
         * [文章列表置顶功能制作](portal/template/wen_zhang_lie_biao_zhi_ding_gong_neng_zhi_zuo.md)
         * 文章列表相册功能制作

@@ -12,20 +12,12 @@ sp_get_breadcrumb($term_id)
 ###### 参数：
 `$term_id`: 当前文章所在分类id,或者当前分类的id
 
-
-
 ###### 返回：
-
-类型array,指定分类下的所有子分类
-
-
+类型array,面包屑数据
 
 ###### 使用：
-
 ```php
-
-$terms = sp_get_all_child_terms(1);
-
+$breadcrumb = sp_get_breadcrumb(3);
 ```
 
 

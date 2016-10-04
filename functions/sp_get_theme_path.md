@@ -1,22 +1,18 @@
-# sp_get_current_theme()
+# sp_get_theme_path()
 
-> X2.2.0新增
+> X1.1新增
 
 ```php
-sp_get_current_theme($default_theme='')
+sp_get_theme_path()
 ```
 
-###### 功能：
-获取当前主题名
+######功能：
+获取当前模板的地址
 
-###### 参数：
-`$default_theme`: 指定的默认主题
+######参数：
+无
 
-###### 返回：
-类型string,主题名
+######返回：
+类型string
 
-###### 使用：
-```php
-$theme = sp_get_current_theme();
-```
-
+当前模板的地址,如当前模板是`simplebootx`,则返回`/themes/simplebootx/`

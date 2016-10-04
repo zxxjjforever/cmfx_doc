@@ -15,7 +15,6 @@ sp_is_weixin()
 ###### 返回：
 类型boolean,true为微信访问
 
-
 ###### 使用：
 ```php
 $is_weixin = sp_is_weixin();

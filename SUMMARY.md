@@ -48,6 +48,7 @@
     * [sp\_get\_current\_user\(\)](functions/sp_get_current_user.md)
     * [sp\_get\_current\_userid\(\)](functions/sp_get_current_userid.md)
     * [sp\_get\_favorite\_key\(\)](functions/sp_get_favorite_key.md)
+    * [sp\_get\_file\_download\_url\(\)](spgetfiledownloadurl.md)
     * [sp\_get\_host\(\)](functions/sp_get_host.md)
     * [sp\_get\_menu\(\)](functions/sp_get_menu.md)
     * [sp\_get\_plugin\_class\(\)](functions/sp_get_plugin_class.md)

@@ -1,4 +1,4 @@
-# sp\_compare\_password\(\)
+# sp_get_current_theme()
 
 > X2.1.0新增
 
@@ -15,12 +15,10 @@ sp_get_current_theme($default_theme='')
 
 ###### 返回：
 
-类型boolean,密码相同，返回true
+类型string,主题名
 
 ###### 使用：
-
 ```php
-$is_right = sp_compare_password('123456','###adfasfasdkfjaslkdjflksajerwqe');
-
+$theme = sp_get_current_theme();
 ```
 

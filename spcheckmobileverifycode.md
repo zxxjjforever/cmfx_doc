@@ -1,6 +1,6 @@
 # sp\_check\_mobile\_verify\_code\(\)
 
-> X2.2.0新增
+> X2.3.0新增
 
 ```php
  sp_check_mobile_verify_code($mobile='',$verifycode='') 

@@ -27,8 +27,10 @@
 <script type="text/javascript">
 //全局变量,必须加入
 var GV = {
-    DIMAUB: "__ROOT__/",
+    ROOT: "__ROOT__/", 
+    WEB_ROOT: "__WEB_ROOT__/",
     JS_ROOT: "public/js/"
+
 };
 </script>
 <!-- 引入jquery-->

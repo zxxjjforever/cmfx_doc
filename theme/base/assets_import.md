@@ -30,7 +30,6 @@ var GV = {
     ROOT: "__ROOT__/", 
     WEB_ROOT: "__WEB_ROOT__/",
     JS_ROOT: "public/js/"
-
 };
 </script>
 <!-- 引入jquery-->

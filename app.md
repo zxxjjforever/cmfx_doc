@@ -26,7 +26,6 @@ Blog
 * 创建一个控制器,在模块Controller目录下创建一个IndexController.class.php文件
 
 ```php
-
 <?php
   namespace Blog\Controller;
 
@@ -34,15 +33,12 @@ use Common\Controller\HomebaseController;
 
 class IndexController extends HomebaseController{
 
-
-// 首页
-public function index(){
-  echo "this is blog index !";
-}
-
+    // 首页
+    public function index(){
+      echo "this is blog index !";
+    }
 
 }
-
 ```
 
 * 访问 [http:\/\/你的域名\/index.php?g=blog&m=index&a=index;]()

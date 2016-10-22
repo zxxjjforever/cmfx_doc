@@ -25,6 +25,7 @@ Blog
 * 在application下创建上面讲到的blog目录结构；
 * 创建一个控制器,在模块Controller目录下创建一个IndexController.class.php文件
 ```php
+
 <?php
   namespace Blog\Controller;
 
@@ -40,6 +41,7 @@ public function index(){
 
 
 }
+
 ```
 
 * 访问 [http:\/\/你的域名\/index.php?g=blog&m=index&a=index;]()

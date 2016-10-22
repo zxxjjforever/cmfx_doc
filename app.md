@@ -24,9 +24,8 @@ Blog
 
 * 在application下创建上面讲到的blog目录结构；
 * 创建一个控制器,在模块Controller目录下创建一个IndexController.class.php文件
-
- ```php
-  &lt;?php
+```php
+<?php
   namespace Blog\Controller;
 
 use Common\Controller\HomebaseController;

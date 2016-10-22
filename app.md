@@ -5,6 +5,7 @@
 应用采用mvc的结构:
 
 拿Blog应用举例:
+
 ```
 Blog
   Controller 控制器目录（必备）
@@ -16,29 +17,37 @@ Blog
   nav.php 前台导航文件（可选）
 ```
 
-而在 CMF 中应用的 View 是独立于应用之外的，它分为前台view 和后台view,  分别存放在 themes/前台主题/应用名，和 admin/themes/前台主题/应用名下；
+而在 CMF 中应用的 View 是独立于应用之外的，它分为前台view 和后台view,  分别存放在 themes\/前台主题\/应用名，和 admin\/themes\/前台主题\/应用名下；
 
 创建一个Blog应用
-1. 在application/Common/Conf/config.php文件MODULE_ALLOW_LIST数组里加上应用名Blog  
+1. 在application\/Common\/Conf\/config.php文件MODULE\_ALLOW\_LIST数组里加上应用名Blog
+
 * 在application下创建上面讲到的blog目录结构；
 * 创建一个控制器,在模块Controller目录下创建一个IndexController.class.php文件
-```php
-<?php
-namespace Blog\Controller;
+
+ ```php
+  &lt;?php
+  namespace Blog\Controller;
 
 use Common\Controller\HomebaseController;
 
 class IndexController extends HomebaseController{
-    
-    // 首页
-    public function index(){
-      echo "this is blog index !";
-    }
+
+
+// 首页
+public function index(){
+  echo "this is blog index !";
 }
 ```
-* 访问 [http://你的域名/index.php?g=blog&m=index&a=index;]()
 
-> 注意控制器的命名规范：  
-> 控制器类的命名方式是：控制器名（驼峰法，首字母大写）+Controller （如 IndexController）;  
-> 控制器文件的命名方式是：类名+class.php（类文件后缀）（如 IndexController.class.php);
+}
+\`\`\`
+
+* 访问 [http:\/\/你的域名\/index.php?g=blog&m=index&a=index;]()
+
+> 注意控制器的命名规范：
+> 
+> 控制器类的命名方式是：控制器名（驼峰法，首字母大写）+Controller （如 IndexController）;
+> 
+> 控制器文件的命名方式是：类名+class.php（类文件后缀）（如 IndexController.class.php\);
 

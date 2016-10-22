@@ -37,10 +37,10 @@ class IndexController extends HomebaseController{
 public function index(){
   echo "this is blog index !";
 }
-```
+
 
 }
-\`\`\`
+```
 
 * 访问 [http:\/\/你的域名\/index.php?g=blog&m=index&a=index;]()
 

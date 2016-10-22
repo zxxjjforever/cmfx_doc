@@ -19,6 +19,8 @@
     * [跳转和重定向](controller/redirect.md)
     * [输入变量](controller/input.md)
     * [请求类型](controller/request_type.md)
+    * [空操作](controller/empty_action.md)
+    * [空控制器](controller/empty_controller.md)
 * [视图](view.md)
     * [模板定义](view/theme.md)
     * [模板主题](view/theme_detail.md)

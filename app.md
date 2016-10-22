@@ -25,9 +25,13 @@ Blog
 ```php
 <?php
 namespace Blog\Controller;
+
 use Common\Controller\HomebaseController;
+
 class IndexController extends HomebaseController{
-    function index(){
+    
+    // 首页
+    public function index(){
       echo "this is blog index !";
     }
 }

@@ -16,6 +16,7 @@
 * [控制器](controller.md)
     * [URL生成](url.md)
     * [AJAX返回](controller/ajax_return.md)
+    * [跳转和重定向](controller/redirect.md)
 * [视图](view.md)
     * [模板定义](view/theme.md)
     * [模板主题](view/theme_detail.md)

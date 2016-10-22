@@ -23,11 +23,12 @@ Blog
 1. 在application\/Common\/Conf\/config.php文件MODULE\_ALLOW\_LIST数组里加上应用名Blog
 
 * 在application下创建上面讲到的blog目录结构；
-* 创建一个控制器,在模块Controller目录下创建一个IndexController.class.php文件
+* 创建一个控制器,在模块Controller目录下
+* 创建一个IndexController.class.php文件
 
 ```php
 <?php
-  namespace Blog\Controller;
+namespace Blog\Controller;
 
 use Common\Controller\HomebaseController;
 

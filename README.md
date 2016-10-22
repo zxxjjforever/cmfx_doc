@@ -4,7 +4,7 @@ ThinkCMF是一款基于ThinkPHP+MySQL开发的中文内容管理框架。ThinkCM
 
 此项目用于编写ThinkCMF完全开发手册，我们希望通过git,让更多对CMF感兴趣的朋友参与开发文档的完善。本文档使用MD格式文档编写，方便生成pdf,epub,mobi及html的发行版。我们会定期生成相应的格式。
 
-关于在阅读本手册前请先仔细阅读ThinkPHP手册http://www.kancloud.cn/manual/thinkphp/1678
+关于在阅读本手册前请先仔细阅读ThinkPHP3.2.3完全开发手册http://www.kancloud.cn/manual/thinkphp/1678
 
 在线阅读：[ThinkCMF文档](http://www.thinkcmf.com/docs/cmfx)
 

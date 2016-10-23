@@ -10,9 +10,38 @@ ThinkCMF内部保存的文件路径是相对路径,假如你在七牛空间有�
 ```
 ![](http://78re52.com1.z0.glb.clouddn.com/resource/gogopher.jpg)
 
-> 使用七牛的api获取图片300x300的缩略图
+> 使用七牛的api生成图片300x300的缩略图
 
 ```html
 <img src="http://78re52.com1.z0.glb.clouddn.com/resource/gogopher.jpg?imageView2/1/w/300/h/300"
-
 ```
+
+![](http://78re52.com1.z0.glb.clouddn.com/resource/gogopher.jpg?imageView2/1/w/300/h/300)
+
+> 使用CMF标签生成七牛图片300x300的缩略图
+
+```html
+<img src="{:sp_get_image_url('resource/gogopher.jpg','?imageView2/1/w/300/h/300')}"
+```
+
+![](http://78re52.com1.z0.glb.clouddn.com/resource/gogopher.jpg?imageView2/1/w/300/h/300)
+
+所以图片处理的关键还是七牛的 api,ThinkCMF只是集成了七牛的用法,sp_get_image_url这个方法就是把数据库里存的相对图片路径转化为可以访问的路径;
+
+```php
+sp_get_image_url($file,$style)
+```
+
+##### 参数:
+
+`$file`:数据库中保存的图片路径,是相对路径;
+
+`$style`:图片显示样式,这个参数只在文件存储类型是七牛时才有用
+
+在模板里显示
+```html
+<img src="{:sp_get_image_url('resource/gogopher.jpg','?imageView2/1/w/400/h/300')}"
+```
+
+
+

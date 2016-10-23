@@ -13,7 +13,7 @@
     * [环境要求](base/environmental_requirement.md)
     * [安装使用](base/install.md)
     * [备份与恢复](base/backup_restore.md)
-* [配置](config.md)
+    * [配置](config.md)
 * [控制器](controller.md)
     * [URL生成](url.md)
     * [AJAX返回](controller/ajax_return.md)

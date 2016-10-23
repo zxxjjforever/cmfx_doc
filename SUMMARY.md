@@ -110,8 +110,8 @@
         * [volist](theme/tags/volist.md)
         * [php](theme/tags/php.md)
         * [if else](theme/tags/if_else.md)
-        * for
-        * switch
+        * [for](theme/tags/for.md)
+        * [switch](theme/tags/switch.md)
         * 比较标签
         * 范围判断标签
         * Present标签

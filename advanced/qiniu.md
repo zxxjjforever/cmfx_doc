@@ -13,7 +13,7 @@ ThinkCMF内部保存的文件路径是相对路径,假如你在七牛空间有�
 > 使用七牛的api生成图片300x300的缩略图
 
 ```html
-<img src="http://78re52.com1.z0.glb.clouddn.com/resource/gogopher.jpg?imageView2/1/w/300/h/300"
+<img src="http://78re52.com1.z0.glb.clouddn.com/resource/gogopher.jpg?imageView2/1/w/300/h/300" />
 ```
 
 ![](http://78re52.com1.z0.glb.clouddn.com/resource/gogopher.jpg?imageView2/1/w/300/h/300)
@@ -21,7 +21,7 @@ ThinkCMF内部保存的文件路径是相对路径,假如你在七牛空间有�
 > 使用CMF标签生成七牛图片300x300的缩略图
 
 ```html
-<img src="{:sp_get_image_url('resource/gogopher.jpg','?imageView2/1/w/300/h/300')}"
+<img src="{:sp_get_image_url('resource/gogopher.jpg','?imageView2/1/w/300/h/300')}" />
 ```
 
 ![](http://78re52.com1.z0.glb.clouddn.com/resource/gogopher.jpg?imageView2/1/w/300/h/300)
@@ -40,7 +40,7 @@ sp_get_image_url($file,$style)
 
 在模板里显示一个400x300的图片缩略图
 ```html
-<img src="{:sp_get_image_url('resource/gogopher.jpg','?imageView2/1/w/400/h/300')}"
+<img src="{:sp_get_image_url('resource/gogopher.jpg','?imageView2/1/w/400/h/300')}" />
 ```
 
 如果你想生成其它尺寸的图片,只要改变七牛 api 里的 `w`和`h`的大小就可以了!

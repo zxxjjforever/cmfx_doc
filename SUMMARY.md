@@ -102,7 +102,7 @@
         * [默认值输出](theme/base/default_value_echo.md)
         * [使用运算符](theme/base/operator.md)
         * [三元运算](theme/base/ternary_operator.md)
-        * 包含文件
+        * [包含文件](theme/base/include.md)
         * 原样输出
     * [模板标签](theme/tag.md)
         * [tc\_include](theme/tags/tc_include.md)

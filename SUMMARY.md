@@ -103,7 +103,7 @@
         * [使用运算符](theme/base/operator.md)
         * [三元运算](theme/base/ternary_operator.md)
         * [包含文件](theme/base/include.md)
-        * [原样输出](theme/原样输出.md)
+        * [原样输出](theme/base/literal.md)
     * [模板标签](theme/tag.md)
         * [tc\_include](theme/tags/tc_include.md)
         * [foreach](theme/tags/foreach.md)

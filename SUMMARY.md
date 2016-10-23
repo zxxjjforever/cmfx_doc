@@ -196,6 +196,7 @@
     * [数据分页](special/pagination.md)
     * [缓存](special/cache.md)
     * [安全](special/safe.md)
+    * [SESSION支持](special/session.md)
 * [部署](deploy.md)
     * [迁移到正式环境](deploy/production.md)
 

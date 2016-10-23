@@ -112,7 +112,7 @@
         * [if else](theme/tags/if_else.md)
         * [for](theme/tags/for.md)
         * [switch](theme/tags/switch.md)
-        * 比较标签
+        * [比较标签](theme/tags/compare.md)
         * 范围判断标签
         * Present标签
         * Empty标签

@@ -117,7 +117,7 @@
         * [Present标签](theme/tags/present.md)
         * [Empty标签](theme/tags/empty.md)
         * [Defined标签](theme/tags/defined.md)
-        * Assign标签
+        * [Assign标签](theme/tags/assign.md)
         * Define标签
     * [前端组件](theme/js_components.md)
         * [js-count-btn](theme/js/js-count-btn.md)

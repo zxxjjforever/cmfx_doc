@@ -38,7 +38,7 @@ sp_get_image_url($file,$style)
 
 `$style`:图片显示样式,这个参数只在文件存储类型是七牛时才有用
 
-在模板里显示
+在模板里显示一个400x300的图片缩略图
 ```html
 <img src="{:sp_get_image_url('resource/gogopher.jpg','?imageView2/1/w/400/h/300')}"
 ```

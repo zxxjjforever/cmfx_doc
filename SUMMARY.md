@@ -95,7 +95,7 @@
         * [全局变量](theme/base/global_var.md)
         * [模板注释](theme/base/comments.md)
         * [模板常量](theme/base/constant.md)
-        * [前台模板多语言](theme/前台模板多语言.md)
+        * [前台模板多语言]()
         * [变量输出](theme/base/var_echo.md)
         * [使用函数](theme/base/use_functions.md)
         * [模板结构](theme/base/structure.md)

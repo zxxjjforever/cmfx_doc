@@ -93,14 +93,17 @@
 * [模板](theme.md)
     * [基础](theme/base.md)
         * [全局变量](theme/base/global_var.md)
+        * [模板结构](theme/base/structure.md)
         * [模板注释](theme/base/comments.md)
         * [模板常量](theme/base/constant.md)
-        * [前台模板多语言]()
+        * 前台模板多语言
         * [变量输出](theme/base/var_echo.md)
         * [使用函数](theme/base/use_functions.md)
-        * [模板结构](theme/base/structure.md)
-        * 模板自定义函数库
-        * [模板资源文件引入](theme/base/assets_import.md)
+        * 默认值输出
+        * 使用运算符
+        * 三元运算
+        * 包含文件
+        * 原样输出
     * [模板标签](theme/tag.md)
         * [tc\_include](theme/tags/tc_include.md)
         * [foreach](theme/tags/foreach.md)

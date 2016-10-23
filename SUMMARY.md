@@ -193,7 +193,7 @@
     * [多语言开发](special/multi_lang.md)
     * Restful Api
     * [数据分页](special/pagination.md)
-    * [缓存]()
+    * [缓存](缓存.md)
 * [部署](deploy.md)
     * [迁移到正式环境](deploy/production.md)
 

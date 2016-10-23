@@ -119,6 +119,7 @@
         * [Defined标签](theme/tags/defined.md)
         * [Assign标签](theme/tags/assign.md)
         * [Define标签](theme/tags/define.md)
+        * [标签嵌套](theme/tags/nest.md)
     * [前端组件](theme/js_components.md)
         * [js-count-btn](theme/js/js-count-btn.md)
         * [js-favorite-btn](theme/js/js-favorite-btn.md)

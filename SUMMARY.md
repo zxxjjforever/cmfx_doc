@@ -32,6 +32,7 @@
     * [模型定义](model/definition.md)
     * [模型实例化](model/instancing.md)
     * [连接数据库](lian_jie_shu_ju_ku.md)
+    * [更多模型用法](model/more_help.md)
 * [系统函数](core_functions.md)
     * [Comments](functions/comments.md)
     * [hook\(\)](functions/hook.md)

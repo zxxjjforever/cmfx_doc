@@ -110,6 +110,15 @@
         * [volist](theme/tags/volist.md)
         * [php](theme/tags/php.md)
         * [if else](theme/tags/if_else.md)
+        * for
+        * switch
+        * 比较标签
+        * 范围判断标签
+        * Present标签
+        * Empty标签
+        * Defined标签
+        * Assign标签
+        * Define标签
     * [前端组件](theme/js_components.md)
         * [js-count-btn](theme/js/js-count-btn.md)
         * [js-favorite-btn](theme/js/js-favorite-btn.md)

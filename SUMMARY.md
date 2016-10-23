@@ -100,8 +100,8 @@
         * [变量输出](theme/base/var_echo.md)
         * [使用函数](theme/base/use_functions.md)
         * [默认值输出](theme/base/default_value_echo.md)
-        * 使用运算符
-        * 三元运算
+        * [使用运算符](theme/base/operator.md)
+        * [三元运算](theme/base/ternary_operator.md)
         * 包含文件
         * 原样输出
     * [模板标签](theme/tag.md)

@@ -202,4 +202,5 @@
     * [验证码](special/verifycode.md)
 * [部署](deploy.md)
     * [迁移到正式环境](deploy/production.md)
+    * [URL重写](deploy/url_rewrite.md)
 

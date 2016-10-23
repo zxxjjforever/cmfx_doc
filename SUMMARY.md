@@ -99,7 +99,7 @@
         * 前台模板多语言
         * [变量输出](theme/base/var_echo.md)
         * [使用函数](theme/base/use_functions.md)
-        * 默认值输出
+        * [默认值输出](theme/base/default_value_echo.md)
         * 使用运算符
         * 三元运算
         * 包含文件

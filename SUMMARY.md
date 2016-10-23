@@ -199,7 +199,7 @@
     * [SESSION支持](special/session.md)
     * [Cookie支持](special/cookie.md)
     * [文件上传](special/fileupload.md)
-    * 验证码
+    * [验证码](special/verifycode.md)
 * [部署](deploy.md)
     * [迁移到正式环境](deploy/production.md)
 

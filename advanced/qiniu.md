@@ -43,5 +43,7 @@ sp_get_image_url($file,$style)
 <img src="{:sp_get_image_url('resource/gogopher.jpg','?imageView2/1/w/400/h/300')}"
 ```
 
+如果你想生成其它尺寸的图片,只要改变七牛 api 里的 `w`和`h`的大小就可以了!
 
+这么牛的图片处理方式,只要把在cmf后台做一下设置就可以了,同时七牛也提供了免费的使用额度,对于流量小的企业站基本够用了,同时也保证了网站流畅性,ThinkCMF用户也可以享受ThinkCMF七牛专用优惠码,想再打个折就到[ThinkCMF官网首页](http://www.thinkcmf.com)找优惠码吧!
 

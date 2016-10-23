@@ -194,7 +194,7 @@
     * Restful Api
     * [数据分页](special/pagination.md)
     * [缓存](special/cache.md)
-    * 安全
+    * [安全](special/safe.md)
 * [部署](deploy.md)
     * [迁移到正式环境](deploy/production.md)
 

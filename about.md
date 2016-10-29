@@ -509,7 +509,7 @@ ThinkCMF全体贡献者祝大家2015年大吉大利，开心幸福！《给你�
 
 ## INSTALL
 
-安装请执行[http:\/\/yourdomain\/](http://yourdomain/)
+安装请执行http://yourdomain/
 
 ## ThinkCMF 免责声明
 
@@ -522,8 +522,7 @@ ThinkCMF全体贡献者祝大家2015年大吉大利，开心幸福！《给你�
 请在您的网站首页加上ThinkCMF相关链接，O\(∩\_∩\)O~ ！
 
 ## 捐赠ThinkCMF
-
-[http:\/\/www.thinkcmf.com\/donate\/index.html](http://www.thinkcmf.com/donate/index.html)
+http://www.thinkcmf.com/donate/index.html
 
 您的每一份帮助都将支持ThinkCMF做的更好，走的更远！
 

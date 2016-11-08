@@ -11,7 +11,6 @@ slide_url：幻灯片URL
 slide_des：幻灯片描述
 slide_content：幻灯片内容
 
-
 <php>
 $home_slides=sp_getslide("portal_index");
 </php>

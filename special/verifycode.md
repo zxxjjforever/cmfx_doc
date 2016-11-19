@@ -66,3 +66,40 @@ sp_verifycode_img($imgparam,$imgattrs);
 ```
 ####2.验证码验证
 
+######验证验证码的函数:
+```php
+sp_check_verify_code($verifycode='')
+```
+
+######参数
+`$verifycode`:要验证的验证码,默认空
+
+######在控制器里使用
+
+```php
+<?php
+namespace User\Controller;
+
+use Common\Controller\HomebaseController;
+
+class LoginController extends HomebaseController
+{
+    
+    // 前台用户登录
+    public function index()
+    {
+        //省略...
+    }
+    
+    // 登录验证提交
+    public function dologin()
+    {
+        if (! sp_check_verify_code()) {
+            
+            $this->error("验证码错误！");
+        }
+
+        //省略...
+    }
+}
+```

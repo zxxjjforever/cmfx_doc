@@ -12,13 +12,19 @@ sp_verifycode_img($imgparam,$imgattrs);
 
 `$imgattrs`:生成的验证码img标签的原生属性，除src,onclick之外都可以设置,(默认值:style="cursor: pointer;" title="点击获取")
 
-`$relation`:如果为 'or' 表示满足任一条规则即通过验证;如果为 'and'则表示需满足所有规则才能通过验证
-
-
 ######返回：
-类型boolean通过验证返回true;失败返回false 使用：
+包括验证码的html代码
+
+######模板里使用：
 
 ```php
-sp_auth_check(2);sp_auth_check(2,'admin/ad/index');sp_auth_check(2,array('admin/ad/index'));sp_auth_check(2,'admin/ad/index,admin/ad/add','and');
+<!--输出一个验证码-->
+{:sp_verifycode_img('length=4&font_size=14&width=100&height=34&charset=2345678&use_noise=1&use_curve=0')}
+<!--输出结果-->
+<img class="verify_img" src="/index.php?g=api&m=checkcode&a=index&length=4&font_size=14&width=100&height=34&charset=2345678&use_noise=1&use_curve=0" onclick="this.src='/index.php?g=api&m=checkcode&a=index&length=4&font_size=14&width=100&height=34&charset=2345678&use_noise=1&use_curve=0&time='+Math.random();" style="cursor: pointer;" title="点击获取"/>
 
+<!--把以上标签放在任何一个需要验证码的表单里,同时为它增加一个name为vefify 的 input-->
+<input type="text" id="input_verify" name="verify"  placeholder="验证码" class="form-control">
 ```
+
+######

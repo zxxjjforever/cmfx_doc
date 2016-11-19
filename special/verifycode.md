@@ -27,7 +27,7 @@ sp_verifycode_img($imgparam,$imgattrs);
 <input type="text" id="input_verify" name="verify"  placeholder="验证码" class="form-control">
 ```
 ######一个带验证码的表单
-```html
+```php
 <!--这是一个完整的ThinkCMF登录的表单-->
 <h2 class="text-center">用户登录</h2>
 <form class="form-horizontal js-ajax-forms" action="{:U('user/login/dologin')}" method="post">

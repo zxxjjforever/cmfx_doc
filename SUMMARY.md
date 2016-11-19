@@ -171,8 +171,8 @@
         * [文章相册制作](portal/wenzhang_xiang_ce_zhi_zuo_md.md)
         * [文章列表推荐功能制作](portal/template/wen_zhang_lie_biao_tui_jian_gong_neng_zhi_zuo.md)
         * [文章列表置顶功能制作](portal/template/wen_zhang_lie_biao_zhi_ding_gong_neng_zhi_zuo.md)
-        * 文章列表相册功能制作
-        * 瀑布流文章列表模板制作
+        * [文章列表相册功能制作](portal/文章列表相册功能制作.md)
+        * [瀑布流文章列表模板制作](portal/瀑布流文章列表模板制作.md)
 * [插件](plugin.md)
     * 钩子，插件与模板
     * [插件钩子](plugin/hook.md)
@@ -182,7 +182,7 @@
     * [插件控制器](plugin/controller.md)
     * [插件数据库模型](plugin/model.md)
     * [插件后台管理控制器](plugin/admin_controller.md)
-    * 插件多语言
+    * [插件多语言](插件多语言.md)
 * [后台管理](admin.md)
     * [SMTP配置](admin/smtp.md)
     * [忘记后台密码？](admin/forgot_admin_pw.md)
@@ -192,7 +192,7 @@
     * [第三方登录配置](admin/thirdpart_auth.md)
 * [专题](special.md)
     * [多语言开发](special/multi_lang.md)
-    * Restful Api
+    * [Restful Api](restful-api.md)
     * [数据分页](special/pagination.md)
     * [缓存](special/cache.md)
     * [安全](special/safe.md)

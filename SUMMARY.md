@@ -48,7 +48,7 @@
     * [sp\_clear\_cache\(\)](functions/sp_clear_cache.md)
     * [sp\_content\_page\(\)](functions/sp_content_page.md)
     * [sp\_compare\_password\(\)](spcomparepassword.md)
-    * [sp\_get\_asset\_upload\_path\(\)](spgetassetuploadpath.md)
+    * [实例化数据库文件路径](spgetassetuploadpath.md)
     * [sp\_get\_cmf\_settings\(\)](functions/sp_get_cmf_settings.md)
     * [sp\_get\_comments\(\)](functions/sp_get_comments.md)
     * [sp\_get\_current\_admin\_id\(\)](functions/sp_get_current_admin_id.md)

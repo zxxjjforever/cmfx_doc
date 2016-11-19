@@ -8,7 +8,7 @@ sp_verifycode_img($imgparam,$imgattrs);
 ```
 
 ######参数：  
-`$imgparam`:控制验证码的样式,默认值length=4&font_size=20&width=238&height=50&use_curve=1&use_noise=1
+`$imgparam`:控制验证码的样式,(默认值length=4&font_size=20&width=238&height=50&use_curve=1&use_noise=1)
 
 `$imgattrs`:生成的验证码img标签的原生属性，除src,onclick之外都可以设置,(默认值:style="cursor: pointer;" title="点击获取")
 

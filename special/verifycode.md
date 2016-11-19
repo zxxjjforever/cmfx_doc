@@ -94,6 +94,8 @@ class LoginController extends HomebaseController
     // 登录验证提交
     public function dologin()
     {
+        //如果表单里验证码input的name是verify,可以省略参数
+        //如果不是可以单独获取验证码传入参数验证
         if (! sp_check_verify_code()) {
             
             $this->error("验证码错误！");

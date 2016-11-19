@@ -10,7 +10,7 @@ sp_verifycode_img($imgparam,$imgattrs);
 ######参数：  
 `$imgparam`: 控制验证码的样式,默认值length=4&font_size=20&width=238&height=50&use_curve=1&use_noise=1
 
-`$name`:需要验证的规则列表,支持逗号分隔的权限规则或索引数组,默认为当前url  
+`$imgattrs`:生成img标签原生属性，除src,onclick之外都可以设置,默认值：style="cursor: pointer;" title="点击获取"
 
 `$relation`:如果为 'or' 表示满足任一条规则即通过验证;如果为 'and'则表示需满足所有规则才能通过验证
 

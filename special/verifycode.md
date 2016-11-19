@@ -1,6 +1,7 @@
 # 验证码
 
 #### 1.生成验证码
+生成验证码的函数:
 ```php
 sp_verifycode_img($imgparam,$imgattrs);
 ```

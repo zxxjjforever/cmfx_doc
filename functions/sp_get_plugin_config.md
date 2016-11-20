@@ -6,7 +6,7 @@ sp_get_plugin_config($name)
 ```
 
 功能：  
-获取插件的配置
+获取插件配置
 
 参数：  
 `$name`:插件名

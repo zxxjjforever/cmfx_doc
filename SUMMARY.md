@@ -35,7 +35,7 @@
     * [更多模型用法](model/more_help.md)
 * [系统函数](core_functions.md)
     * [Comments](functions/comments.md)
-    * [hook\(\)](functions/hook.md)
+    * [添加钩子](functions/hook.md)
     * [URL美化函数](functions/leuu.md)
     * [文件路径实例化函数](functions/sp_asset_relative_url.md)
     * [sp\_auth\_check\(\)](functions/sp_auth_check.md)

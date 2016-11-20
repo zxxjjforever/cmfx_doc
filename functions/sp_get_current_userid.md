@@ -5,7 +5,7 @@ sp_get_current_userid()
 ```
 
 功能：  
-获取当前登录的用户id
+获取当前登录用户ID
 
 参数：  
 无

@@ -7,12 +7,21 @@ ThinkCMF开启的语言有三个,分别是zh-cn,en-us,zh-tw,此项配置在appli
 
 语言包分为框架核心语言包(在simplewind/Core/Lang目录下)和应用语言包(在每个应用的Lang目录下,如application/Portal/Lang),根据你设置的语言列表,在这些地方增加相应的语言包,就实现了多语言.
 
+应用语言包具体位置说明:
+
+| 语言包      | 文件位置 | 加载时间|
+| ---------- | -------------   | ---------------|
+| 应用公共语言包         |  application/Common/Lang/语言.php | 都加载 |
+| 应用语言包            |  application/应用名/Lang/语言.php | 只在访问应用时加载|
+| 应用控制器语言包       |  application/应用名/Lang/语言目录/语言.php| 只在访问控制器下方法时加载
+| 应用控制器后台菜单语言包|  application/应用名/Lang/语言目录/admin_menu.php| 登录后台首页,和访问后台控制器时加载|
+
 ######语言文件定义
 1.语言文件格式为PHP返回数组形式,如:
 ```php
 return array(
      'ADMIN_CENTER' => 'Admin Center', 
-     'WELCOME_USER' => 'Welcome, {$username}',
+     'WELCOME_USER' => 'Welcome, {$username}!',
      'REFRESH_CURRENT_PAGE' => 'Refresh Current Page',
      'WEBSITE_HOME_PAGE' => 'Website Home Page'
 );
@@ -24,3 +33,31 @@ return array(
 ```
 
 ######变量传入支持
+1.在定义语言包时也支持变量,如:
+```php
+return array(
+    'WELCOME_USER' => 'Welcome, {$username}!',
+);
+```
+2.在使用 L 方法获取时,可以传入$username 变量,如:
+```php
+    $lang_welcome_user =  L('WELCOME_USER',array('username'=>'无敌小夏'));
+    echo $lang_welcome_user; // 这里输出的字符串就是:Welcome,无敌小夏!
+```
+
+######获取语言包设置的值
+1.在PHP代码里使用 L 方法,如:
+```php
+    $lang_admin_center = L('ADMIN_CENTER');
+    echo $lang_admin_center; // 这里输出的值是:Admin Center
+```
+2.在模板里使用 L 方法,如:
+```php
+    <!--以下输出的字符串也是:Admin Center-->
+    {:L('ADMIN_CENTER')} 
+
+    <!--以下输出的字符串也是:Welcome,无敌小夏!-->
+    {:L('WELCOME_USER',array('username'=>'无敌小夏'))} 
+```
+
+###### 前台模板多语言

@@ -1,6 +1,6 @@
 {
-	"plugins":["-sharing","disqus"],
-	"language": "zh-hans",
+    "plugins":["-sharing","disqus","splitter"],
+    "language": "zh-hans",
     "pluginsConfig": {
         "disqus": {
             "shortName": "dean"

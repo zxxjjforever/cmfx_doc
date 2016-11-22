@@ -1,16 +1,25 @@
 {
-    "plugins":[
-        "-sharing",
-        "disqus",
-        "splitter",
-        "expandable-chapters"
-        
-    ],
-    "language": "zh-hans",
-    "pluginsConfig": {
-        "disqus": {
-            "shortName": "dean"
-        },
-        "expandable-chapters":{}
+  "plugins": [
+    "-sharing",
+    "disqus",
+    "splitter",
+    "expandable-chapters",
+    "github-buttons"
+  ],
+  "language": "zh-hans",
+  "pluginsConfig": {
+    "disqus": {
+      "shortName": "dean"
+    },
+    "expandable-chapters": {
+    },
+    "github-buttons": {
+      "repo": "azu/JavaScript-Plugin-Architecture",
+      "types": [
+        "star",
+        "watch"
+      ]
     }
+  }
 }
+

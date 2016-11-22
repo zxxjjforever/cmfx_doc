@@ -23,7 +23,7 @@
       ]
     },
     "editlink": {
-      "base": "https://github.com/thinkcmf/cmfx_doc/edit/master/content",
+      "base": "https://github.com/thinkcmf/cmfx_doc/edit/master",
       "label": "发现错误? 现在编辑",
       "multilingual": false
     },
@@ -35,7 +35,6 @@
       "theme": "default"
     },
     "tbfed-pagefooter": {
-      "copyright":"&copy ThinkCMF",
       "modify_label": "最后文件编辑时间:",
       "modify_format": "YYYY-MM-DD HH:mm:ss"
     }

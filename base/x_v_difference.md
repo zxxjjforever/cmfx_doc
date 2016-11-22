@@ -2,7 +2,7 @@
 
 两个版本区别
 
-| ---------- | ThinkCMF V版本  | ThinkCMF X版本 |
+|            | ThinkCMF V版本  | ThinkCMF X版本 |
 | ---------- | -------------   | -------------- |
 | ThinkPHP   | ThinkPHP 3.1.3  | ThinkPHP 3.2.3 |
 | php支持版本  | php5.2+         | php5.3+ |

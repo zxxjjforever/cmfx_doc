@@ -151,6 +151,7 @@
         * [模板结构](portal/base/theme_structure.md)
     * [函数库](portal/functions.md)
         * [指定分类下的所有子分类](portal/spgetallchildterms.md)
+        * [sp\_get\_breadcrumb\(\)](portal/spgetbreadcrumb.md)
         * [sp\_sql\_posts\(\)](portal/functions/sp_sql_posts.md)
         * [sp\_sql\_post\(\)](portal/functions/sp_sql_post.md)
         * [sp\_get\_term\(\)](portal/functions/sp_get_term.md)

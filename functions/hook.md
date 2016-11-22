@@ -20,3 +20,13 @@ hook($hook,$param)
 {:hook('footer')}
 {:hook('sider',array('text'=>'hello ThinkCMF')}
 ```
+
+######控制器方法里使用:
+```php
+//不带参数
+hook('your_hook_name');
+
+//带参数
+hook('your_hook_name',array('text'=>'Hello ThinkCMF'));
+
+```

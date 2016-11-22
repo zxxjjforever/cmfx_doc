@@ -1,5 +1,11 @@
 {
-    "plugins":["-sharing","disqus","splitter"],
+    "plugins":[
+        "-sharing",
+        "disqus",
+        "splitter",
+        "expandable-chapters"
+        
+    ],
     "language": "zh-hans",
     "pluginsConfig": {
         "disqus": {

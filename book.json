@@ -48,7 +48,7 @@
     },
     "prism": {
       "css": [
-        "prismjs/themes/prism-atom-dark.css"
+        "prismjs/themes/prism-solarizedlight.css"
       ]
     }
   }

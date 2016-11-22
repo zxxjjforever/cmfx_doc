@@ -8,7 +8,7 @@ ThinkCMF开启的语言有三个,分别是zh-cn,en-us,zh-tw,此项配置在appli
 语言包分为框架核心语言包(在simplewind/Core/Lang目录下)和应用语言包(在每个应用的Lang目录下,如application/Portal/Lang),根据你设置的语言列表,在这些地方增加相应的语言包,就实现了多语言.
 
 ######语言文件定义
-语言文件格式为PHP返回数组形式,如:
+1.语言文件格式为PHP返回数组形式,如:
 ```php
 return array(
      'ADMIN_CENTER' => 'Admin Center', 
@@ -16,6 +16,11 @@ return array(
      'REFRESH_CURRENT_PAGE' => 'Refresh Current Page',
      'WEBSITE_HOME_PAGE' => 'Website Home Page'
 );
+```
+2.也可以在代码中动态设置
+```php
+    L('ADMIN_CENTER','后台管理中心');
+    $lang_admin_center = L('ADMIN_CENTER');
 ```
 
 ######变量传入支持

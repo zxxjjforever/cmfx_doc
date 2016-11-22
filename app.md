@@ -20,7 +20,7 @@ Blog
 而在 CMF 中应用的 View 是独立于应用之外的，它分为前台view 和后台view,  分别存放在 `themes/前台主题/应用名`，和 `admin/themes/前台主题/应用名`下；
 
 创建一个Blog应用
-* 在`application\/Common\/Conf\/config.php`文件`MODULE_ALLOW_LIST`数组里加上应用名Blog
+* 在`application/Common/Conf/config.php`文件`MODULE_ALLOW_LIST`数组里加上应用名Blog
 * 在`application`下创建上面讲到的`Blog`目录结构；
 * 创建一个控制器,在模块`Controller`目录下创建一个`IndexController.class.php`文件
 
@@ -40,7 +40,7 @@ class IndexController extends HomebaseController{
 }
 ```
 
-* 访问 [http:\/\/你的域名\/index.php?g=blog&m=index&a=index;]()
+* 访问 [http://你的域名/index.php?g=blog&m=index&a=index;]()
 
 > 注意控制器的命名规范：
 > 

@@ -1,16 +1,18 @@
 {
   "plugins": [
     "-sharing",
-    "disqus",
     "splitter",
     "expandable-chapters",
-    "github-buttons"
+    "github-buttons",
+    "editlink",
+    "anchors",
+    "baidu",
+    "duoshuo",
+    "tbfed-pagefooter"
   ],
   "language": "zh-hans",
   "pluginsConfig": {
-    "disqus": {
-      "shortName": "dean"
-    },
+
     "expandable-chapters": {
     },
     "github-buttons": {
@@ -19,8 +21,25 @@
         "star",
         "watch"
       ]
+    },
+    "editlink": {
+      "base": "https://github.com/thinkcmf/cmfx_doc/edit/master/content",
+      "label": "发现错误? 现在编辑",
+      "multilingual": false
+    },
+    "baidu": {
+      "token": "3bd0ecf189515ac893b73c6f7e9beaa8"
+    },
+    "duoshuo": {
+      "short_name": "thinkcmf",
+      "theme": "default"
+    },
+    "tbfed-pagefooter": {
+      "copyright":"&copy ThinkCMF",
+      "modify_label": "最后文件编辑时间:",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
     }
+
   }
 }
-
 

@@ -1,8 +1,8 @@
 # 安装使用
 
-上传你的代码，直接在浏览器中输入你的域名或IP（例如：www.yourdomain.com）,安装程序会自动执行安装。期间系统会提醒你输入数据库信息以完成安装，安装完成后建议删除application目录下的Install。
+上传你的代码，直接在浏览器中输入你的域名或IP（例如：`www.yourdomain.com`）,安装程序会自动执行安装。期间系统会提醒你输入数据库信息以完成安装，安装完成后建议删除`application`目录下的`Install`。
 
-安装完成，一定把 data/conf/db.php 文件做个备份！否则大神也救不了你！
+安装完成，一定把 `data/conf/db.php` 文件做个备份！否则大神也救不了你！
 
 ThinkCMF目录结构：
 

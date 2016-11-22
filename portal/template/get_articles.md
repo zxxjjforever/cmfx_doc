@@ -18,8 +18,8 @@ cid 分类id；
 field 需要取出的内容，默认取出所有信息；order排序方式，可根据任何取出的字段排序，默认为按发布时间排序。
 field可选参数：
 term_id     文章分类id
-post_author     文章作者id，后台管理员，对应于表users里的ID;
-post_keywords     
+post_author     文章作者id，后台管理员，对应于表users里的ID
+post_keywords     文章关键词
 post_date     文章发布日期 格式2014-01-01 00:00:00
 post_content     文章内容
 post_title     文章标题
@@ -74,8 +74,8 @@ cid 分类id；
 field 需要取出的内容，默认取出所有信息；order排序方式，可根据任何取出的字段排序，默认为按发布时间排序。
 field可选参数：
 term_id     文章分类id
-post_author     文章作者id，后台管理员，对应于表users里的ID;
-post_keywords     
+post_author     文章作者id，后台管理员，对应于表users里的ID
+post_keywords     文章关键词
 post_date     文章发布日期 格式2014-01-01 00:00:00
 post_content     文章内容
 post_title     文章标题

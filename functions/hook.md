@@ -5,17 +5,17 @@
 ```php
 hook($hook,$param)
 ```
-功能：  
-在模板里添加钩子
+######功能：  
+添加钩子
 
 ######参数：  
 `$hook`:钩子名称  
 `$param`:传入参数，默认为空数组
 
-返回：  
+######返回：  
 无
 
-模板使用：
+######模板使用：
 ```php
 {:hook('footer')}
 {:hook('sider',array('text'=>'hello ThinkCMF')}

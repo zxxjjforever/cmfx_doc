@@ -25,7 +25,6 @@ Comments($table,$post_id,$params=array())
     评论文章表里的某个ID为$object_id的文章,
     并且使用mycomments模板(此模板位于当前主题 Comment目录下)
 -->
-
 {:Comments("posts",$object_id,array('tpl'=>'mycomments'))}
 
 

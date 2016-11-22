@@ -3,6 +3,7 @@
   "description": "ThinkCMF是一款基于ThinkPHP+MYSQL开发的中文内容管理框架(CMF),我们一直秉承ThinkPHP大道至简的理念，坚持做最简约的ThinkPHP开源软件,多应用化开发方式,让您更快地完成自己的创业项目！",
   "language": "zh-hans",
   "plugins": [
+    "prism", "-highlight",
     "-sharing",
     "splitter",
     "expandable-chapters",

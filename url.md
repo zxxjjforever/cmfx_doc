@@ -54,3 +54,4 @@ portal/page/index?id=14 about http://demo.thinkcmf.com/about.html
 portal/article/index article/:id\d http://demo.thinkcmf.com/article/1.html
 portal/list/index list/:id\d http://demo.thinkcmf.com/list/1.html
 ```
+注意：进行URL美化之后，要进入ThinkCMF后台，进行清除缓存操作后，刷新前台，才能看到美化效果。

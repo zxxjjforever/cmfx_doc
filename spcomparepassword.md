@@ -3,7 +3,7 @@
 > X2.1.0新增
 
 ```php
-  sp_compare_password($password,$password_in_db)
+sp_compare_password($password,$password_in_db)
 ```
 
 ###### 功能：

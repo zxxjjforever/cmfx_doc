@@ -1,4 +1,16 @@
 # sp_get_menu()
+
+```php
+sp_get_menu($id,$menu_root_ul_id,$filetpl,$foldertpl,$ul_class,$li_class,$style,$showlevel,$dropdown)
+```
+
+######功能:
+生成指定ID的导航
+
+######参数:
+`$id`:导航id
+``
+
 模板中用法：
 
 ```html

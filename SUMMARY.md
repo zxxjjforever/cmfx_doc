@@ -65,7 +65,7 @@
     * [获取URL相对路径](functions/sp_get_relative_url.md)
     * [获取前台模板根目录地址](functions/sp_get_theme_path.md)
     * [获取用户头像地址](spgetuseravatarurl.md)
-    * [获取用户](functions/sp_get_users.md)
+    * [获取用户列表](functions/sp_get_users.md)
     * [获取广告](functions/sp_getad.md)
     * [获取友情链接](functions/sp_getlinks.md)
     * [获取幻灯片](functions/sp_getslide.md)

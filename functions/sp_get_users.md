@@ -6,7 +6,7 @@ sp_get_users($tag,$where)
 ```
 
 功能：  
-获取符合条件的用户；
+获取符合条件的用户列表；
 
 参数：  
 `$tag`:查询标签，默认：field:\*;limit:0,8;order:create_time desc;  

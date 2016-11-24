@@ -16,6 +16,7 @@ sp_getlinks();
 $links=sp_getlinks();        /*获取友情链接*/
 print_r($links);            /*打印出获取的结果*/
 ```
+
 ######模板中用法：
 
 ```php

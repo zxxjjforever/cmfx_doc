@@ -11,7 +11,9 @@
     "anchors",
     "ad",
     "tbfed-pagefooter",
-    "sitemap"
+    "sitemap",
+    "duoshuo"
+
   ],
   "pluginsConfig": {
     "expandable-chapters": {

@@ -6,18 +6,23 @@
     "prism",
     "-highlight",
     "-sharing",
-    "github"
+    "github",
     "editlink",
     "anchors",
     "ad",
+    "duoshuo",
     "tbfed-pagefooter",
     "sitemap"
   ],
   "pluginsConfig": {
     "expandable-chapters": {
     },
-    "github": {
-      "url": "https://github.com/thinkcmf/cmfx"
+    "github-buttons": {
+      "repo": "thinkcmf/cmfx",
+      "types": [
+        "star",
+        "watch"
+      ]
     },
     "editlink": {
       "base": "https://github.com/thinkcmf/cmfx_doc/edit/master",

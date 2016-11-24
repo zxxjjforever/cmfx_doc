@@ -23,3 +23,13 @@ boolean, true:是手机访问,false:不是
         echo "我不是手机用户呀,那就是电脑用户呀!";
     }
 ```
+
+######模板里使用
+```php
+    <if condition="sp_is_mobile()">
+        <div>我是手机用户呢!</div>
+    <else/>
+        <div>我不是手机用户呀,那就是电脑用户呀!</div>
+    </if>
+```
+

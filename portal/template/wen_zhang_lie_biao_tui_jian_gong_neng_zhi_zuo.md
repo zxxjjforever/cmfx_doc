@@ -4,7 +4,7 @@
 
 我们在模板只要判断recommended等于1时给标题个样式变红就是推荐的文章
 
-```html
+```php
 <div class="span9">
   <div class="">
       <php>

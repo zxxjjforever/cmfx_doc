@@ -15,7 +15,7 @@
 ```
 
 例子：
-```html
+```php
 <php>
     $lists = sp_sql_posts_paged("cid:$cat_id;order:post_date DESC;",10);
 </php>

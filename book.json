@@ -6,7 +6,7 @@
     "prism",
     "-highlight",
     "-sharing",
-    "github",
+    "github"
     
   ],
   "pluginsConfig": {

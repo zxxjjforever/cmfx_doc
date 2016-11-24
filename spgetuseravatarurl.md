@@ -18,5 +18,6 @@ sp_get_user_avatar_url($avatar)
 
 ###### 使用：
 ```php
-$url = sp_get_user_avatar_url('avatart/2231rweqrqwer.png')
+$url = sp_get_user_avatar_url('avatart/2231rweqrqwer.png');
+echo $url;//输出用户头像地址
 ```

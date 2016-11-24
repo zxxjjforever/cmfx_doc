@@ -5,7 +5,7 @@
 ![](QQ截图20160411185412.png)
 
 在模板的排序是用istop,post_modified降序
-```html
+```php
 <div class="">
     <php>
         $lists = sp_sql_posts_paged("cid:$cat_id;order:istop desc , post_modified desc;",10);

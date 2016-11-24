@@ -20,7 +20,7 @@ $ad_content=sp_getad('top_ad');    //获取广告内容
 echo $ad_content; //输出广告内容
 ```
 
-模板中用法：
+######模板中用法：
 ```php
 <div>
     {:sp_getad('top_ad')} <!--top_ad是后台设置的广告名称-->

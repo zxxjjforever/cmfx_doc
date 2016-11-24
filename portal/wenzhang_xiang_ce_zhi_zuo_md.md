@@ -1,6 +1,6 @@
 # 文章相册制作
 
-```html
+```php
 <php>$smeta=json_decode($vo['smeta'], true);</php>
 <div id="imgs" class="imgs">
     <foreach name="smeta['photo']" item="vo"> <

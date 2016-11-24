@@ -6,7 +6,7 @@
 {$site_seo_description}         <!--SEO描述-->
 ```
 
-文章列表：
+文章列表页：
 ```php
 {$seo_title}                     <!--SEO标题-->
 {$seo_keywords}                  <!--SEO关键字-->

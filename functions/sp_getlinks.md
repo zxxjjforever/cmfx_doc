@@ -25,12 +25,15 @@ print_r($links);            /*打印出获取的结果*/
 <foreach name="links" item="vo">
     {$vo.link_url} <!--链接地址-->
     {$vo.link_name} <!--链接名称-->
-    {$vo.link_image} <!--链接图像,一般是网站logo图片地址-->
+    {$vo.link_image} <!--链接图片,一般是网站logo图片地址-->
     {$vo.link_target} <!--打开方式-->
     {$vo.link_description} <!--描述-->
     
     /*常见用法*/
     <a href="{$vo.link_url}" target="{$vo.link_target}">
+        <notempty name="vo.link_image">
+				<img src="{:sp_get_image_url($vo['link_image'])}"><!-- 链接图片 -->
+        </notempty>
         {$vo.link_name}
     </a>
 </foreach>

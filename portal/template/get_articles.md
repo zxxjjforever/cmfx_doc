@@ -69,7 +69,7 @@ $pager=$content['page'];
 ```
 
 $tag规则：
-```
+```php
 cid 分类id；
 field 需要取出的内容，默认取出所有信息；order排序方式，可根据任何取出的字段排序，默认为按发布时间排序。
 field可选参数：
@@ -88,7 +88,7 @@ user_email     管理员邮箱
 
 
 模板中用法：
-```html
+```php
 <php>
 $content=sp_sql_posts_paged('cid:6;field:post_title,post_content;order:listorder asc');
 </php>

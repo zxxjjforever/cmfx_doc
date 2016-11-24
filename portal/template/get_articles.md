@@ -13,7 +13,7 @@ $smeta=json_decode($vo['smeta'],true); //smeta处理方法，将其转化为数�
 ```
 
 $tag规则：
-```
+```php
 cid 分类id；
 field 需要取出的内容，默认取出所有信息；order排序方式，可根据任何取出的字段排序，默认为按发布时间排序。
 field可选参数：

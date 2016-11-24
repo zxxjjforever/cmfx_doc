@@ -7,7 +7,12 @@
     "-highlight",
     "-sharing",
     "github"
+    "editlink",
+    "anchors",
+    "ad",
     
+    "tbfed-pagefooter",
+    "sitemap"
   ],
   "pluginsConfig": {
     "expandable-chapters": {

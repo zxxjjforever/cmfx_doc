@@ -32,7 +32,7 @@ user_email     管理员邮箱
 
 
 模板中用法：
-```html
+```php
 <php>
 $posts=sp_sql_posts('cid:6;field:post_title,post_content;order:listorder asc');
 </php>

@@ -12,4 +12,4 @@ sp_get_plugin_config($name)
 `$name`:插件名
 
 返回：  
-类型数组，发送状态和信息
+类型数组，插件配置信息

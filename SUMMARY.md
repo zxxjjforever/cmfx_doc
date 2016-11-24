@@ -71,7 +71,6 @@
     * [获取幻灯片](functions/sp_getslide.md)
     * [判断是否为手机访问](functions/sp_is_mobile.md)
     * [获取HTML内容中的图片](functions/sp_getcontent_imgs.md)
-    * [判断运行环境是否为SAE](functions/sp_is_sae.md)
     * [判断用户是否登录](functions/sp_is_user_login.md)
     * [判断是否为微信访问](spisweixin.md)
     * [解析字符串标签](functions/sp_param_lable.md)

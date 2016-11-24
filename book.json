@@ -16,12 +16,8 @@
   "pluginsConfig": {
     "expandable-chapters": {
     },
-    "github-buttons": {
-      "repo": "thinkcmf/cmfx",
-      "types": [
-        "star",
-        "watch"
-      ]
+    "github": {
+      "url": "https://github.com/thinkcmf/cmfx",
     },
     "editlink": {
       "base": "https://github.com/thinkcmf/cmfx_doc/edit/master",

@@ -46,7 +46,7 @@
         "prismjs/themes/prism-solarizedlight.css"
       ]
     },
-    "ad": {
+    "ad2": {
       "contentTop": "",
       "contentBottom": "%3Cscript%3Evar%20_hmt%20%3D%20_hmt%20%7C%7C%20%5B%5D%3B%28function%28%29%20%7B%20%20var%20hm%20%3D%20document.createElement%28%22script%22%29%3B%20%20hm.src%20%3D%20%22//hm.baidu.com/hm.js%3F3bd0ecf189515ac893b73c6f7e9beaa8%22%3B%20%20var%20s%20%3D%20document.getElementsByTagName%28%22script%22%29%5B0%5D%3B%20%20%20s.parentNode.insertBefore%28hm%2C%20s%29%3B%7D%29%28%29%3B%3C/script%3E"
 

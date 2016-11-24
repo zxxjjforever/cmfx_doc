@@ -1,9 +1,10 @@
 # 文章内页制作
 
 可用变量
-```
+```php
+{$article_id} 
 {$term_id} 文章分类id，对应于表terms里的term_id;
-{$post_author}<br><!-- 文章作者id，后台管理员，对应于表users里的ID;-->
+{$post_author}<!-- 文章作者id，后台管理员，对应于表users里的ID;--><br>
 {$post_keywords}<br><!---->
 {$post_date}<br><!-- 文章发布日期 格式2014-01-01 00:00:00-->
 {$post_content}<br><!-- 文章内容-->

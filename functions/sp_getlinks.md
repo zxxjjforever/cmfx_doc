@@ -1,14 +1,14 @@
 # sp_getlinks()
-示例：
+
+######示例：
 
 ```php
-<?php
   $links=sp_getlinks();        /*获取友情链接*/
   print_r($links);            /*打印出获取的结果*/
 ```
-模板中用法：
+######模板中用法：
 
-```html
+```php
 <php>
     $links=sp_getlinks();
 </php>
@@ -22,4 +22,5 @@
     <a href="{$vo.link_url}" target="{$vo.link_target}">
         {$vo.link_name}
     </a>
-</foreach>```
+</foreach>
+```

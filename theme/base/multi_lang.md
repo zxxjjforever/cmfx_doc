@@ -19,3 +19,22 @@ ThinkCMF在前台控制器加载模板文件时,会根据当前用户的浏览�
 
 ### 多语言切换
 只要在 url后带上`?l=语言包`,如`?l=en-us`,`?l=zh-cn`
+
+
+### 例子
+
+默认语言为zh-cn，可用根据需要开发多个语言包,如后台设置模板为simplebootx，在themes目录下simplebootx目录为zh-cn语言模板，simplebootx_en-us为en-us语言模板，simplebootx_zh-tw对应的就是zh-tw语言包，simplebootx_mobile则为移动版模板，移动模板+"_language"则为移动版对应语言包，如simplebootx有三个语言版本，则对应目录为 
+y```
+simplebootx // PC中文默认模板
+simplebootx_en-us // PC端zh-us语言模板 
+simplebootx_zh-tw // PC端zh-tw语言模板 
+simplebootx_mobile // 移动端中文默认模板 
+simplebootx_mobile_en-us // 移动端en-us语言模板 
+simplebootx_mobile_zh-tw // 移动端zh-tw语言模板 
+```
+
+> 注:感谢[`@gai871013`](https://github.com/gai871013/cmfx_doc) 
+
+
+
+

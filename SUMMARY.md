@@ -67,7 +67,6 @@
     * [获取用户头像地址](spgetuseravatarurl.md)
     * [获取用户列表](functions/sp_get_users.md)
     * [获取广告](functions/sp_getad.md)
-    * [获取友情链接](functions/sp_getlinks.md)
     * [获取幻灯片](functions/sp_getslide.md)
     * [判断是否为手机访问](functions/sp_is_mobile.md)
     * [获取HTML内容中的图片](functions/sp_getcontent_imgs.md)

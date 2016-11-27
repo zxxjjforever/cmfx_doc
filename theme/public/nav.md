@@ -1,32 +1,53 @@
 # 菜单导航制作
 
-bootstrap导航：
 ```php
-<?php
-/*生成菜单的 id*/
-$effected_id="main-nav";
+sp_get_menu($id,$menu_root_ul_id,$filetpl,$foldertpl,$ul_class,$li_class,$menu_root_ul_class,$showlevel,$dropdown)
+```
 
-/*无子菜单导航的模板*/
-$filetpl="<a href='\$href' target='\$target'>\$label</a>";
+######功能:
+生成指定ID的导航
 
-/*有子菜单导航的模板*/
-$foldertpl="<a href='\$href' target='\$target' class='dropdown-toggle' data-toggle='dropdown'>\$label <b class='caret'></b></a>";
+######参数:
+`$id`:导航id  
+`$menu_root_ul_id`:菜单根节点ul标签的id属性值  
+`$filetpl`:没有子菜单的菜单的html模板  
+`$foldertpl`:有子菜单的菜单的html模板  
+`$ul_class`:内部ul标签的class属性值  
+`$li_class`:内部li标签的class属性值  
+`$menu_root_ul_class`:菜单根节点ul标签的class属性值  
+`$showlevel`:菜单根节点ul标签的class属性值
+`$dropdown`:含有子菜单的li标签的class属性值,用于控制多级菜单的折叠
 
-/*有子菜单导航元素li的class属性*/
-$dropdown='dropdown';
 
-/*有子菜单导航元素ul的class属性*/
-$ul_class="dropdown-menu";
+模板中用法：
 
-/*菜单元素li的class属性/
-$li_class="" ;
+```php
+<php>
+    $menu_root_ul_id="main-menu";
+    $filetpl="<a href='\$href' target='\$target'>\$label</a>";
+    $foldertpl="<a class='dropdown-toggle' href='\$href' target='\$target'>\$label</a>";
+    $ul_class="dropdown-menu" ;/*内部ul标签的class属性值*/
+    $li_class="" ;/*内部li标签的class属性值*/
+    $menu_root_ul_class="nav";/*菜单根节点ul标签的class属性值*/
+    $showlevel=6;/*显示菜单的层级*/
+    $dropdown='dropdown';/*含有子菜单的li标签的class属性值,用于控制多级菜单的折叠*/
+</php>
 
-/*生成菜单的class属性*/
-$style="nav";
+{:sp_get_menu("main",$menu_root_ul_id,$filetpl,$foldertpl,$ul_class,$li_class,$menu_root_ul_class,$showlevel,$dropdown)}
+```
 
-/*显示的菜单层级*/
-$showlevel=6;
-
-echo sp_get_menu("main",$effected_id,$filetpl,$foldertpl,$ul_class,$li_class,$style,$showlevel,$dropdown);
-?>
+```php
+<!--生成的代码如下：-->
+<ul class="nav">
+	<li class="active" id="menu-item-1"><a href="/" target="">首页</a></li>
+	<li class="" id="menu-item-11"><a href="" target="">产品与服务</a></li>
+	<li class="dropdown" id="menu-item-12">
+	    <a class="dropdown-toggle" href="" target="">企业新闻</a>
+            <ul class="dropdown-menu">
+              <li class="" id="menu-item-11">
+                  <a href="" target="">产品与服务</a>
+              </li>
+            </ul>
+	</li>
+</ul>
 ```

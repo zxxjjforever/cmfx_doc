@@ -93,7 +93,7 @@
         * [模板结构](theme/base/structure.md)
         * [模板注释](theme/base/comments.md)
         * [模板常量](theme/base/constant.md)
-        * 前台模板多语言
+        * [前台模板多语言](theme/base/multi_lang.md)
         * [变量输出](theme/base/var_echo.md)
         * [使用函数](theme/base/use_functions.md)
         * [默认值输出](theme/base/default_value_echo.md)

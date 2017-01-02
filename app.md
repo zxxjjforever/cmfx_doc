@@ -17,7 +17,7 @@ Blog
   nav.php 前台导航文件（可选）
 ```
 
-而在 CMF 中应用的 View 是独立于应用之外的，它分为前台view 和后台view,  分别存放在 `themes/前台主题/应用名`，和 `admin/themes/前台主题/应用名`下；
+而在 CMF 中应用的 View 是独立于应用之外的，它分为前台view 和后台view,  分别存放在 `themes/前台主题/应用名`，和 `admin/themes/后台主题/应用名`下；
 
 创建一个Blog应用
 * 在`application/Common/Conf/config.php`文件`MODULE_ALLOW_LIST`数组里加上应用名Blog

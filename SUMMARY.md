@@ -168,7 +168,6 @@
         * [文章列表推荐功能制作](portal/template/wen_zhang_lie_biao_tui_jian_gong_neng_zhi_zuo.md)
         * [文章列表置顶功能制作](portal/template/wen_zhang_lie_biao_zhi_ding_gong_neng_zhi_zuo.md)
 * [插件](plugin.md)
-    * [钩子，插件与模板](钩子，插件与模板.md)
     * [插件钩子](plugin/hook.md)
     * [插件配置文件](plugin/config.md)
     * [插件类主文件](plugin/class.md)

@@ -1,6 +1,6 @@
 # foreach
 
-forech标签
+foreach标签
 
 属性  
 `name`:表示数据源;  

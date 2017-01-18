@@ -12,4 +12,4 @@ sp_get_current_admin_id()
 无
 
 返回：  
-类型int
+类型int,管理员的id

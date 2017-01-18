@@ -30,7 +30,7 @@ ThinkCMF内置了灵活的用户管理方式，并可直接与第三方站点进
 
 ThinkCMF是一款基于PHP+MYSQL开发的中文内容管理框架。ThinkCMF提出灵活的应用机制，框架自身提供基础的管理功能，而开发者可以根据自身的需求以应用的形式进行扩展。每个应用都能独立的完成自己的任务，也可通过系统调用其他应用进行协同工作。在这种运行机制下，开发商场应用的用户无需关心开发SNS应用时如何工作的，但他们之间又可通过系统本身进行协调，大大的降低了开发成本和沟通成本。
 
-官网:[http:\/\/www.thinkcmf.com](http://www.thinkcmf.com)
+官网:http://www.thinkcmf.com
 
 文档:[http:\/\/www.thinkcmf.com\/document](http://www.thinkcmf.com/document)
 
@@ -50,7 +50,7 @@ ThinkCMF是一款基于PHP+MYSQL开发的中文内容管理框架。ThinkCMF提�
 
 * 增加验证码生成安全性
 
-* 增加\_\_WEB_ROOT\_\_模板常量
+* 增加`__WEB_ROOT__`模板常量
 
 * 增加跨主题调用模板功能
 
@@ -509,7 +509,7 @@ ThinkCMF全体贡献者祝大家2015年大吉大利，开心幸福！《给你�
 
 ## INSTALL
 
-安装请执行[http:\/\/yourdomain\/](http://yourdomain/)
+安装请执行http://yourdomain/
 
 ## ThinkCMF 免责声明
 
@@ -522,8 +522,7 @@ ThinkCMF全体贡献者祝大家2015年大吉大利，开心幸福！《给你�
 请在您的网站首页加上ThinkCMF相关链接，O\(∩\_∩\)O~ ！
 
 ## 捐赠ThinkCMF
-
-[http:\/\/www.thinkcmf.com\/donate\/index.html](http://www.thinkcmf.com/donate/index.html)
+http://www.thinkcmf.com/donate/index.html
 
 您的每一份帮助都将支持ThinkCMF做的更好，走的更远！
 

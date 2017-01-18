@@ -1,6 +1,6 @@
 # 页面制作
 可用变量
-```
+```php
 {$post_author}<br><!-- 页面作者id，后台管理员，对应于表users里的ID;-->
 {$post_keywords}<br><!---->
 {$post_date}<br><!-- 页面发布日期 格式2014-01-01 00:00:00-->
@@ -12,7 +12,7 @@
 ```
 
 对变量smeta的转化
-```html
+```php
 <php>
 /*处理smeta*/
 $smeta=json_decode($smeta,true);/*把smeta转化成数组*/

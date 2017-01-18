@@ -23,7 +23,8 @@ class IndexController extends HomebaseController {
     	$this->display(":index");
     }
 
-}```
+}
+```
 访问你的首页：得到密码后，把你刚刚修改的地方还原；
 
 打开你的数据库管理功能，找到你的管理员那一列，把密码换进去！

@@ -6,7 +6,7 @@
 sp_auth_check($uid,$name=null,$relation='or')
 ```
 功能：  
-检查权限
+用户权限验证
 
 参数：  
 `$uid`: 当前登录用户或者管理员的id  

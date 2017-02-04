@@ -1,0 +1,2931 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>获取指定ID的分类 · ThinkCMFX完全开发手册</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-prism/prism-solarizedlight.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-ad/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="sp_get_terms.html" />
+    
+    
+    <link rel="prev" href="sp_sql_post.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../preface.html">
+            
+                <a href="../../preface.html">
+            
+                    
+                    序言
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../../about.html">
+            
+                <a href="../../about.html">
+            
+                    
+                    关于ThinkCMF
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../../bootstrap.html">
+            
+                <a href="../../bootstrap.html">
+            
+                    
+                    关于BootStrap
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../../foundation.html">
+            
+                <a href="../../foundation.html">
+            
+                    
+                    基础
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../../base/coding_standards.html">
+            
+                <a href="../../base/coding_standards.html">
+            
+                    
+                    开发规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../../base/debug_mode.html">
+            
+                <a href="../../base/debug_mode.html">
+            
+                    
+                    调试模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../../app.html">
+            
+                <a href="../../app.html">
+            
+                    
+                    应用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../../base/get_methods.html">
+            
+                <a href="../../base/get_methods.html">
+            
+                    
+                    如何获取
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../../base/environmental_requirement.html">
+            
+                <a href="../../base/environmental_requirement.html">
+            
+                    
+                    环境要求
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../../base/install.html">
+            
+                <a href="../../base/install.html">
+            
+                    
+                    安装使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="../../config.html">
+            
+                <a href="../../config.html">
+            
+                    
+                    配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../../controller.html">
+            
+                <a href="../../controller.html">
+            
+                    
+                    控制器
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../../url.html">
+            
+                <a href="../../url.html">
+            
+                    
+                    URL生成
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../../controller/ajax_return.html">
+            
+                <a href="../../controller/ajax_return.html">
+            
+                    
+                    AJAX返回
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../../controller/redirect.html">
+            
+                <a href="../../controller/redirect.html">
+            
+                    
+                    跳转和重定向
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../../controller/input.html">
+            
+                <a href="../../controller/input.html">
+            
+                    
+                    输入变量
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../../controller/request_type.html">
+            
+                <a href="../../controller/request_type.html">
+            
+                    
+                    请求类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../../controller/empty_action.html">
+            
+                <a href="../../controller/empty_action.html">
+            
+                    
+                    空操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="../../controller/empty_controller.html">
+            
+                <a href="../../controller/empty_controller.html">
+            
+                    
+                    空控制器
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../../view.html">
+            
+                <a href="../../view.html">
+            
+                    
+                    视图
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../../view/theme.html">
+            
+                <a href="../../view/theme.html">
+            
+                    
+                    模板定义
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../../view/theme_detail.html">
+            
+                <a href="../../view/theme_detail.html">
+            
+                    
+                    模板主题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../../view/assign.html">
+            
+                <a href="../../view/assign.html">
+            
+                    
+                    模板赋值
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../../view/fetch.html">
+            
+                <a href="../../view/fetch.html">
+            
+                    
+                    获取内容
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="../../view/display.html">
+            
+                <a href="../../view/display.html">
+            
+                    
+                    模板渲染
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../../model.html">
+            
+                <a href="../../model.html">
+            
+                    
+                    模型
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../../model/definition.html">
+            
+                <a href="../../model/definition.html">
+            
+                    
+                    模型定义
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../../model/instancing.html">
+            
+                <a href="../../model/instancing.html">
+            
+                    
+                    模型实例化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../../lian_jie_shu_ju_ku.html">
+            
+                <a href="../../lian_jie_shu_ju_ku.html">
+            
+                    
+                    连接数据库
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../../model/more_help.html">
+            
+                <a href="../../model/more_help.html">
+            
+                    
+                    更多模型用法
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../../core_functions.html">
+            
+                <a href="../../core_functions.html">
+            
+                    
+                    系统函数
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../../functions/comments.html">
+            
+                <a href="../../functions/comments.html">
+            
+                    
+                    生成评论组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../../functions/hook.html">
+            
+                <a href="../../functions/hook.html">
+            
+                    
+                    添加钩子
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../../functions/leuu.html">
+            
+                <a href="../../functions/leuu.html">
+            
+                    
+                    URL美化函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="../../functions/sp_asset_relative_url.html">
+            
+                <a href="../../functions/sp_asset_relative_url.html">
+            
+                    
+                    获取文件相对路径
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.5" data-path="../../functions/sp_auth_check.html">
+            
+                <a href="../../functions/sp_auth_check.html">
+            
+                    
+                    用户权限验证
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.6" data-path="../../functions/sp_auth_code.html">
+            
+                <a href="../../functions/sp_auth_code.html">
+            
+                    
+                    字符串解密
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.7" data-path="../../functions/sp_auth_encode.html">
+            
+                <a href="../../functions/sp_auth_encode.html">
+            
+                    
+                    字符串加密
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.8" data-path="../../sp_check_lang.html">
+            
+                <a href="../../sp_check_lang.html">
+            
+                    
+                    获取当前语言包
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.9" data-path="../../spcheckmobileverifycode.html">
+            
+                <a href="../../spcheckmobileverifycode.html">
+            
+                    
+                    手机验证码验证
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.10" data-path="../../functions/sp_check_user_action.html">
+            
+                <a href="../../functions/sp_check_user_action.html">
+            
+                    
+                    检查用户操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.11" data-path="../../functions/sp_check_verify_code.html">
+            
+                <a href="../../functions/sp_check_verify_code.html">
+            
+                    
+                    图片验证码验证
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.12" data-path="../../functions/sp_clear_cache.html">
+            
+                <a href="../../functions/sp_clear_cache.html">
+            
+                    
+                    清除系统缓存 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.13" data-path="../../functions/sp_content_page.html">
+            
+                <a href="../../functions/sp_content_page.html">
+            
+                    
+                    文本内容分页
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.14" data-path="../../spcomparepassword.html">
+            
+                <a href="../../spcomparepassword.html">
+            
+                    
+                    密码比较
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.15" data-path="../../spgetassetuploadpath.html">
+            
+                <a href="../../spgetassetuploadpath.html">
+            
+                    
+                    获取文件访问地址
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.16" data-path="../../functions/sp_get_cmf_settings.html">
+            
+                <a href="../../functions/sp_get_cmf_settings.html">
+            
+                    
+                    获取CMF设置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.17" data-path="../../functions/sp_get_comments.html">
+            
+                <a href="../../functions/sp_get_comments.html">
+            
+                    
+                    获取评论
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.18" data-path="../../functions/sp_get_current_admin_id.html">
+            
+                <a href="../../functions/sp_get_current_admin_id.html">
+            
+                    
+                    获取当前登录管理员id
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.19" data-path="../../spgetcurrenttheme.html">
+            
+                <a href="../../spgetcurrenttheme.html">
+            
+                    
+                    获取当前主题名
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.20" data-path="../../functions/sp_get_current_user.html">
+            
+                <a href="../../functions/sp_get_current_user.html">
+            
+                    
+                    获取当前登录用户信息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.21" data-path="../../functions/sp_get_current_userid.html">
+            
+                <a href="../../functions/sp_get_current_userid.html">
+            
+                    
+                    获取当前登录用户ID
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.22" data-path="../../functions/sp_get_favorite_key.html">
+            
+                <a href="../../functions/sp_get_favorite_key.html">
+            
+                    
+                    获取收藏安全Key
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.23" data-path="../../spgetfiledownloadurl.html">
+            
+                <a href="../../spgetfiledownloadurl.html">
+            
+                    
+                    获取文件下载链接
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.24" data-path="../../spgetfileextension.html">
+            
+                <a href="../../spgetfileextension.html">
+            
+                    
+                    获取文件扩展名
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.25" data-path="../../functions/sp_get_host.html">
+            
+                <a href="../../functions/sp_get_host.html">
+            
+                    
+                    获取系统域名
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.26" data-path="../../spgetimagepreviewurl.html">
+            
+                <a href="../../spgetimagepreviewurl.html">
+            
+                    
+                    获取图片预览地址
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.27" data-path="../../spgetimageurl.html">
+            
+                <a href="../../spgetimageurl.html">
+            
+                    
+                    获取图片访问地址
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.28" data-path="../../functions/sp_get_menu.html">
+            
+                <a href="../../functions/sp_get_menu.html">
+            
+                    
+                    生成前台导航
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.29" data-path="../../functions/sp_get_plugin_class.html">
+            
+                <a href="../../functions/sp_get_plugin_class.html">
+            
+                    
+                    获取插件类名
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.30" data-path="../../functions/sp_get_plugin_config.html">
+            
+                <a href="../../functions/sp_get_plugin_config.html">
+            
+                    
+                    获取插件配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.31" data-path="../../functions/sp_get_relative_url.html">
+            
+                <a href="../../functions/sp_get_relative_url.html">
+            
+                    
+                    获取URL相对路径
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.32" data-path="../../functions/sp_get_theme_path.html">
+            
+                <a href="../../functions/sp_get_theme_path.html">
+            
+                    
+                    获取前台模板根目录地址
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.33" data-path="../../spgetuseravatarurl.html">
+            
+                <a href="../../spgetuseravatarurl.html">
+            
+                    
+                    获取用户头像地址
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.34" data-path="../../functions/sp_get_users.html">
+            
+                <a href="../../functions/sp_get_users.html">
+            
+                    
+                    获取用户列表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.35" data-path="../../functions/sp_getad.html">
+            
+                <a href="../../functions/sp_getad.html">
+            
+                    
+                    获取广告
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.36" data-path="../../functions/sp_getslide.html">
+            
+                <a href="../../functions/sp_getslide.html">
+            
+                    
+                    获取幻灯片
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.37" data-path="../../functions/sp_is_mobile.html">
+            
+                <a href="../../functions/sp_is_mobile.html">
+            
+                    
+                    判断是否为手机访问
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.38" data-path="../../functions/sp_getcontent_imgs.html">
+            
+                <a href="../../functions/sp_getcontent_imgs.html">
+            
+                    
+                    获取HTML内容中的图片
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.39" data-path="../../functions/sp_is_user_login.html">
+            
+                <a href="../../functions/sp_is_user_login.html">
+            
+                    
+                    判断用户是否登录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.40" data-path="../../spisweixin.html">
+            
+                <a href="../../spisweixin.html">
+            
+                    
+                    判断是否为微信访问
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.41" data-path="../../functions/sp_param_lable.html">
+            
+                <a href="../../functions/sp_param_lable.html">
+            
+                    
+                    解析字符串标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.42" data-path="../../functions/sp_password.html">
+            
+                <a href="../../functions/sp_password.html">
+            
+                    
+                    生成密码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.43" data-path="../../functions/sp_plugin_url.html">
+            
+                <a href="../../functions/sp_plugin_url.html">
+            
+                    
+                    插件URL生成
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.44" data-path="../../functions/sp_random_string.html">
+            
+                <a href="../../functions/sp_random_string.html">
+            
+                    
+                    生成随意字符串
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.45" data-path="../../functions/sp_scan_dir.html">
+            
+                <a href="../../functions/sp_scan_dir.html">
+            
+                    
+                    遍历目录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.46" data-path="../../functions/sp_send_email.html">
+            
+                <a href="../../functions/sp_send_email.html">
+            
+                    
+                    发送邮件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.47" data-path="../../functions/sp_set_dynamic_config.html">
+            
+                <a href="../../functions/sp_set_dynamic_config.html">
+            
+                    
+                    更新动态配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.48" data-path="../../spsetoption.html">
+            
+                <a href="../../spsetoption.html">
+            
+                    
+                    设置系统配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.49" data-path="../../functions/sp_update_current_user.html">
+            
+                <a href="../../functions/sp_update_current_user.html">
+            
+                    
+                    更新当前登录用户
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../../extends.html">
+            
+                <a href="../../extends.html">
+            
+                    
+                    系统扩展
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../../extends/application_flow.html">
+            
+                <a href="../../extends/application_flow.html">
+            
+                    
+                    应用开发流程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../../extends/admin_menu.html">
+            
+                <a href="../../extends/admin_menu.html">
+            
+                    
+                    后台隐藏的后台菜单管理功能
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="../../extends/base_class.html">
+            
+                <a href="../../extends/base_class.html">
+            
+                    
+                    几个重要基类
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.4" data-path="../../extends/thirdpart_lib.html">
+            
+                <a href="../../extends/thirdpart_lib.html">
+            
+                    
+                    引入第三方库
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../../theme.html">
+            
+                <a href="../../theme.html">
+            
+                    
+                    模板
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../../theme/base.html">
+            
+                <a href="../../theme/base.html">
+            
+                    
+                    基础
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1.1" data-path="../../theme/base/global_var.html">
+            
+                <a href="../../theme/base/global_var.html">
+            
+                    
+                    全局变量
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.1.2" data-path="../../theme/base/structure.html">
+            
+                <a href="../../theme/base/structure.html">
+            
+                    
+                    模板结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.1.3" data-path="../../theme/base/comments.html">
+            
+                <a href="../../theme/base/comments.html">
+            
+                    
+                    模板注释
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.1.4" data-path="../../theme/base/constant.html">
+            
+                <a href="../../theme/base/constant.html">
+            
+                    
+                    模板常量
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.1.5" data-path="../../theme/base/multi_lang.html">
+            
+                <a href="../../theme/base/multi_lang.html">
+            
+                    
+                    前台模板多语言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.1.6" data-path="../../theme/base/var_echo.html">
+            
+                <a href="../../theme/base/var_echo.html">
+            
+                    
+                    变量输出
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.1.7" data-path="../../theme/base/use_functions.html">
+            
+                <a href="../../theme/base/use_functions.html">
+            
+                    
+                    使用函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.1.8" data-path="../../theme/base/default_value_echo.html">
+            
+                <a href="../../theme/base/default_value_echo.html">
+            
+                    
+                    默认值输出
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.1.9" data-path="../../theme/base/operator.html">
+            
+                <a href="../../theme/base/operator.html">
+            
+                    
+                    使用运算符
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.1.10" data-path="../../theme/base/ternary_operator.html">
+            
+                <a href="../../theme/base/ternary_operator.html">
+            
+                    
+                    三元运算
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.1.11" data-path="../../theme/base/include.html">
+            
+                <a href="../../theme/base/include.html">
+            
+                    
+                    包含文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.1.12" data-path="../../theme/base/literal.html">
+            
+                <a href="../../theme/base/literal.html">
+            
+                    
+                    原样输出
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="../../theme/tag.html">
+            
+                <a href="../../theme/tag.html">
+            
+                    
+                    模板标签
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.2.1" data-path="../../theme/tags/tc_include.html">
+            
+                <a href="../../theme/tags/tc_include.html">
+            
+                    
+                    tc_include
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2.2" data-path="../../theme/tags/foreach.html">
+            
+                <a href="../../theme/tags/foreach.html">
+            
+                    
+                    foreach
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2.3" data-path="../../theme/tags/volist.html">
+            
+                <a href="../../theme/tags/volist.html">
+            
+                    
+                    volist
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2.4" data-path="../../theme/tags/php.html">
+            
+                <a href="../../theme/tags/php.html">
+            
+                    
+                    php
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2.5" data-path="../../theme/tags/if_else.html">
+            
+                <a href="../../theme/tags/if_else.html">
+            
+                    
+                    if else
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2.6" data-path="../../theme/tags/for.html">
+            
+                <a href="../../theme/tags/for.html">
+            
+                    
+                    for
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2.7" data-path="../../theme/tags/switch.html">
+            
+                <a href="../../theme/tags/switch.html">
+            
+                    
+                    switch
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2.8" data-path="../../theme/tags/compare.html">
+            
+                <a href="../../theme/tags/compare.html">
+            
+                    
+                    比较标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2.9" data-path="../../theme/tags/between.html">
+            
+                <a href="../../theme/tags/between.html">
+            
+                    
+                    范围判断标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2.10" data-path="../../theme/tags/present.html">
+            
+                <a href="../../theme/tags/present.html">
+            
+                    
+                    Present标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2.11" data-path="../../theme/tags/empty.html">
+            
+                <a href="../../theme/tags/empty.html">
+            
+                    
+                    Empty标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2.12" data-path="../../theme/tags/defined.html">
+            
+                <a href="../../theme/tags/defined.html">
+            
+                    
+                    Defined标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2.13" data-path="../../theme/tags/assign.html">
+            
+                <a href="../../theme/tags/assign.html">
+            
+                    
+                    Assign标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2.14" data-path="../../theme/tags/define.html">
+            
+                <a href="../../theme/tags/define.html">
+            
+                    
+                    Define标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2.15" data-path="../../theme/tags/nest.html">
+            
+                <a href="../../theme/tags/nest.html">
+            
+                    
+                    标签嵌套
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3" data-path="../../theme/js_components.html">
+            
+                <a href="../../theme/js_components.html">
+            
+                    
+                    前端组件
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.3.1" data-path="../../theme/js/js-count-btn.html">
+            
+                <a href="../../theme/js/js-count-btn.html">
+            
+                    
+                    js-count-btn
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3.2" data-path="../../theme/js/js-favorite-btn.html">
+            
+                <a href="../../theme/js/js-favorite-btn.html">
+            
+                    
+                    js-favorite-btn
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3.3" data-path="../../theme/js/js-ajax-dialog-btn.html">
+            
+                <a href="../../theme/js/js-ajax-dialog-btn.html">
+            
+                    
+                    js-ajax-dialog-btn
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3.4" data-path="../../theme/js/js-ajax-delete.html">
+            
+                <a href="../../theme/js/js-ajax-delete.html">
+            
+                    
+                    js-ajax-delete
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3.5" data-path="../../theme/js/js-date.html">
+            
+                <a href="../../theme/js/js-date.html">
+            
+                    
+                    js-date
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3.6" data-path="../../theme/js/js-datetime.html">
+            
+                <a href="../../theme/js/js-datetime.html">
+            
+                    
+                    js-datetime
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3.7" data-path="../../theme/js/js-ajax-form.html">
+            
+                <a href="../../theme/js/js-ajax-form.html">
+            
+                    
+                    js-ajax-form
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4" data-path="../../theme/public.html">
+            
+                <a href="../../theme/public.html">
+            
+                    
+                    公共模板
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.4.1" data-path="../../theme/public/nav.html">
+            
+                <a href="../../theme/public/nav.html">
+            
+                    
+                    菜单导航制作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4.2" data-path="../../theme/public/slide.html">
+            
+                <a href="../../theme/public/slide.html">
+            
+                    
+                    幻灯片制作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4.3" data-path="../../theme/public/ad.html">
+            
+                <a href="../../theme/public/ad.html">
+            
+                    
+                    广告位制作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4.4" data-path="../../theme/public/link.html">
+            
+                <a href="../../theme/public/link.html">
+            
+                    
+                    友情链接制作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4.5" data-path="../../theme/public/guestbook.html">
+            
+                <a href="../../theme/public/guestbook.html">
+            
+                    
+                    添加留言控件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4.6" data-path="../../theme/public/favorite.html">
+            
+                <a href="../../theme/public/favorite.html">
+            
+                    
+                    如何收藏
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4.7" data-path="../../theme/public/like.html">
+            
+                <a href="../../theme/public/like.html">
+            
+                    
+                    点赞组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4.8" data-path="../../theme/public/last_comment.html">
+            
+                <a href="../../theme/public/last_comment.html">
+            
+                    
+                    最新评论组件制作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4.9" data-path="../../theme/public/last_join.html">
+            
+                <a href="../../theme/public/last_join.html">
+            
+                    
+                    最新加入组件制作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4.10" data-path="../../theme/public/login.html">
+            
+                <a href="../../theme/public/login.html">
+            
+                    
+                    本站用户登录模板制作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4.11" data-path="../../theme/public/register.html">
+            
+                <a href="../../theme/public/register.html">
+            
+                    
+                    本站用户注册模板制作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4.12" data-path="../../theme/public/forgot_password.html">
+            
+                <a href="../../theme/public/forgot_password.html">
+            
+                    
+                    忘记密码模板制作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4.13" data-path="../../theme/public/password_reset.html">
+            
+                <a href="../../theme/public/password_reset.html">
+            
+                    
+                    密码重置模板制作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4.14" data-path="../../theme/public/comment.html">
+            
+                <a href="../../theme/public/comment.html">
+            
+                    
+                    评论组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.5" data-path="../../advanced.html">
+            
+                <a href="../../advanced.html">
+            
+                    
+                    进阶
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.5.1" data-path="../../advanced/qiniu.html">
+            
+                <a href="../../advanced/qiniu.html">
+            
+                    
+                    七牛图片处理
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../../portal.html">
+            
+                <a href="../../portal.html">
+            
+                    
+                    门户应用
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="../base.html">
+            
+                <a href="../base.html">
+            
+                    
+                    基础
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1.1" data-path="../base/structure.html">
+            
+                <a href="../base/structure.html">
+            
+                    
+                    主程序结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.1.2" data-path="../base/theme_structure.html">
+            
+                <a href="../base/theme_structure.html">
+            
+                    
+                    模板结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2" data-path="../functions.html">
+            
+                <a href="../functions.html">
+            
+                    
+                    函数库
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.2.1" data-path="../spgetallchildterms.html">
+            
+                <a href="../spgetallchildterms.html">
+            
+                    
+                    指定分类下的所有子分类
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2.2" data-path="../spgetbreadcrumb.html">
+            
+                <a href="../spgetbreadcrumb.html">
+            
+                    
+                    获取面包屑数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2.3" data-path="sp_sql_posts.html">
+            
+                <a href="sp_sql_posts.html">
+            
+                    
+                    查询文章列表,不分页
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2.4" data-path="sp_sql_post.html">
+            
+                <a href="sp_sql_post.html">
+            
+                    
+                    获取指定ID的文章
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.10.2.5" data-path="sp_get_term.html">
+            
+                <a href="sp_get_term.html">
+            
+                    
+                    获取指定ID的分类
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2.6" data-path="sp_get_terms.html">
+            
+                <a href="sp_get_terms.html">
+            
+                    
+                    获取分类列表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2.7" data-path="sp_get_child_terms.html">
+            
+                <a href="sp_get_child_terms.html">
+            
+                    
+                    获取指定分类下的子分类
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2.8" data-path="sp_sql_posts_paged.html">
+            
+                <a href="sp_sql_posts_paged.html">
+            
+                    
+                    获取文章列表,分页
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2.9" data-path="sp_sql_page.html">
+            
+                <a href="sp_sql_page.html">
+            
+                    
+                    获取指定 ID 的页面
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2.10" data-path="sp_sql_posts_bycatid.html">
+            
+                <a href="sp_sql_posts_bycatid.html">
+            
+                    
+                    获取指定分类下所有文章,包括子类的
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2.11" data-path="sp_sql_posts_paged_bycatid.html">
+            
+                <a href="sp_sql_posts_paged_bycatid.html">
+            
+                    
+                    获取指定分类下所有文章,包括子类的,分页
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.3" data-path="../template.html">
+            
+                <a href="../template.html">
+            
+                    
+                    门户模板制作
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.3.1" data-path="../template/list.html">
+            
+                <a href="../template/list.html">
+            
+                    
+                    文章列表页制作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.3.2" data-path="../template/article.html">
+            
+                <a href="../template/article.html">
+            
+                    
+                    文章内页制作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.3.3" data-path="../template/page.html">
+            
+                <a href="../template/page.html">
+            
+                    
+                    页面制作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.3.4" data-path="../template/get_articles.html">
+            
+                <a href="../template/get_articles.html">
+            
+                    
+                    获取文章的各种方式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.3.5" data-path="../template/hot_articles.html">
+            
+                <a href="../template/hot_articles.html">
+            
+                    
+                    热门文章组件制作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.3.6" data-path="../template/seo.html">
+            
+                <a href="../template/seo.html">
+            
+                    
+                    seo优化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.3.7" data-path="../wenzhang_xiang_ce_zhi_zuo_md.html">
+            
+                <a href="../wenzhang_xiang_ce_zhi_zuo_md.html">
+            
+                    
+                    文章相册制作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.3.8" data-path="../template/wen_zhang_lie_biao_tui_jian_gong_neng_zhi_zuo.html">
+            
+                <a href="../template/wen_zhang_lie_biao_tui_jian_gong_neng_zhi_zuo.html">
+            
+                    
+                    文章列表推荐功能制作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.3.9" data-path="../template/wen_zhang_lie_biao_zhi_ding_gong_neng_zhi_zuo.html">
+            
+                <a href="../template/wen_zhang_lie_biao_zhi_ding_gong_neng_zhi_zuo.html">
+            
+                    
+                    文章列表置顶功能制作
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../../plugin.html">
+            
+                <a href="../../plugin.html">
+            
+                    
+                    插件
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.11.1" data-path="../../plugin/hook.html">
+            
+                <a href="../../plugin/hook.html">
+            
+                    
+                    插件钩子
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.2" data-path="../../plugin/config.html">
+            
+                <a href="../../plugin/config.html">
+            
+                    
+                    插件配置文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.3" data-path="../../plugin/class.html">
+            
+                <a href="../../plugin/class.html">
+            
+                    
+                    插件类主文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.4" data-path="../../plugin/flow.html">
+            
+                <a href="../../plugin/flow.html">
+            
+                    
+                    插件开发流程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.5" data-path="../../plugin/controller.html">
+            
+                <a href="../../plugin/controller.html">
+            
+                    
+                    插件控制器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.6" data-path="../../plugin/model.html">
+            
+                <a href="../../plugin/model.html">
+            
+                    
+                    插件数据库模型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.7" data-path="../../plugin/admin_controller.html">
+            
+                <a href="../../plugin/admin_controller.html">
+            
+                    
+                    插件后台管理控制器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.8" data-path="../../插件多语言.html">
+            
+                <a href="../../插件多语言.html">
+            
+                    
+                    插件多语言
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="../../admin.html">
+            
+                <a href="../../admin.html">
+            
+                    
+                    后台管理
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.12.1" data-path="../../admin/smtp.html">
+            
+                <a href="../../admin/smtp.html">
+            
+                    
+                    SMTP配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.2" data-path="../../admin/forgot_admin_pw.html">
+            
+                <a href="../../admin/forgot_admin_pw.html">
+            
+                    
+                    忘记后台密码？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.3" data-path="../../admin/admin_index_url.html">
+            
+                <a href="../../admin/admin_index_url.html">
+            
+                    
+                    后台地址是啥？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.4" data-path="../../admin/menu.html">
+            
+                <a href="../../admin/menu.html">
+            
+                    
+                    后台菜单管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.5" data-path="../../admin/rbac.html">
+            
+                <a href="../../admin/rbac.html">
+            
+                    
+                    管理员权限管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.6" data-path="../../admin/thirdpart_auth.html">
+            
+                <a href="../../admin/thirdpart_auth.html">
+            
+                    
+                    第三方登录配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="../../special.html">
+            
+                <a href="../../special.html">
+            
+                    
+                    专题
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.13.1" data-path="../../special/multi_lang.html">
+            
+                <a href="../../special/multi_lang.html">
+            
+                    
+                    多语言开发
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.2" data-path="../../restful-api.html">
+            
+                <a href="../../restful-api.html">
+            
+                    
+                    Restful Api
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.3" data-path="../../special/pagination.html">
+            
+                <a href="../../special/pagination.html">
+            
+                    
+                    数据分页
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.4" data-path="../../special/cache.html">
+            
+                <a href="../../special/cache.html">
+            
+                    
+                    缓存
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.5" data-path="../../special/safe.html">
+            
+                <a href="../../special/safe.html">
+            
+                    
+                    安全
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.6" data-path="../../special/session.html">
+            
+                <a href="../../special/session.html">
+            
+                    
+                    SESSION支持
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.7" data-path="../../special/cookie.html">
+            
+                <a href="../../special/cookie.html">
+            
+                    
+                    Cookie支持
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.8" data-path="../../special/fileupload.html">
+            
+                <a href="../../special/fileupload.html">
+            
+                    
+                    文件上传
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.9" data-path="../../special/verifycode.html">
+            
+                <a href="../../special/verifycode.html">
+            
+                    
+                    验证码
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="../../deploy.html">
+            
+                <a href="../../deploy.html">
+            
+                    
+                    部署
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.14.1" data-path="../../deploy/production.html">
+            
+                <a href="../../deploy/production.html">
+            
+                    
+                    迁移到正式环境
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.2" data-path="../../deploy/url_rewrite.html">
+            
+                <a href="../../deploy/url_rewrite.html">
+            
+                    
+                    URL重写
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >获取指定ID的分类</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="spgetterm"><a name="spgetterm" class="plugin-anchor" href="#spgetterm"><i class="fa fa-link" aria-hidden="true"></i></a>sp_get_term()</h1>
+<pre class="language-"><code class="lang-php"><span class="token function">sp_get_term</span><span class="token punctuation">(</span><span class="token variable">$term_id</span><span class="token punctuation">)</span>
+</code></pre>
+<p>&#x529F;&#x80FD;&#xFF1A;<br>&#x8FD4;&#x56DE;&#x6307;&#x5B9A;&#x5206;&#x7C7B;</p>
+<p>&#x53C2;&#x6570;&#xFF1A;<br><code>$term_id</code>:&#x5206;&#x7C7B;id</p>
+<p>&#x8FD4;&#x56DE;&#xFF1A;<br>&#x7C7B;&#x578B;&#x6570;&#x7EC4;,&#x7B26;&#x5408;&#x6761;&#x4EF6;&#x7684;&#x5206;&#x7C7B;</p>
+<p>&#x793A;&#x4F8B;&#xFF1A;</p>
+<pre class="language-"><code class="lang-php"><span class="token delimiter">&lt;?php</span>
+ <span class="token variable">$term_id</span><span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span>
+ <span class="token variable">$term</span><span class="token operator">=</span><span class="token function">sp_get_term</span><span class="token punctuation">(</span><span class="token variable">$term_id</span> <span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment" spellcheck="true">//&#x83B7;&#x53D6;&#x5206;&#x7C7B;&#x4FE1;&#x606F;</span>
+ <span class="token function">print_r</span><span class="token punctuation">(</span><span class="token variable">$term</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment" spellcheck="true">//&#x6253;&#x5370;&#x51FA;&#x5206;&#x7C7B;&#x4FE1;&#x606F;</span>
+<span class="token delimiter">?&gt;</span>
+</code></pre>
+<p>&#x8FD4;&#x56DE;&#x6570;&#x7EC4;&#x8BF4;&#x660E;&#xFF1A;</p>
+<p><code>term_id</code>:&#x5206;&#x7C7B;id<br><code>name</code>:&#x5206;&#x7C7B;&#x540D;&#x79F0;<br><code>taxonomy</code>:&#x5206;&#x7C7B;&#x7684;&#x7C7B;&#x578B;&#xFF0C;&#x7528;&#x5B57;&#x7B26;&#x4E32;&#x8868;&#x793A;&#xFF0C;article&#x8868;&#x793A;&#x6587;&#x7AE0;<br><code>description</code>:      &#x5206;&#x7C7B;&#x63CF;&#x8FF0;<br><code>parent</code>:&#x5206;&#x7C7B;&#x7236;&#x7EA7;id,terms&#x8868;&#x4E2D;&#x7684;term_id<br><code>seo_title</code><br><code>seo_keywords</code><br><code>seo_description</code><br><code>list_tpl</code>:&#x5206;&#x7C7B;&#x5217;&#x8868;&#x9875;&#x7684;&#x6A21;&#x677F;&#xFF0C;&#x5BF9;&#x5E94;&#x4E8E;&#x6A21;&#x677F;&#x76EE;&#x5F55;&#x4E0B;Portal/&#x6587;&#x4EF6;&#x540D;+.html&#xFF0C;&#x6587;&#x4EF6;&#x540D;&#x9ED8;&#x8BA4;&#x4E3A;list<br><code>one_tpl</code>:&#x5206;&#x7C7B;&#x5355;&#x6587;&#x7AE0;&#x9875;&#x7684;&#x6A21;&#x677F;&#xFF0C;&#x5BF9;&#x5E94;&#x4E8E;&#x6A21;&#x677F;&#x76EE;&#x5F55;&#x4E0B;Portal/&#x6587;&#x4EF6;&#x540D;+.html&#xFF0C;&#x6587;&#x4EF6;&#x540D;&#x9ED8;&#x8BA4;&#x4E3A;article</p>
+<footer class="page-footer"><span class="copyright">&#xA9; ThinkCMF all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x6700;&#x540E;&#x6587;&#x4EF6;&#x7F16;&#x8F91;&#x65F6;&#x95F4;:
+2016-03-10 16:14:16
+</span></footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="sp_sql_post.html" class="navigation navigation-prev " aria-label="Previous page: 获取指定ID的文章">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="sp_get_terms.html" class="navigation navigation-next " aria-label="Next page: 获取分类列表">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"获取指定ID的分类","level":"1.10.2.5","depth":3,"next":{"title":"获取分类列表","level":"1.10.2.6","depth":3,"path":"portal/functions/sp_get_terms.md","ref":"portal/functions/sp_get_terms.md","articles":[]},"previous":{"title":"获取指定ID的文章","level":"1.10.2.4","depth":3,"path":"portal/functions/sp_sql_post.md","ref":"portal/functions/sp_sql_post.md","articles":[]},"dir":"ltr"},"config":{"plugins":["prism","-highlight","-sharing","github","editlink","anchors","ad","tbfed-pagefooter","sitemap","duoshuo"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"&copy ThinkCMF","modify_label":"最后文件编辑时间:","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{"css":["prismjs/themes/prism-solarizedlight.css"]},"ad":{"contentBottom":"%3Cscript%3Evar%20_hmt%20%3D%20_hmt%20%7C%7C%20%5B%5D%3B%28function%28%29%20%7B%20%20var%20hm%20%3D%20document.createElement%28%22script%22%29%3B%20%20hm.src%20%3D%20%22//hm.baidu.com/hm.js%3F3bd0ecf189515ac893b73c6f7e9beaa8%22%3B%20%20var%20s%20%3D%20document.getElementsByTagName%28%22script%22%29%5B0%5D%3B%20%20%20s.parentNode.insertBefore%28hm%2C%20s%29%3B%7D%29%28%29%3B%3C/script%3E","contentTop":""},"github":{"url":"https://github.com/thinkcmf/cmfx"},"editlink":{"label":"发现错误? 现在编辑","multilingual":false,"base":"https://github.com/thinkcmf/cmfx_doc/edit/master"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"duoshuo":{"short_name":"thinkcmf","theme":"default"},"fontsettings":{"theme":"white","family":"sans","size":2},"sitemap":{"hostname":"http://www.thinkcmf.com/"},"baidu":{"token":"3bd0ecf189515ac893b73c6f7e9beaa8"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{},"expandable-chapters":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"ThinkCMFX完全开发手册","language":"zh-hans","gitbook":"*","description":"ThinkCMF是一款基于ThinkPHP+MYSQL开发的中文内容管理框架(CMF),我们一直秉承ThinkPHP大道至简的理念，坚持做最简约的ThinkPHP开源软件,多应用化开发方式,让您更快地完成自己的创业项目！"},"file":{"path":"portal/functions/sp_get_term.md","mtime":"2016-03-10T08:14:16.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-01-03T08:56:37.699Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-editlink/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-ad/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-duoshuo/duoshuo.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

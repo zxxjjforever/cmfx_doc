@@ -1,22 +1,42 @@
 # sp_get_menu()
+
+```php
+sp_get_menu($id,$menu_root_ul_id,$filetpl,$foldertpl,$ul_class,$li_class,$menu_root_ul_class,$showlevel,$dropdown)
+```
+
+######功能:
+生成指定ID的导航
+
+######参数:
+`$id`:导航id  
+`$menu_root_ul_id`:菜单根节点ul标签的id属性值  
+`$filetpl`:没有子菜单的菜单的html模板  
+`$foldertpl`:有子菜单的菜单的html模板  
+`$ul_class`:内部ul标签的class属性值  
+`$li_class`:内部li标签的class属性值  
+`$menu_root_ul_class`:菜单根节点ul标签的class属性值  
+`$showlevel`:菜单根节点ul标签的class属性值
+`$dropdown`:含有子菜单的li标签的class属性值,用于控制多级菜单的折叠
+
+
 模板中用法：
 
-```html
+```php
 <php>
-    $effected_id="menu-header";
+    $menu_root_ul_id="main-menu";
     $filetpl="<a href='\$href' target='\$target'>\$label</a>";
     $foldertpl="<a class='dropdown-toggle' href='\$href' target='\$target'>\$label</a>";
     $ul_class="dropdown-menu" ;/*内部ul标签的class属性值*/
     $li_class="" ;/*内部li标签的class属性值*/
-    $style="nav";/*最外层ul标签的class属性值*/
-    $showlevel=6;/*显示的层级*/
-    $dropdown='dropdown';/*含有子目录的li标签的class属性值*/
+    $menu_root_ul_class="nav";/*菜单根节点ul标签的class属性值*/
+    $showlevel=6;/*显示菜单的层级*/
+    $dropdown='dropdown';/*含有子菜单的li标签的class属性值,用于控制多级菜单的折叠*/
 </php>
 
-{:sp_get_menu("main",$effected_id,$filetpl,$foldertpl,$ul_class,$li_class,$style,$showlevel,$dropdown)}
+{:sp_get_menu("main",$menu_root_ul_id,$filetpl,$foldertpl,$ul_class,$li_class,$menu_root_ul_class,$showlevel,$dropdown)}
 ```
 
-```html
+```php
 <!--生成的代码如下：-->
 <ul class="nav">
 	<li class="active" id="menu-item-1"><a href="/" target="">首页</a></li>

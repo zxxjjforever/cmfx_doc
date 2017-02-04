@@ -1,6 +1,7 @@
 # 插件数据库模型
 创建插件自定义模型
 ```php
+<?php
 namespace plugins\Demo\Model;//Demo插件英文名，改成你的插件英文就行了
 use Common\Model\CommonModel;//继承CommonModel
 class PluginDemoModel extends CommonModel{ //Demo插件英文名，改成你的插件英文就行了,插件数据表最好加个plugin前缀再加表名,这个类就是对应“表前缀+plugin_demo”表

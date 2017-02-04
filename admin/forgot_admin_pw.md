@@ -9,6 +9,7 @@
 你只要在任何一个前台可以访问控制器里,如application/Portal/Controller/IndexController.class.php
 
 ```php
+<?php
 namespace Portal\Controller;
 use Common\Controller\HomebaseController; 
 /**
@@ -22,7 +23,8 @@ class IndexController extends HomebaseController {
     	$this->display(":index");
     }
 
-}```
+}
+```
 访问你的首页：得到密码后，把你刚刚修改的地方还原；
 
 打开你的数据库管理功能，找到你的管理员那一列，把密码换进去！

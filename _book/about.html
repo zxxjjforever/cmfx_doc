@@ -1,0 +1,3410 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>关于ThinkCMF · ThinkCMFX完全开发手册</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-prism/prism-solarizedlight.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-ad/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="bootstrap.html" />
+    
+    
+    <link rel="prev" href="preface.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="preface.html">
+            
+                <a href="preface.html">
+            
+                    
+                    序言
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.2.1" data-path="about.html">
+            
+                <a href="about.html">
+            
+                    
+                    关于ThinkCMF
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="bootstrap.html">
+            
+                <a href="bootstrap.html">
+            
+                    
+                    关于BootStrap
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="foundation.html">
+            
+                <a href="foundation.html">
+            
+                    
+                    基础
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="base/coding_standards.html">
+            
+                <a href="base/coding_standards.html">
+            
+                    
+                    开发规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="base/debug_mode.html">
+            
+                <a href="base/debug_mode.html">
+            
+                    
+                    调试模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="app.html">
+            
+                <a href="app.html">
+            
+                    
+                    应用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="base/get_methods.html">
+            
+                <a href="base/get_methods.html">
+            
+                    
+                    如何获取
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="base/environmental_requirement.html">
+            
+                <a href="base/environmental_requirement.html">
+            
+                    
+                    环境要求
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="base/install.html">
+            
+                <a href="base/install.html">
+            
+                    
+                    安装使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="config.html">
+            
+                <a href="config.html">
+            
+                    
+                    配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="controller.html">
+            
+                <a href="controller.html">
+            
+                    
+                    控制器
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="url.html">
+            
+                <a href="url.html">
+            
+                    
+                    URL生成
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="controller/ajax_return.html">
+            
+                <a href="controller/ajax_return.html">
+            
+                    
+                    AJAX返回
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="controller/redirect.html">
+            
+                <a href="controller/redirect.html">
+            
+                    
+                    跳转和重定向
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="controller/input.html">
+            
+                <a href="controller/input.html">
+            
+                    
+                    输入变量
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="controller/request_type.html">
+            
+                <a href="controller/request_type.html">
+            
+                    
+                    请求类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="controller/empty_action.html">
+            
+                <a href="controller/empty_action.html">
+            
+                    
+                    空操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="controller/empty_controller.html">
+            
+                <a href="controller/empty_controller.html">
+            
+                    
+                    空控制器
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="view.html">
+            
+                <a href="view.html">
+            
+                    
+                    视图
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="view/theme.html">
+            
+                <a href="view/theme.html">
+            
+                    
+                    模板定义
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="view/theme_detail.html">
+            
+                <a href="view/theme_detail.html">
+            
+                    
+                    模板主题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="view/assign.html">
+            
+                <a href="view/assign.html">
+            
+                    
+                    模板赋值
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="view/fetch.html">
+            
+                <a href="view/fetch.html">
+            
+                    
+                    获取内容
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="view/display.html">
+            
+                <a href="view/display.html">
+            
+                    
+                    模板渲染
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="model.html">
+            
+                <a href="model.html">
+            
+                    
+                    模型
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="model/definition.html">
+            
+                <a href="model/definition.html">
+            
+                    
+                    模型定义
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="model/instancing.html">
+            
+                <a href="model/instancing.html">
+            
+                    
+                    模型实例化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="lian_jie_shu_ju_ku.html">
+            
+                <a href="lian_jie_shu_ju_ku.html">
+            
+                    
+                    连接数据库
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="model/more_help.html">
+            
+                <a href="model/more_help.html">
+            
+                    
+                    更多模型用法
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="core_functions.html">
+            
+                <a href="core_functions.html">
+            
+                    
+                    系统函数
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="functions/comments.html">
+            
+                <a href="functions/comments.html">
+            
+                    
+                    生成评论组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="functions/hook.html">
+            
+                <a href="functions/hook.html">
+            
+                    
+                    添加钩子
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="functions/leuu.html">
+            
+                <a href="functions/leuu.html">
+            
+                    
+                    URL美化函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="functions/sp_asset_relative_url.html">
+            
+                <a href="functions/sp_asset_relative_url.html">
+            
+                    
+                    获取文件相对路径
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.5" data-path="functions/sp_auth_check.html">
+            
+                <a href="functions/sp_auth_check.html">
+            
+                    
+                    用户权限验证
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.6" data-path="functions/sp_auth_code.html">
+            
+                <a href="functions/sp_auth_code.html">
+            
+                    
+                    字符串解密
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.7" data-path="functions/sp_auth_encode.html">
+            
+                <a href="functions/sp_auth_encode.html">
+            
+                    
+                    字符串加密
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.8" data-path="sp_check_lang.html">
+            
+                <a href="sp_check_lang.html">
+            
+                    
+                    获取当前语言包
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.9" data-path="spcheckmobileverifycode.html">
+            
+                <a href="spcheckmobileverifycode.html">
+            
+                    
+                    手机验证码验证
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.10" data-path="functions/sp_check_user_action.html">
+            
+                <a href="functions/sp_check_user_action.html">
+            
+                    
+                    检查用户操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.11" data-path="functions/sp_check_verify_code.html">
+            
+                <a href="functions/sp_check_verify_code.html">
+            
+                    
+                    图片验证码验证
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.12" data-path="functions/sp_clear_cache.html">
+            
+                <a href="functions/sp_clear_cache.html">
+            
+                    
+                    清除系统缓存 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.13" data-path="functions/sp_content_page.html">
+            
+                <a href="functions/sp_content_page.html">
+            
+                    
+                    文本内容分页
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.14" data-path="spcomparepassword.html">
+            
+                <a href="spcomparepassword.html">
+            
+                    
+                    密码比较
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.15" data-path="spgetassetuploadpath.html">
+            
+                <a href="spgetassetuploadpath.html">
+            
+                    
+                    获取文件访问地址
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.16" data-path="functions/sp_get_cmf_settings.html">
+            
+                <a href="functions/sp_get_cmf_settings.html">
+            
+                    
+                    获取CMF设置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.17" data-path="functions/sp_get_comments.html">
+            
+                <a href="functions/sp_get_comments.html">
+            
+                    
+                    获取评论
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.18" data-path="functions/sp_get_current_admin_id.html">
+            
+                <a href="functions/sp_get_current_admin_id.html">
+            
+                    
+                    获取当前登录管理员id
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.19" data-path="spgetcurrenttheme.html">
+            
+                <a href="spgetcurrenttheme.html">
+            
+                    
+                    获取当前主题名
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.20" data-path="functions/sp_get_current_user.html">
+            
+                <a href="functions/sp_get_current_user.html">
+            
+                    
+                    获取当前登录用户信息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.21" data-path="functions/sp_get_current_userid.html">
+            
+                <a href="functions/sp_get_current_userid.html">
+            
+                    
+                    获取当前登录用户ID
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.22" data-path="functions/sp_get_favorite_key.html">
+            
+                <a href="functions/sp_get_favorite_key.html">
+            
+                    
+                    获取收藏安全Key
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.23" data-path="spgetfiledownloadurl.html">
+            
+                <a href="spgetfiledownloadurl.html">
+            
+                    
+                    获取文件下载链接
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.24" data-path="spgetfileextension.html">
+            
+                <a href="spgetfileextension.html">
+            
+                    
+                    获取文件扩展名
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.25" data-path="functions/sp_get_host.html">
+            
+                <a href="functions/sp_get_host.html">
+            
+                    
+                    获取系统域名
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.26" data-path="spgetimagepreviewurl.html">
+            
+                <a href="spgetimagepreviewurl.html">
+            
+                    
+                    获取图片预览地址
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.27" data-path="spgetimageurl.html">
+            
+                <a href="spgetimageurl.html">
+            
+                    
+                    获取图片访问地址
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.28" data-path="functions/sp_get_menu.html">
+            
+                <a href="functions/sp_get_menu.html">
+            
+                    
+                    生成前台导航
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.29" data-path="functions/sp_get_plugin_class.html">
+            
+                <a href="functions/sp_get_plugin_class.html">
+            
+                    
+                    获取插件类名
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.30" data-path="functions/sp_get_plugin_config.html">
+            
+                <a href="functions/sp_get_plugin_config.html">
+            
+                    
+                    获取插件配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.31" data-path="functions/sp_get_relative_url.html">
+            
+                <a href="functions/sp_get_relative_url.html">
+            
+                    
+                    获取URL相对路径
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.32" data-path="functions/sp_get_theme_path.html">
+            
+                <a href="functions/sp_get_theme_path.html">
+            
+                    
+                    获取前台模板根目录地址
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.33" data-path="spgetuseravatarurl.html">
+            
+                <a href="spgetuseravatarurl.html">
+            
+                    
+                    获取用户头像地址
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.34" data-path="functions/sp_get_users.html">
+            
+                <a href="functions/sp_get_users.html">
+            
+                    
+                    获取用户列表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.35" data-path="functions/sp_getad.html">
+            
+                <a href="functions/sp_getad.html">
+            
+                    
+                    获取广告
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.36" data-path="functions/sp_getslide.html">
+            
+                <a href="functions/sp_getslide.html">
+            
+                    
+                    获取幻灯片
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.37" data-path="functions/sp_is_mobile.html">
+            
+                <a href="functions/sp_is_mobile.html">
+            
+                    
+                    判断是否为手机访问
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.38" data-path="functions/sp_getcontent_imgs.html">
+            
+                <a href="functions/sp_getcontent_imgs.html">
+            
+                    
+                    获取HTML内容中的图片
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.39" data-path="functions/sp_is_user_login.html">
+            
+                <a href="functions/sp_is_user_login.html">
+            
+                    
+                    判断用户是否登录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.40" data-path="spisweixin.html">
+            
+                <a href="spisweixin.html">
+            
+                    
+                    判断是否为微信访问
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.41" data-path="functions/sp_param_lable.html">
+            
+                <a href="functions/sp_param_lable.html">
+            
+                    
+                    解析字符串标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.42" data-path="functions/sp_password.html">
+            
+                <a href="functions/sp_password.html">
+            
+                    
+                    生成密码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.43" data-path="functions/sp_plugin_url.html">
+            
+                <a href="functions/sp_plugin_url.html">
+            
+                    
+                    插件URL生成
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.44" data-path="functions/sp_random_string.html">
+            
+                <a href="functions/sp_random_string.html">
+            
+                    
+                    生成随意字符串
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.45" data-path="functions/sp_scan_dir.html">
+            
+                <a href="functions/sp_scan_dir.html">
+            
+                    
+                    遍历目录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.46" data-path="functions/sp_send_email.html">
+            
+                <a href="functions/sp_send_email.html">
+            
+                    
+                    发送邮件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.47" data-path="functions/sp_set_dynamic_config.html">
+            
+                <a href="functions/sp_set_dynamic_config.html">
+            
+                    
+                    更新动态配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.48" data-path="spsetoption.html">
+            
+                <a href="spsetoption.html">
+            
+                    
+                    设置系统配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.49" data-path="functions/sp_update_current_user.html">
+            
+                <a href="functions/sp_update_current_user.html">
+            
+                    
+                    更新当前登录用户
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="extends.html">
+            
+                <a href="extends.html">
+            
+                    
+                    系统扩展
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="extends/application_flow.html">
+            
+                <a href="extends/application_flow.html">
+            
+                    
+                    应用开发流程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="extends/admin_menu.html">
+            
+                <a href="extends/admin_menu.html">
+            
+                    
+                    后台隐藏的后台菜单管理功能
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="extends/base_class.html">
+            
+                <a href="extends/base_class.html">
+            
+                    
+                    几个重要基类
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.4" data-path="extends/thirdpart_lib.html">
+            
+                <a href="extends/thirdpart_lib.html">
+            
+                    
+                    引入第三方库
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="theme.html">
+            
+                <a href="theme.html">
+            
+                    
+                    模板
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="theme/base.html">
+            
+                <a href="theme/base.html">
+            
+                    
+                    基础
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1.1" data-path="theme/base/global_var.html">
+            
+                <a href="theme/base/global_var.html">
+            
+                    
+                    全局变量
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.1.2" data-path="theme/base/structure.html">
+            
+                <a href="theme/base/structure.html">
+            
+                    
+                    模板结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.1.3" data-path="theme/base/comments.html">
+            
+                <a href="theme/base/comments.html">
+            
+                    
+                    模板注释
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.1.4" data-path="theme/base/constant.html">
+            
+                <a href="theme/base/constant.html">
+            
+                    
+                    模板常量
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.1.5" data-path="theme/base/multi_lang.html">
+            
+                <a href="theme/base/multi_lang.html">
+            
+                    
+                    前台模板多语言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.1.6" data-path="theme/base/var_echo.html">
+            
+                <a href="theme/base/var_echo.html">
+            
+                    
+                    变量输出
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.1.7" data-path="theme/base/use_functions.html">
+            
+                <a href="theme/base/use_functions.html">
+            
+                    
+                    使用函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.1.8" data-path="theme/base/default_value_echo.html">
+            
+                <a href="theme/base/default_value_echo.html">
+            
+                    
+                    默认值输出
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.1.9" data-path="theme/base/operator.html">
+            
+                <a href="theme/base/operator.html">
+            
+                    
+                    使用运算符
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.1.10" data-path="theme/base/ternary_operator.html">
+            
+                <a href="theme/base/ternary_operator.html">
+            
+                    
+                    三元运算
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.1.11" data-path="theme/base/include.html">
+            
+                <a href="theme/base/include.html">
+            
+                    
+                    包含文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.1.12" data-path="theme/base/literal.html">
+            
+                <a href="theme/base/literal.html">
+            
+                    
+                    原样输出
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="theme/tag.html">
+            
+                <a href="theme/tag.html">
+            
+                    
+                    模板标签
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.2.1" data-path="theme/tags/tc_include.html">
+            
+                <a href="theme/tags/tc_include.html">
+            
+                    
+                    tc_include
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2.2" data-path="theme/tags/foreach.html">
+            
+                <a href="theme/tags/foreach.html">
+            
+                    
+                    foreach
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2.3" data-path="theme/tags/volist.html">
+            
+                <a href="theme/tags/volist.html">
+            
+                    
+                    volist
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2.4" data-path="theme/tags/php.html">
+            
+                <a href="theme/tags/php.html">
+            
+                    
+                    php
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2.5" data-path="theme/tags/if_else.html">
+            
+                <a href="theme/tags/if_else.html">
+            
+                    
+                    if else
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2.6" data-path="theme/tags/for.html">
+            
+                <a href="theme/tags/for.html">
+            
+                    
+                    for
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2.7" data-path="theme/tags/switch.html">
+            
+                <a href="theme/tags/switch.html">
+            
+                    
+                    switch
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2.8" data-path="theme/tags/compare.html">
+            
+                <a href="theme/tags/compare.html">
+            
+                    
+                    比较标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2.9" data-path="theme/tags/between.html">
+            
+                <a href="theme/tags/between.html">
+            
+                    
+                    范围判断标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2.10" data-path="theme/tags/present.html">
+            
+                <a href="theme/tags/present.html">
+            
+                    
+                    Present标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2.11" data-path="theme/tags/empty.html">
+            
+                <a href="theme/tags/empty.html">
+            
+                    
+                    Empty标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2.12" data-path="theme/tags/defined.html">
+            
+                <a href="theme/tags/defined.html">
+            
+                    
+                    Defined标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2.13" data-path="theme/tags/assign.html">
+            
+                <a href="theme/tags/assign.html">
+            
+                    
+                    Assign标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2.14" data-path="theme/tags/define.html">
+            
+                <a href="theme/tags/define.html">
+            
+                    
+                    Define标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2.15" data-path="theme/tags/nest.html">
+            
+                <a href="theme/tags/nest.html">
+            
+                    
+                    标签嵌套
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3" data-path="theme/js_components.html">
+            
+                <a href="theme/js_components.html">
+            
+                    
+                    前端组件
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.3.1" data-path="theme/js/js-count-btn.html">
+            
+                <a href="theme/js/js-count-btn.html">
+            
+                    
+                    js-count-btn
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3.2" data-path="theme/js/js-favorite-btn.html">
+            
+                <a href="theme/js/js-favorite-btn.html">
+            
+                    
+                    js-favorite-btn
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3.3" data-path="theme/js/js-ajax-dialog-btn.html">
+            
+                <a href="theme/js/js-ajax-dialog-btn.html">
+            
+                    
+                    js-ajax-dialog-btn
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3.4" data-path="theme/js/js-ajax-delete.html">
+            
+                <a href="theme/js/js-ajax-delete.html">
+            
+                    
+                    js-ajax-delete
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3.5" data-path="theme/js/js-date.html">
+            
+                <a href="theme/js/js-date.html">
+            
+                    
+                    js-date
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3.6" data-path="theme/js/js-datetime.html">
+            
+                <a href="theme/js/js-datetime.html">
+            
+                    
+                    js-datetime
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3.7" data-path="theme/js/js-ajax-form.html">
+            
+                <a href="theme/js/js-ajax-form.html">
+            
+                    
+                    js-ajax-form
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4" data-path="theme/public.html">
+            
+                <a href="theme/public.html">
+            
+                    
+                    公共模板
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.4.1" data-path="theme/public/nav.html">
+            
+                <a href="theme/public/nav.html">
+            
+                    
+                    菜单导航制作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4.2" data-path="theme/public/slide.html">
+            
+                <a href="theme/public/slide.html">
+            
+                    
+                    幻灯片制作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4.3" data-path="theme/public/ad.html">
+            
+                <a href="theme/public/ad.html">
+            
+                    
+                    广告位制作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4.4" data-path="theme/public/link.html">
+            
+                <a href="theme/public/link.html">
+            
+                    
+                    友情链接制作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4.5" data-path="theme/public/guestbook.html">
+            
+                <a href="theme/public/guestbook.html">
+            
+                    
+                    添加留言控件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4.6" data-path="theme/public/favorite.html">
+            
+                <a href="theme/public/favorite.html">
+            
+                    
+                    如何收藏
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4.7" data-path="theme/public/like.html">
+            
+                <a href="theme/public/like.html">
+            
+                    
+                    点赞组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4.8" data-path="theme/public/last_comment.html">
+            
+                <a href="theme/public/last_comment.html">
+            
+                    
+                    最新评论组件制作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4.9" data-path="theme/public/last_join.html">
+            
+                <a href="theme/public/last_join.html">
+            
+                    
+                    最新加入组件制作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4.10" data-path="theme/public/login.html">
+            
+                <a href="theme/public/login.html">
+            
+                    
+                    本站用户登录模板制作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4.11" data-path="theme/public/register.html">
+            
+                <a href="theme/public/register.html">
+            
+                    
+                    本站用户注册模板制作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4.12" data-path="theme/public/forgot_password.html">
+            
+                <a href="theme/public/forgot_password.html">
+            
+                    
+                    忘记密码模板制作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4.13" data-path="theme/public/password_reset.html">
+            
+                <a href="theme/public/password_reset.html">
+            
+                    
+                    密码重置模板制作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4.14" data-path="theme/public/comment.html">
+            
+                <a href="theme/public/comment.html">
+            
+                    
+                    评论组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.5" data-path="advanced.html">
+            
+                <a href="advanced.html">
+            
+                    
+                    进阶
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.5.1" data-path="advanced/qiniu.html">
+            
+                <a href="advanced/qiniu.html">
+            
+                    
+                    七牛图片处理
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="portal.html">
+            
+                <a href="portal.html">
+            
+                    
+                    门户应用
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="portal/base.html">
+            
+                <a href="portal/base.html">
+            
+                    
+                    基础
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1.1" data-path="portal/base/structure.html">
+            
+                <a href="portal/base/structure.html">
+            
+                    
+                    主程序结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.1.2" data-path="portal/base/theme_structure.html">
+            
+                <a href="portal/base/theme_structure.html">
+            
+                    
+                    模板结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2" data-path="portal/functions.html">
+            
+                <a href="portal/functions.html">
+            
+                    
+                    函数库
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.2.1" data-path="portal/spgetallchildterms.html">
+            
+                <a href="portal/spgetallchildterms.html">
+            
+                    
+                    指定分类下的所有子分类
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2.2" data-path="portal/spgetbreadcrumb.html">
+            
+                <a href="portal/spgetbreadcrumb.html">
+            
+                    
+                    获取面包屑数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2.3" data-path="portal/functions/sp_sql_posts.html">
+            
+                <a href="portal/functions/sp_sql_posts.html">
+            
+                    
+                    查询文章列表,不分页
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2.4" data-path="portal/functions/sp_sql_post.html">
+            
+                <a href="portal/functions/sp_sql_post.html">
+            
+                    
+                    获取指定ID的文章
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2.5" data-path="portal/functions/sp_get_term.html">
+            
+                <a href="portal/functions/sp_get_term.html">
+            
+                    
+                    获取指定ID的分类
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2.6" data-path="portal/functions/sp_get_terms.html">
+            
+                <a href="portal/functions/sp_get_terms.html">
+            
+                    
+                    获取分类列表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2.7" data-path="portal/functions/sp_get_child_terms.html">
+            
+                <a href="portal/functions/sp_get_child_terms.html">
+            
+                    
+                    获取指定分类下的子分类
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2.8" data-path="portal/functions/sp_sql_posts_paged.html">
+            
+                <a href="portal/functions/sp_sql_posts_paged.html">
+            
+                    
+                    获取文章列表,分页
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2.9" data-path="portal/functions/sp_sql_page.html">
+            
+                <a href="portal/functions/sp_sql_page.html">
+            
+                    
+                    获取指定 ID 的页面
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2.10" data-path="portal/functions/sp_sql_posts_bycatid.html">
+            
+                <a href="portal/functions/sp_sql_posts_bycatid.html">
+            
+                    
+                    获取指定分类下所有文章,包括子类的
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2.11" data-path="portal/functions/sp_sql_posts_paged_bycatid.html">
+            
+                <a href="portal/functions/sp_sql_posts_paged_bycatid.html">
+            
+                    
+                    获取指定分类下所有文章,包括子类的,分页
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.3" data-path="portal/template.html">
+            
+                <a href="portal/template.html">
+            
+                    
+                    门户模板制作
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.3.1" data-path="portal/template/list.html">
+            
+                <a href="portal/template/list.html">
+            
+                    
+                    文章列表页制作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.3.2" data-path="portal/template/article.html">
+            
+                <a href="portal/template/article.html">
+            
+                    
+                    文章内页制作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.3.3" data-path="portal/template/page.html">
+            
+                <a href="portal/template/page.html">
+            
+                    
+                    页面制作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.3.4" data-path="portal/template/get_articles.html">
+            
+                <a href="portal/template/get_articles.html">
+            
+                    
+                    获取文章的各种方式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.3.5" data-path="portal/template/hot_articles.html">
+            
+                <a href="portal/template/hot_articles.html">
+            
+                    
+                    热门文章组件制作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.3.6" data-path="portal/template/seo.html">
+            
+                <a href="portal/template/seo.html">
+            
+                    
+                    seo优化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.3.7" data-path="portal/wenzhang_xiang_ce_zhi_zuo_md.html">
+            
+                <a href="portal/wenzhang_xiang_ce_zhi_zuo_md.html">
+            
+                    
+                    文章相册制作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.3.8" data-path="portal/template/wen_zhang_lie_biao_tui_jian_gong_neng_zhi_zuo.html">
+            
+                <a href="portal/template/wen_zhang_lie_biao_tui_jian_gong_neng_zhi_zuo.html">
+            
+                    
+                    文章列表推荐功能制作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.3.9" data-path="portal/template/wen_zhang_lie_biao_zhi_ding_gong_neng_zhi_zuo.html">
+            
+                <a href="portal/template/wen_zhang_lie_biao_zhi_ding_gong_neng_zhi_zuo.html">
+            
+                    
+                    文章列表置顶功能制作
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="plugin.html">
+            
+                <a href="plugin.html">
+            
+                    
+                    插件
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.11.1" data-path="plugin/hook.html">
+            
+                <a href="plugin/hook.html">
+            
+                    
+                    插件钩子
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.2" data-path="plugin/config.html">
+            
+                <a href="plugin/config.html">
+            
+                    
+                    插件配置文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.3" data-path="plugin/class.html">
+            
+                <a href="plugin/class.html">
+            
+                    
+                    插件类主文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.4" data-path="plugin/flow.html">
+            
+                <a href="plugin/flow.html">
+            
+                    
+                    插件开发流程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.5" data-path="plugin/controller.html">
+            
+                <a href="plugin/controller.html">
+            
+                    
+                    插件控制器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.6" data-path="plugin/model.html">
+            
+                <a href="plugin/model.html">
+            
+                    
+                    插件数据库模型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.7" data-path="plugin/admin_controller.html">
+            
+                <a href="plugin/admin_controller.html">
+            
+                    
+                    插件后台管理控制器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.8" data-path="插件多语言.html">
+            
+                <a href="插件多语言.html">
+            
+                    
+                    插件多语言
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="admin.html">
+            
+                <a href="admin.html">
+            
+                    
+                    后台管理
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.12.1" data-path="admin/smtp.html">
+            
+                <a href="admin/smtp.html">
+            
+                    
+                    SMTP配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.2" data-path="admin/forgot_admin_pw.html">
+            
+                <a href="admin/forgot_admin_pw.html">
+            
+                    
+                    忘记后台密码？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.3" data-path="admin/admin_index_url.html">
+            
+                <a href="admin/admin_index_url.html">
+            
+                    
+                    后台地址是啥？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.4" data-path="admin/menu.html">
+            
+                <a href="admin/menu.html">
+            
+                    
+                    后台菜单管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.5" data-path="admin/rbac.html">
+            
+                <a href="admin/rbac.html">
+            
+                    
+                    管理员权限管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.6" data-path="admin/thirdpart_auth.html">
+            
+                <a href="admin/thirdpart_auth.html">
+            
+                    
+                    第三方登录配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="special.html">
+            
+                <a href="special.html">
+            
+                    
+                    专题
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.13.1" data-path="special/multi_lang.html">
+            
+                <a href="special/multi_lang.html">
+            
+                    
+                    多语言开发
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.2" data-path="restful-api.html">
+            
+                <a href="restful-api.html">
+            
+                    
+                    Restful Api
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.3" data-path="special/pagination.html">
+            
+                <a href="special/pagination.html">
+            
+                    
+                    数据分页
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.4" data-path="special/cache.html">
+            
+                <a href="special/cache.html">
+            
+                    
+                    缓存
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.5" data-path="special/safe.html">
+            
+                <a href="special/safe.html">
+            
+                    
+                    安全
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.6" data-path="special/session.html">
+            
+                <a href="special/session.html">
+            
+                    
+                    SESSION支持
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.7" data-path="special/cookie.html">
+            
+                <a href="special/cookie.html">
+            
+                    
+                    Cookie支持
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.8" data-path="special/fileupload.html">
+            
+                <a href="special/fileupload.html">
+            
+                    
+                    文件上传
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.9" data-path="special/verifycode.html">
+            
+                <a href="special/verifycode.html">
+            
+                    
+                    验证码
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="deploy.html">
+            
+                <a href="deploy.html">
+            
+                    
+                    部署
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.14.1" data-path="deploy/production.html">
+            
+                <a href="deploy/production.html">
+            
+                    
+                    迁移到正式环境
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.2" data-path="deploy/url_rewrite.html">
+            
+                <a href="deploy/url_rewrite.html">
+            
+                    
+                    URL重写
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >关于ThinkCMF</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x5173;&#x4E8E;thinkcmf"><a name="&#x5173;&#x4E8E;thinkcmf" class="plugin-anchor" href="#&#x5173;&#x4E8E;thinkcmf"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5173;&#x4E8E;ThinkCMF</h1>
+<p>ThinkCMF&#x662F;&#x4E00;&#x6B3E;&#x57FA;&#x4E8E;ThinkPHP+MySQL&#x5F00;&#x53D1;&#x7684;&#x4E2D;&#x6587;&#x5185;&#x5BB9;&#x7BA1;&#x7406;&#x6846;&#x67B6;&#x3002;ThinkCMF&#x63D0;&#x51FA;&#x7075;&#x6D3B;&#x7684;&#x5E94;&#x7528;&#x673A;&#x5236;&#xFF0C;&#x6846;&#x67B6;&#x81EA;&#x8EAB;&#x63D0;&#x4F9B;&#x57FA;&#x7840;&#x7684;&#x7BA1;&#x7406;&#x529F;&#x80FD;&#xFF0C;&#x800C;&#x5F00;&#x53D1;&#x8005;&#x53EF;&#x4EE5;&#x6839;&#x636E;&#x81EA;&#x8EAB;&#x7684;&#x9700;&#x6C42;&#x4EE5;&#x5E94;&#x7528;&#x7684;&#x5F62;&#x5F0F;&#x8FDB;&#x884C;&#x6269;&#x5C55;&#x3002;&#x6BCF;&#x4E2A;&#x5E94;&#x7528;&#x90FD;&#x80FD;&#x72EC;&#x7ACB;&#x7684;&#x5B8C;&#x6210;&#x81EA;&#x5DF1;&#x7684;&#x4EFB;&#x52A1;&#xFF0C;&#x4E5F;&#x53EF;&#x901A;&#x8FC7;&#x7CFB;&#x7EDF;&#x8C03;&#x7528;&#x5176;&#x4ED6;&#x5E94;&#x7528;&#x8FDB;&#x884C;&#x534F;&#x540C;&#x5DE5;&#x4F5C;&#x3002;&#x5728;&#x8FD9;&#x79CD;&#x8FD0;&#x884C;&#x673A;&#x5236;&#x4E0B;&#xFF0C;&#x5F00;&#x53D1;&#x5546;&#x573A;&#x5E94;&#x7528;&#x7684;&#x7528;&#x6237;&#x65E0;&#x9700;&#x5173;&#x5FC3;&#x5F00;&#x53D1;SNS&#x5E94;&#x7528;&#x65F6;&#x5982;&#x4F55;&#x5DE5;&#x4F5C;&#x7684;&#xFF0C;&#x4F46;&#x4ED6;&#x4EEC;&#x4E4B;&#x95F4;&#x53C8;&#x53EF;&#x901A;&#x8FC7;&#x7CFB;&#x7EDF;&#x672C;&#x8EAB;&#x8FDB;&#x884C;&#x534F;&#x8C03;&#xFF0C;&#x5927;&#x5927;&#x7684;&#x964D;&#x4F4E;&#x4E86;&#x5F00;&#x53D1;&#x6210;&#x672C;&#x548C;&#x6C9F;&#x901A;&#x6210;&#x672C;&#x3002;</p>
+<h2 id="mvc&#x5206;&#x5C42;&#x6A21;&#x5F0F;"><a name="mvc&#x5206;&#x5C42;&#x6A21;&#x5F0F;" class="plugin-anchor" href="#mvc&#x5206;&#x5C42;&#x6A21;&#x5F0F;"><i class="fa fa-link" aria-hidden="true"></i></a>MVC&#x5206;&#x5C42;&#x6A21;&#x5F0F;</h2>
+<p>&#x4F7F;&#x7528;MVC&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x88AB;&#x5206;&#x6210;&#x4E09;&#x4E2A;&#x6838;&#x5FC3;&#x90E8;&#x4EF6;&#xFF1A;&#x6A21;&#x578B;&#xFF08;M&#xFF09;&#x3001;&#x89C6;&#x56FE;&#xFF08;V&#xFF09;&#x3001;&#x63A7;&#x5236;&#x5668;&#xFF08;C&#xFF09;&#xFF0C;&#x4ED6;&#x4E0D;&#x662F;&#x4E00;&#x4E2A;&#x65B0;&#x7684;&#x6982;&#x5FF5;&#xFF0C;&#x53EA;&#x662F;ThinkCMF&#x5C06;&#x5176;&#x53D1;&#x6325;&#x5230;&#x4E86;&#x6781;&#x81F4;&#x3002;</p>
+<h2 id="&#x7528;&#x6237;&#x7BA1;&#x7406;"><a name="&#x7528;&#x6237;&#x7BA1;&#x7406;" class="plugin-anchor" href="#&#x7528;&#x6237;&#x7BA1;&#x7406;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x7528;&#x6237;&#x7BA1;&#x7406;</h2>
+<p>ThinkCMF&#x5185;&#x7F6E;&#x4E86;&#x7075;&#x6D3B;&#x7684;&#x7528;&#x6237;&#x7BA1;&#x7406;&#x65B9;&#x5F0F;&#xFF0C;&#x5E76;&#x53EF;&#x76F4;&#x63A5;&#x4E0E;&#x7B2C;&#x4E09;&#x65B9;&#x7AD9;&#x70B9;&#x8FDB;&#x884C;&#x4E92;&#x8054;&#x4E92;&#x901A;&#xFF0C;&#x5982;&#x679C;&#x4F60;&#x613F;&#x610F;&#x751A;&#x81F3;&#x53EF;&#x4EE5;&#x5BF9;&#x5355;&#x4E2A;&#x7528;&#x6237;&#x6216;&#x7FA4;&#x4F53;&#x7528;&#x6237;&#x7684;&#x884C;&#x4E3A;&#x8FDB;&#x884C;&#x8BB0;&#x5F55;&#x53CA;&#x5206;&#x4EAB;&#xFF0C;&#x4E3A;&#x60A8;&#x7684;&#x8FD0;&#x8425;&#x51B3;&#x7B56;&#x63D0;&#x4F9B;&#x6709;&#x6548;&#x53C2;&#x8003;&#x6570;&#x636E;&#x3002;</p>
+<h2 id="&#x4E91;&#x7AEF;&#x90E8;&#x7F72;"><a name="&#x4E91;&#x7AEF;&#x90E8;&#x7F72;" class="plugin-anchor" href="#&#x4E91;&#x7AEF;&#x90E8;&#x7F72;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4E91;&#x7AEF;&#x90E8;&#x7F72;</h2>
+<p>&#x901A;&#x8FC7;&#x9A71;&#x52A8;&#x7684;&#x65B9;&#x5F0F;&#x53EF;&#x4EE5;&#x8F7B;&#x677E;&#x652F;&#x6301;&#x4E91;&#x5E73;&#x53F0;&#x7684;&#x90E8;&#x7F72;&#xFF0C;&#x8BA9;&#x4F60;&#x7684;&#x7F51;&#x7AD9;&#x65E0;&#x7F1D;&#x8FC1;&#x79FB;&#xFF0C;&#x5185;&#x7F6E;&#x5DF2;&#x7ECF;&#x652F;&#x6301;SAE&#x3001;BAE&#xFF0C;&#x6B63;&#x5F0F;&#x7248;&#x5C06;&#x5BF9;&#x4E91;&#x7AEF;&#x90E8;&#x7F72;&#x8FDB;&#x884C;&#x8FDB;&#x4E00;&#x6B65;&#x4F18;&#x5316;&#x3002;</p>
+<h2 id="&#x5B89;&#x5168;&#x7B56;&#x7565;"><a name="&#x5B89;&#x5168;&#x7B56;&#x7565;" class="plugin-anchor" href="#&#x5B89;&#x5168;&#x7B56;&#x7565;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5B89;&#x5168;&#x7B56;&#x7565;</h2>
+<p>&#x63D0;&#x4F9B;&#x7684;&#x7A33;&#x5065;&#x7684;&#x5B89;&#x5168;&#x7B56;&#x7565;&#xFF0C;&#x5305;&#x62EC;&#x5907;&#x4EFD;&#x6062;&#x590D;&#xFF0C;&#x5BB9;&#x9519;&#xFF0C;&#x9632;&#x6CBB;&#x6076;&#x610F;&#x653B;&#x51FB;&#x767B;&#x9646;&#xFF0C;&#x7F51;&#x9875;&#x9632;&#x7BE1;&#x6539;&#x7B49;&#x591A;&#x9879;&#x5B89;&#x5168;&#x7BA1;&#x7406;&#x529F;&#x80FD;&#xFF0C;&#x4FDD;&#x8BC1;&#x7CFB;&#x7EDF;&#x5B89;&#x5168;&#xFF0C;&#x53EF;&#x9760;&#xFF0C;&#x7A33;&#x5B9A;&#x7684;&#x8FD0;&#x884C;&#x3002;</p>
+<h2 id="&#x5E94;&#x7528;&#x6A21;&#x5757;&#x5316;"><a name="&#x5E94;&#x7528;&#x6A21;&#x5757;&#x5316;" class="plugin-anchor" href="#&#x5E94;&#x7528;&#x6A21;&#x5757;&#x5316;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5E94;&#x7528;&#x6A21;&#x5757;&#x5316;</h2>
+<p>&#x63D0;&#x51FA;&#x5168;&#x65B0;&#x7684;&#x5E94;&#x7528;&#x6A21;&#x5F0F;&#x8FDB;&#x884C;&#x6269;&#x5C55;&#xFF0C;&#x4E0D;&#x7BA1;&#x662F;&#x4F60;&#x5F00;&#x53D1;&#x4E00;&#x4E2A;&#x5C0F;&#x529F;&#x80FD;&#x8FD8;&#x662F;&#x4E00;&#x4E2A;&#x5168;&#x65B0;&#x7684;&#x7AD9;&#x70B9;&#xFF0C;&#x5728;ThinkCMF&#x4E2D;&#x4F60;&#x53EA;&#x662F;&#x589E;&#x52A0;&#x4E86;&#x4E00;&#x4E2A;APP&#xFF0C;&#x6BCF;&#x4E2A;&#x72EC;&#x7ACB;&#x8FD0;&#x884C;&#x4E92;&#x4E0D;&#x5F71;&#x54CD;&#xFF0C;&#x4FBF;&#x4E8E;&#x7075;&#x6D3B;&#x6269;&#x5C55;&#x548C;&#x4E8C;&#x6B21;&#x5F00;&#x53D1;&#x3002;</p>
+<h2 id="&#x514D;&#x8D39;&#x5F00;&#x6E90;"><a name="&#x514D;&#x8D39;&#x5F00;&#x6E90;" class="plugin-anchor" href="#&#x514D;&#x8D39;&#x5F00;&#x6E90;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x514D;&#x8D39;&#x5F00;&#x6E90;</h2>
+<p>&#x4EE3;&#x7801;&#x9075;&#x5FAA;Apache2&#x5F00;&#x6E90;&#x534F;&#x8BAE;&#xFF0C;&#x514D;&#x8D39;&#x4F7F;&#x7528;&#xFF0C;&#x5BF9;&#x5546;&#x4E1A;&#x7528;&#x6237;&#x4E5F;&#x65E0;&#x4EFB;&#x4F55;&#x9650;&#x5236;</p>
+<h2 id="readme"><a name="readme" class="plugin-anchor" href="#readme"><i class="fa fa-link" aria-hidden="true"></i></a>README</h2>
+<p>ThinkCMF&#x662F;&#x4E00;&#x6B3E;&#x57FA;&#x4E8E;PHP+MYSQL&#x5F00;&#x53D1;&#x7684;&#x4E2D;&#x6587;&#x5185;&#x5BB9;&#x7BA1;&#x7406;&#x6846;&#x67B6;&#x3002;ThinkCMF&#x63D0;&#x51FA;&#x7075;&#x6D3B;&#x7684;&#x5E94;&#x7528;&#x673A;&#x5236;&#xFF0C;&#x6846;&#x67B6;&#x81EA;&#x8EAB;&#x63D0;&#x4F9B;&#x57FA;&#x7840;&#x7684;&#x7BA1;&#x7406;&#x529F;&#x80FD;&#xFF0C;&#x800C;&#x5F00;&#x53D1;&#x8005;&#x53EF;&#x4EE5;&#x6839;&#x636E;&#x81EA;&#x8EAB;&#x7684;&#x9700;&#x6C42;&#x4EE5;&#x5E94;&#x7528;&#x7684;&#x5F62;&#x5F0F;&#x8FDB;&#x884C;&#x6269;&#x5C55;&#x3002;&#x6BCF;&#x4E2A;&#x5E94;&#x7528;&#x90FD;&#x80FD;&#x72EC;&#x7ACB;&#x7684;&#x5B8C;&#x6210;&#x81EA;&#x5DF1;&#x7684;&#x4EFB;&#x52A1;&#xFF0C;&#x4E5F;&#x53EF;&#x901A;&#x8FC7;&#x7CFB;&#x7EDF;&#x8C03;&#x7528;&#x5176;&#x4ED6;&#x5E94;&#x7528;&#x8FDB;&#x884C;&#x534F;&#x540C;&#x5DE5;&#x4F5C;&#x3002;&#x5728;&#x8FD9;&#x79CD;&#x8FD0;&#x884C;&#x673A;&#x5236;&#x4E0B;&#xFF0C;&#x5F00;&#x53D1;&#x5546;&#x573A;&#x5E94;&#x7528;&#x7684;&#x7528;&#x6237;&#x65E0;&#x9700;&#x5173;&#x5FC3;&#x5F00;&#x53D1;SNS&#x5E94;&#x7528;&#x65F6;&#x5982;&#x4F55;&#x5DE5;&#x4F5C;&#x7684;&#xFF0C;&#x4F46;&#x4ED6;&#x4EEC;&#x4E4B;&#x95F4;&#x53C8;&#x53EF;&#x901A;&#x8FC7;&#x7CFB;&#x7EDF;&#x672C;&#x8EAB;&#x8FDB;&#x884C;&#x534F;&#x8C03;&#xFF0C;&#x5927;&#x5927;&#x7684;&#x964D;&#x4F4E;&#x4E86;&#x5F00;&#x53D1;&#x6210;&#x672C;&#x548C;&#x6C9F;&#x901A;&#x6210;&#x672C;&#x3002;</p>
+<p>&#x5B98;&#x7F51;:<a href="http://www.thinkcmf.com" target="_blank">http://www.thinkcmf.com</a></p>
+<p>&#x6587;&#x6863;:<a href="http://www.thinkcmf.com/document" target="_blank">http:\/\/www.thinkcmf.com\/document</a></p>
+<h2 id="&#x66F4;&#x65B0;&#x65E5;&#x5FD7;"><a name="&#x66F4;&#x65B0;&#x65E5;&#x5FD7;" class="plugin-anchor" href="#&#x66F4;&#x65B0;&#x65E5;&#x5FD7;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x66F4;&#x65B0;&#x65E5;&#x5FD7;</h2>
+<h3 id="x220"><a name="x220" class="plugin-anchor" href="#x220"><i class="fa fa-link" aria-hidden="true"></i></a>X2.2.0</h3>
+<p>[Core]</p>
+<ul>
+<li><p>&#x589E;&#x52A0;wind.js&#x53EF;&#x4EE5;&#x81EA;&#x5B9A;&#x4E49;&#x91CD;&#x5199;js&#xFF0C;css&#x7684;&#x7248;&#x672C;</p>
+</li>
+<li><p>&#x589E;&#x52A0;$_GET&#x7EDF;&#x4E00;urldecode</p>
+</li>
+<li><p>&#x589E;&#x52A0;cdn&#x652F;&#x6301;</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x5FAE;&#x4FE1;&#x6D4F;&#x89C8;&#x5668;&#x5224;&#x65AD;</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x9A8C;&#x8BC1;&#x7801;&#x751F;&#x6210;&#x5B89;&#x5168;&#x6027;</p>
+</li>
+<li><p>&#x589E;&#x52A0;<code>__WEB_ROOT__</code>&#x6A21;&#x677F;&#x5E38;&#x91CF;</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x8DE8;&#x4E3B;&#x9898;&#x8C03;&#x7528;&#x6A21;&#x677F;&#x529F;&#x80FD;</p>
+</li>
+<li><p>&#x589E;&#x52A0;include,extend,block,layout&#x7684;&#x652F;&#x6301;</p>
+</li>
+<li><p>&#x7EDF;&#x4E00;&#x4FEE;&#x590D;session&#x7528;&#x6CD5;&#x95EE;&#x9898;</p>
+</li>
+<li><p>&#x7EDF;&#x4E00;&#x5206;&#x9875;&#x53D8;&#x91CF;&#x540D;&#x4E3A;$page</p>
+</li>
+<li><p>&#x7EDF;&#x4E00;&#x4FEE;&#x590D;&#x7CFB;&#x7EDF;&#x6240;&#x6709;&#x53D8;&#x91CF;&#x672A;&#x5B9A;&#x4E49;&#x9519;&#x8BEF;</p>
+</li>
+<li><p>&#x4F18;&#x5316;&#x524D;&#x53F0;&#x624B;&#x673A;&#x6A21;&#x5F0F;&#x4E0B;&#x7684;&#x5206;&#x9875;</p>
+</li>
+<li><p>&#x4F18;&#x5316;&#x5206;&#x9875;&#x7C7B;</p>
+</li>
+<li><p>&#x5347;&#x7EA7;ueditor</p>
+</li>
+<li><p>&#x4FEE;&#x590D;&#x7F16;&#x8F91;&#x5668;&#x4E0D;&#x80FD;&#x63D2;&#x5165;&#x52A8;&#x6001;&#x5730;&#x56FE;&#x95EE;&#x9898;</p>
+</li>
+<li><p>&#x9ED8;&#x8BA4;&#x53D6;&#x6D88;&#x540E;&#x53F0;&#x591A;&#x8BED;&#x8A00;&#x529F;&#x80FD;</p>
+</li>
+</ul>
+<p>[Admin]</p>
+<ul>
+<li><p>&#x589E;&#x52A0;&#x540E;&#x53F0;&#x7BA1;&#x7406;&#x5458;&#x641C;&#x7D22;&#x529F;&#x80FD;</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x53CB;&#x60C5;&#x94FE;&#x63A5;&#x56FE;&#x6807;&#x4E0A;&#x4F20;</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x5217;&#x8868;&#x6279;&#x91CF;&#x5220;&#x9664;&#x63D0;&#x793A;</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x90AE;&#x4EF6;&#x53D1;&#x9001;&#x6D4B;&#x8BD5;</p>
+</li>
+<li><p>&#x4F18;&#x5316;&#x53D1;&#x4EF6;&#x7BB1;&#x8FDE;&#x63A5;&#x65B9;&#x5F0F;&#x7528;&#x4E0B;&#x62C9;&#x5217;&#x8868;&#x9009;&#x62E9;</p>
+</li>
+<li><p>&#x4F18;&#x5316;&#x540E;&#x53F0;&#x767B;&#x5F55;&#x7528;&#x6237;&#x540D;cookie&#x4FDD;&#x5B58;30&#x5929;</p>
+</li>
+<li><p>&#x4F18;&#x5316;&#x5DF2;&#x7ECF;&#x767B;&#x5F55;&#x76F4;&#x63A5;&#x8DF3;&#x8F6C;&#x5230;&#x540E;&#x53F0;&#x9996;&#x9875;</p>
+</li>
+<li><p>&#x4FEE;&#x590D;&#x540E;&#x53F0;&#x5BFC;&#x822A;&#x6DFB;&#x52A0;&#x65F6;&#x5361;&#x6B7B;&#x95EE;&#x9898;</p>
+</li>
+<li><p>&#x4FEE;&#x590D;&#x63D2;&#x4EF6;&#x66F4;&#x65B0;&#x914D;&#x7F6E;&#x65F6;&#xFF0C;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x72B6;&#x6001;&#x4E0D;&#x66F4;&#x65B0;&#x95EE;&#x9898;</p>
+</li>
+<li><p>&#x4FEE;&#x590D;&#x540E;&#x53F0;&#x7559;&#x8A00;&#x5217;&#x8868;&#x7559;&#x8A00;&#x65F6;&#x95F4;&#x9519;&#x8BEF;</p>
+</li>
+</ul>
+<p>[Asset]</p>
+<ul>
+<li><p>&#x589E;&#x52A0;&#x4E03;&#x725B;cdn&#x6574;&#x4F53;&#x89E3;&#x51B3;&#x65B9;&#x6848;</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x7EDF;&#x4E00;&#x4E0A;&#x4F20;&#x9650;&#x5236;,&#x6839;&#x636E;&#x4E0A;&#x4F20;&#x6587;&#x4EF6;&#x7C7B;&#x578B;&#x8BBE;&#x7F6E;&#x5927;&#x5C0F;&#x9650;&#x5236;</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x4E0A;&#x4F20;&#x6587;&#x4EF6;&#x540D;&#x4EE5;&#x5E94;&#x7528;&#x540D;&#x4E3A;&#x524D;&#x7F00;</p>
+</li>
+<li><p>&#x4F18;&#x5316;&#x6587;&#x4EF6;&#x4E0A;&#x4F20;&#x7EDF;&#x4E00;&#x4F7F;&#x7528;plupload&#x4E0A;&#x4F20;&#x63A7;&#x4EF6;</p>
+</li>
+<li><p>&#x4F18;&#x5316;&#x4E03;&#x725B;&#x8DEF;&#x5F84;&#x524D;&#x7F00;</p>
+</li>
+<li><p>&#x4FEE;&#x590D;&#x4E03;&#x725B;&#x4E0A;&#x4F20;bad token</p>
+</li>
+<li><p>&#x4FEE;&#x590D;&#x7F16;&#x8F91;&#x5668;&#x7684;&#x9644;&#x4EF6;&#x4E0D;&#x80FD;&#x4E0A;&#x4F20;&#x6B4C;&#x66F2;,&#x6B4C;&#x8BCD;&#x7B49;&#x6587;&#x4EF6;&#x7C7B;&#x578B;</p>
+</li>
+<li><p>&#x4FEE;&#x590D;&#x6587;&#x7AE0;&#x5185;&#x5BB9;&#x91CC;&#x56FE;&#x7247;&#x4E0A;&#x4F20;&#x65F6;&#x8FD4;&#x56DE;&#x57DF;&#x540D;&#x95EE;&#x9898;</p>
+</li>
+<li><p>&#x4FEE;&#x590D;&#x4E03;&#x725B;&#x534E;&#x5317;&#x5206;&#x533A;&#x4E0D;&#x80FD;&#x4E0A;&#x4F20;</p>
+</li>
+</ul>
+<p>[User]</p>
+<ul>
+<li><p>&#x589E;&#x52A0;&#x540E;&#x53F0;&#x7528;&#x6237;&#x641C;&#x7D22;&#x529F;&#x80FD;</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x524D;&#x53F0;&#x672A;&#x767B;&#x5F55;redirect</p>
+</li>
+</ul>
+<p>[Portal]</p>
+<ul>
+<li><p>&#x589E;&#x52A0;&#x540E;&#x53F0;&#x6587;&#x7AE0;&#x6279;&#x91CF;&#x590D;&#x5236;&#x529F;&#x80FD;</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x9762;&#x5305;&#x5C51;&#x529F;&#x80FD;</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x6587;&#x7AE0;&#x53EF;&#x4EE5;&#x81EA;&#x5DF1;&#x5B9A;&#x4E49;&#x6A21;&#x677F;</p>
+</li>
+<li><p>&#x66F4;&#x6539;&#x540E;&#x53F0;&#x6587;&#x7AE0;&#x5217;&#x8868;&#xFF0C;&#x4EE5;posts&#x8868;&#x4E3A;&#x4E3B;&#x8868;&#x663E;&#x793A;</p>
+</li>
+<li><p>&#x66F4;&#x6539;article&#x63A7;&#x5236;&#x5668;&#x53C2;&#x6570;(cid,id),id&#x662F;posts&#x8868;&#x7684;&#x4E3B;&#x952E;id,cid&#x662F;&#x5206;&#x7C7B;id</p>
+</li>
+<li><p>&#x4FEE;&#x590D;&#x6587;&#x7AE0;&#x7F16;&#x8F91;&#x754C;&#x9762;&#x6CA1;&#x6709;&#x53D6;&#x6D88;&#x5BA1;&#x6838;&#x529F;&#x80FD;</p>
+</li>
+<li><p>&#x4FEE;&#x590D;&#x7981;&#x7528;&#x7684;&#x6587;&#x7AE0;&#xFF0C;&#x5728;&#x4E0A;&#x4E00;&#x7BC7;&#x4E0B;&#x4E00;&#x7BC7;&#x91CC;&#x8FD8;&#x662F;&#x4F1A;&#x51FA;&#x73B0;</p>
+</li>
+</ul>
+<p>[Install]</p>
+<ul>
+<li><p>&#x589E;&#x52A0;&#x5B89;&#x88C5;&#x7A0B;&#x5E8F;&#x4F18;&#x5316;&#x9A8C;&#x8BC1;&#x5FC5;&#x987B;&#x6A21;&#x5757;</p>
+</li>
+<li><p>&#x5B89;&#x88C5;&#x7A0B;&#x5E8F;&#x4F18;&#x5316;&#xFF0C;&#x518D;&#x6B21;&#x5B89;&#x88C5;&#x65F6;&#x6E05;&#x9664;data\/conf\/config.php&#x6587;&#x4EF6;</p>
+</li>
+</ul>
+<h3 id="x210"><a name="x210" class="plugin-anchor" href="#x210"><i class="fa fa-link" aria-hidden="true"></i></a>X2.1.0</h3>
+<ul>
+<li><p>&#x4FEE;&#x590D;&#x524D;&#x53F0;&#x5BFC;&#x822A;&#x7F13;&#x5B58;&#x95EE;&#x9898;</p>
+</li>
+<li><p>&#x4FEE;&#x590D;&#x4E2A;&#x4EBA;&#x4E2D;&#x5FC3;mysql5.7&#x4E0B;&#x4FDD;&#x5B58;&#x5931;&#x8D25;</p>
+</li>
+<li><p>&#x6587;&#x7AE0;&#x8BC4;&#x8BBA;&#x63D2;&#x4EF6;&#x5316;</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x7CFB;&#x7EDF;&#x8BC4;&#x8BBA;&#x63D2;&#x4EF6;</p>
+</li>
+<li><p>&#x4FEE;&#x590D;simplebootx&#x6A21;&#x677F;config&#x6587;&#x4EF6;&#x53D8;&#x91CF;&#x4E0D;&#x5BF9;&#x5E94;</p>
+</li>
+<li><p>&#x4F18;&#x5316;&#x7528;&#x6237;&#x6FC0;&#x6D3B;&#x6D41;&#x7A0B;&#xFF0C;&#x9632;&#x6B62;&#x5DF2;&#x6FC0;&#x6D3B;&#x7528;&#x6237;&#x548C;&#x88AB;&#x7981;&#x7528;&#x7528;&#x6237;&#x4E24;&#x6B21;&#x53D1;&#x9001;&#x6FC0;&#x6D3B;&#x90AE;&#x4EF6;</p>
+</li>
+<li><p>&#x66F4;&#x6B63;&#x6570;&#x636E;&#x5E93;&#x524D;&#x53F0;&#x5BFC;&#x822A;&#x5206;&#x7C7B;active&#x6CE8;&#x91CA;</p>
+</li>
+<li><p>&#x4FEE;&#x590D;&#x624B;&#x673A;&#x6A21;&#x677F;&#x5F00;&#x542F;&#x65F6;&#x8DF3;&#x8F6C;&#x9875;&#x9762;&#x6A21;&#x677F;&#x8DEF;&#x5F84;&#x5224;&#x65AD;&#x9519;&#x8BEF;</p>
+</li>
+<li><p>&#x4FEE;&#x590D;&#x91CD;&#x7F6E;&#x5BC6;&#x7801;&#x540E;&#xFF0C;&#x91CD;&#x7F6E;&#x5BC6;&#x7801;&#x94FE;&#x63A5;&#x4ECD;&#x53EF;&#x6253;&#x5F00;&#x95EE;&#x9898;</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x540E;&#x53F0;&#x8BC4;&#x8BBA;&#x7BA1;&#x7406;&#x67E5;&#x770B;&#x539F;&#x6587;&#x529F;&#x80FD;</p>
+</li>
+<li><p>&#x589E;&#x5F3A;&#x540E;&#x53F0;&#x767B;&#x5F55;&#x63A5;&#x53E3;&#x5B89;&#x5168;&#x6027;</p>
+</li>
+<li><p>&#x4FEE;&#x590D;&#x524D;&#x53F0;&#x5206;&#x9875;&#x5F53;&#x524D;&#x9875;&#x9009;&#x4E2D;&#x95EE;&#x9898;</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x5168;&#x5C40;&#x8DEF;&#x7531;,&#x5F3A;&#x5316;URL&#x7F8E;&#x5316;&#x529F;&#x80FD;</p>
+</li>
+<li><p>&#x4FEE;&#x590D;&#x5BFC;&#x822A;&#x6DFB;&#x52A0;&#x65F6;&#x5BFC;&#x822A;&#x5206;&#x7C7B;&#x9009;&#x62E9;&#x95EE;&#x9898;</p>
+</li>
+</ul>
+<p>&#x795D;&#x65B0;&#x5E74;&#x6109;&#x5FEB;&#xFF0C;&#x5408;&#x5BB6;&#x6B22;&#x4E50;&#xFF01;</p>
+<h3 id="x200"><a name="x200" class="plugin-anchor" href="#x200"><i class="fa fa-link" aria-hidden="true"></i></a>X2.0.0</h3>
+<ul>
+<li><p>&#x66F4;&#x6539;HomeBaseController.class.php&#x6587;&#x4EF6;&#x540D;&#x4E3A;HomebaseController.class.php</p>
+</li>
+<li><p>&#x79FB;&#x52A8;Common&#x91CC;&#x7684;Portal model&#x5230;Portal&#x4E0B;&#xFF1B;</p>
+</li>
+<li><p>&#x89C4;&#x8303;&#x524D;&#x540E;&#x53F0;&#x6A21;&#x677F;&#x76EE;&#x5F55;&#xFF0C;themes ,admin\/themes&#xFF1B;</p>
+</li>
+<li><p><strong>&#x6CE8;&#x610F;&#x4EE5;&#x4E0A;&#x5347;&#x7EA7;&#xFF0C;&#x6709;&#x52A9;&#x4E8E;&#x60A8;&#x5347;&#x7EA7;&#x5230;&#x6700;&#x65B0;&#x7248;&#x672C;</strong></p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x5BF9;PHP7&#x7684;&#x652F;&#x6301;</p>
+</li>
+<li><p>&#x589E;&#x5F3A;&#x9A8C;&#x8BC1;&#x7801;&#x6613;&#x8BC6;&#x522B;&#x6027;&#xFF1B;</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x540E;&#x53F0;&#x4ECE;&#x83DC;&#x5355;&#x680F;&#x70B9;&#x51FB;&#x7ACB;&#x5373;&#x5237;&#x65B0;&#x9009;&#x9879;&#x5361;&#x529F;&#x80FD;&#xFF1B;</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x524D;&#x53F0;&#x6A21;&#x677F;&#x591A;&#x8BED;&#x8A00;&#xFF0C;&#x63D2;&#x4EF6;&#x591A;&#x8BED;&#x8A00;&#xFF1B;</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x540E;&#x53F0;&#x591A;&#x8BED;&#x8A00;&#x57FA;&#x7840;&#x529F;&#x80FD;&#xFF0C;&#x8BED;&#x8A00;&#x5305;&#x7A0D;&#x540E;&#x5347;&#x7EA7;&#x5B8C;&#x5584;&#xFF1B;</p>
+</li>
+<li><p>&#x4F18;&#x5316;&#x540E;&#x53F0;&#x6A21;&#x677F;&#x6587;&#x4EF6;&#xFF1B;</p>
+</li>
+<li><p>&#x4F18;&#x5316;&#x540E;&#x53F0;&#x767B;&#x5F55;&#x754C;&#x9762;&#xFF1B;</p>
+</li>
+<li><p>&#x4F18;&#x5316;&#x524D;&#x53F0;&#x767B;&#x5F55;&#x3001;&#x6CE8;&#x518C;&#x3001;&#x627E;&#x56DE;&#x5BC6;&#x7801;&#x754C;&#x9762;&#xFF1B;</p>
+</li>
+<li><p>&#x4F18;&#x5316;common.js,frontend.js,&#x89C4;&#x8303;&#x4E00;&#x7CFB;&#x5217;js-xxx-xxx&#x547D;&#x540D;&#x548C;&#x529F;&#x80FD;&#x5B9E;&#x73B0;&#xFF1B;</p>
+</li>
+<li><p>&#x4F18;&#x5316;&#x6587;&#x7AE0;&#x7F16;&#x8F91;&#x9875;&#x5E03;&#x5C40;&#x548C;css&#xFF1B;</p>
+</li>
+<li><p>&#x4FEE;&#x590D;&#x6A21;&#x677F;&#x4E2D;U&#x65B9;&#x6CD5;&#x5927;&#x5C0F;&#x5199;&#x9519;&#x8BEF;&#xFF1B;</p>
+</li>
+<li><p>&#x4FEE;&#x590D;ip&#x83B7;&#x53D6;&#xFF0C;&#x9632;&#x6B62;&#x4EE3;&#x7406;&#x8BBF;&#x95EE;&#xFF1B;</p>
+</li>
+<li><p>&#x4FEE;&#x590D;success,error&#x8DF3;&#x8F6C;&#x9875;&#x65E0;&#x624B;&#x673A;&#x6A21;&#x677F;&#x95EE;&#x9898;&#xFF1B;</p>
+</li>
+<li><p>&#x5347;&#x7EA7;&#x767E;&#x5EA6;&#x7F16;&#x8F91;&#x5668;&#xFF1B;</p>
+</li>
+<li><p>&#x53BB;&#x9664;&#x524D;&#x53F0;&#x5404;&#x5904;&#x540C;&#x610F;&#x7F51;&#x7AD9;&#x6761;&#x6B3E;&#xFF1B;</p>
+</li>
+<li><p>&#x53BB;&#x9664;&#x6587;&#x7AE0;&#x8BBF;&#x95EE;&#x6B21;&#x6570;&#x7EDF;&#x8BA1;&#x7684;ip&#x9650;&#x5236;&#xFF1B;</p>
+</li>
+</ul>
+<h3 id="x161"><a name="x161" class="plugin-anchor" href="#x161"><i class="fa fa-link" aria-hidden="true"></i></a>X1.6.1</h3>
+<ul>
+<li><p>&#x4FEE;&#x590D;&#x767B;&#x5F55;&#x65F6;&#x4ECD;&#x7136;&#x53EF;&#x4EE5;&#x6253;&#x5F00;&#x767B;&#x5F55;&#x548C;&#x6CE8;&#x518C;&#x754C;&#x9762;</p>
+</li>
+<li><p>&#x4FEE;&#x590D;&#x540E;&#x53F0;&#x6587;&#x7AE0;&#x5206;&#x7C7B;&#x5217;&#x8868;&#xFF0C;&#x70B9;&#x6DFB;&#x52A0;&#x5B50;&#x7C7B;&#x5230;&#x6DFB;&#x52A0;&#x5206;&#x7C7B;&#x754C;&#x9762;&#x7236;&#x7EA7;&#x5206;&#x7C7B;&#x9009;&#x62E9;&#x9519;&#x8BEF;</p>
+</li>
+<li><p>&#x4FEE;&#x590D;&#x540E;&#x53F0;&#x6587;&#x7AE0;&#x5206;&#x7C7B;&#x6A21;&#x677F;&#x4FEE;&#x590D;&#x540E;&#x4E0D;&#x66F4;&#x65B0;&#x95EE;&#x9898;</p>
+</li>
+<li><p>&#x4FEE;&#x590D;&#x7F16;&#x8F91;&#x5668;&#x91CC;&#x56FE;&#x7247;&#x4E0A;&#x4F20;&#xFF0C; &#x5728;&#x6587;&#x4EF6;&#x5B58;&#x50A8;&#x9009;&#x62E9;&#x4E03;&#x725B;&#x65F6;&#xFF0C;&#x56FE;&#x7247;title,alt&#x5C5E;&#x6027;&#x4E0D;&#x5BF9;</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x5BF9;php&#x683C;&#x5F0F;&#x6A21;&#x677F;&#x6587;&#x4EF6;&#x7684;&#x652F;&#x6301;</p>
+</li>
+<li><p>&#x4F18;&#x5316;sp_get_menu&#x65B9;&#x6CD5;,id&#x4E3A;&#x7A7A;&#x65F6;&#xFF0C;&#x9ED8;&#x8BA4;&#x4E3A;&#x4E3B;&#x83DC;&#x5355;</p>
+</li>
+<li><p>&#x4FEE;&#x590D;&#x540E;&#x53F0;&#x6A21;&#x677F;&#x7F3A;&#x5931;&lt;\/head&gt;&#x95EE;&#x9898;</p>
+</li>
+<li><p>&#x4FEE;&#x590D;Portal&#x5E94;&#x7528;&#x4E0B;&#x6587;&#x7AE0;&#xFF0C;&#x9875;&#x9762;&#xFF0C;&#x548C;&#x5206;&#x7C7B;&#x4E0D;&#x5B58;&#x5728;&#x65F6;&#xFF0C;&#x65E0;404&#x72B6;&#x6001;&#x7801;</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x5BF9;&#x6A21;&#x677F;&#x7EE7;&#x627F;&#x6807;&#x7B7E;tc_extend&#x7684;&#x652F;&#x6301;</p>
+</li>
+<li><p>&#x4F18;&#x5316;&#x4F1A;&#x5458;&#x7684;&#x62C9;&#x9ED1;&#x8D77;&#x7528;&#x529F;&#x80FD;&#xFF0C;&#x6539;&#x4E3A;&#x5B9E;&#x65F6;&#x9A8C;&#x8BC1;</p>
+</li>
+<li><p>&#x589E;&#x52A0;url&#x6A21;&#x5F0F;&#x66F4;&#x6539;&#x540E;&#x51FA;&#x73B0;&#x4E0D;&#x80FD;&#x8BBF;&#x95EE;&#x95EE;&#x9898;&#x7684;&#x63D0;&#x793A;&#x548C;&#x89E3;&#x51B3;&#x65B9;&#x6CD5;</p>
+</li>
+<li><p>&#x4FEE;&#x590D;&#x6587;&#x7AE0;&#xFF0C;&#x5E7B;&#x706F;&#x7247;&#x6DFB;&#x52A0;&#x91CD;&#x590D;&#x63D0;&#x4EA4;&#x95EE;&#x9898;</p>
+</li>
+</ul>
+<h3 id="x160"><a name="x160" class="plugin-anchor" href="#x160"><i class="fa fa-link" aria-hidden="true"></i></a>X1.6.0</h3>
+<ul>
+<li><p>&#x589E;&#x52A0;&#x9759;&#x6001;&#x7F13;&#x5B58;</p>
+</li>
+<li><p>&#x589E;&#x52A0;form&#x63D0;&#x4EA4;&#x72B6;&#x6001;&#x5224;&#x65AD;&#xFF0C;&#x9632;&#x6B62;&#x8FDE;&#x7EED;&#x63D0;&#x4EA4;</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x540E;&#x53F0;&#x88AB;&#x7981;&#x7528;&#x89D2;&#x8272;&#x548C;&#x7528;&#x6237;&#x767B;&#x5F55;&#x63D0;&#x793A;</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x6587;&#x7AE0;&#x53EF;&#x4EE5;&#x6DFB;&#x52A0;&#x5230;&#x591A;&#x4E2A;&#x5206;&#x7C7B;</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x7BA1;&#x7406;&#x5458;&#x505C;&#x7528;&#x542F;&#x7528;&#x529F;&#x80FD;</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x6587;&#x7AE0;&#x6765;&#x6E90;&#x7248;&#x6743;&#x7533;&#x660E;</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x6587;&#x7AE0;&#x5185;&#x5BB9;&#x9875;&#x9762;&#x4E8C;&#x7EF4;&#x7801;</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x9A8C;&#x8BC1;&#x7801;&#x7EDF;&#x4E00;&#x5224;&#x65AD;&#x65B9;&#x6CD5;</p>
+</li>
+<li><p>&#x4F18;&#x5316;&#x9A8C;&#x8BC1;&#x7801;&#x81EA;&#x52A8;&#x5237;&#x65B0;</p>
+</li>
+<li><p>&#x4F18;&#x5316;&#x540E;&#x53F0;&#x6837;&#x5F0F;</p>
+</li>
+<li><p>&#x4FEE;&#x590D;&#x90AE;&#x4EF6;&#x914D;&#x7F6E;&#x66F4;&#x65B0;&#x65F6;&#xFF0C;&#x4E0D;&#x4F1A;&#x7ACB;&#x523B;&#x66F4;&#x65B0;&#x95EE;&#x9898;</p>
+</li>
+<li><p>&#x4FEE;&#x590D;&#x540E;&#x53F0;&#x624B;&#x52A8;&#x65B0;&#x52A0;&#x7684;&#x83DC;&#x5355;&#x65F6;&#x6CA1;&#x6709;&#x540C;&#x6B65;&#x5230;auth_rule&#x8868;</p>
+</li>
+<li><p>&#x4FEE;&#x590D;&#x89D2;&#x8272;&#x7981;&#x6B62;&#x540E;&#x767B;&#x9646;&#x62A5;&#x9519;</p>
+</li>
+<li><p>&#x4FEE;&#x590D;&#x89D2;&#x8272;&#x65E0;&#x6CD5;&#x5220;&#x9664;&#x95EE;&#x9898;</p>
+</li>
+<li><p>&#x4FEE;&#x590D;&#x540E;&#x53F0;&#x89C6;&#x9891;&#x4E0A;&#x4F20;&#x51FA;&#x9519;&#xFF01;&#x8BF7;&#x6CE8;&#x610F;&#x4E0A;&#x4F20;&#x5927;&#x5C0F;&#x9650;&#x5236;,php.ini post_max_size,upload_max_filesize</p>
+</li>
+<li><p>&#x4FEE;&#x590D;&#x540E;&#x53F0;&#x83DC;&#x5355;&#x8FC7;&#x591A;&#x4E0D;&#x663E;&#x793A;</p>
+</li>
+<li><p>&#x4FEE;&#x590D;&#x540E;&#x53F0;&#x7BA1;&#x7406;&#x767B;&#x5F55;&#x53EF;&#x80FD;&#x4F1A;&#x88AB;&#x66B4;&#x529B;&#x7834;&#x89E3;</p>
+</li>
+<li><p>&#x4FEE;&#x590D;&#x540E;&#x53F0;&#x83DC;&#x5355;&#x5217;&#x8868;&#x5C42;&#x7EA7;&#x95EE;&#x9898;</p>
+</li>
+<li><p>&#x4FEE;&#x590D;&#x542F;&#x7528;&#x540E;&#x88AB;&#x5220;&#x9664;&#x7684;&#x63D2;&#x4EF6;&#x6267;&#x884C;&#x62A5;&#x9519;</p>
+</li>
+</ul>
+<h3 id="x150"><a name="x150" class="plugin-anchor" href="#x150"><i class="fa fa-link" aria-hidden="true"></i></a>X1.5.0</h3>
+<ul>
+<li><p>&#x589E;&#x52A0;&#x63D2;&#x4EF6;&#x673A;&#x5236;</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x7F16;&#x8F91;&#x5668;&#x9644;&#x4EF6;&#x4E0A;&#x4F20;&#x529F;&#x80FD;</p>
+</li>
+<li><p>&#x6838;&#x5FC3;&#x5347;&#x7EA7;&#x81F3;thinkphp 3.2.3&#xFF0C;&#x5FC5;&#x987B;&#x5F00;&#x542F;php_pdo_mysql&#x6269;&#x5C55;</p>
+</li>
+<li><p>&#x4F18;&#x5316;&#x7CFB;&#x7EDF;&#x6743;&#x9650;&#x7BA1;&#x7406;&#xFF0C;&#x589E;&#x52A0;auth+rbac&#x6DF7;&#x5408;&#x8BA4;&#x8BC1;&#x6A21;&#x5F0F;</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x6587;&#x4EF6;&#x5B58;&#x50A8;&#x6269;&#x5C55;&#x652F;&#x6301;&#xFF0C;&#x9ED8;&#x8BA4;&#x652F;&#x6301;&#x672C;&#x5730;&#x548C;&#x4E03;&#x725B;&#x4E91;&#x5B58;&#x50A8;</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x624B;&#x673A;&#x6A21;&#x677F;&#x652F;&#x6301;</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x624B;&#x673A;&#x6A21;&#x677F;&#x4FA6;&#x6D4B;&#x540E;&#x53F0;&#x5F00;&#x542F;&#x5173;&#x95ED;&#x529F;&#x80FD;&#xFF0C;&#x9ED8;&#x8BA4;&#x5173;&#x95ED;&#x624B;&#x673A;&#x6A21;&#x677F;&#x4FA6;&#x6D4B;</p>
+</li>
+<li><p>&#x589E;&#x52A0;MUI&#x624B;&#x673A;&#x5F00;&#x53D1;&#x6846;&#x67B6;</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x8BC4;&#x8BBA;&#x65F6;&#x95F4;&#x95F4;&#x9694;&#x8BBE;&#x7F6E;</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x89C6;&#x9891;&#x63D2;&#x5165;</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x53BB;&#x9664;&#x6A21;&#x677F;&#x6587;&#x4EF6;&#x91CC;&#x9762;&#x7684;html&#x7A7A;&#x683C;&#x4E0E;&#x6362;&#x884C;</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x540E;&#x53F0;&#x7BA1;&#x7406;&#x5458;&#x5217;&#x8868;&#x5206;&#x9875;</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x6587;&#x7AE0;&#x9875;&#x4E0A;&#x4E00;&#x7BC7;&#x3001;&#x4E0B;&#x4E00;&#x7BC7;&#x529F;&#x80FD;</p>
+</li>
+<li><p>&#x4F18;&#x5316;&#x83DC;&#x5355;&#x7BA1;&#x7406;&#x65B9;&#x5F0F;&#xFF0C;&#x91C7;&#x7528;&#x589E;&#x52A0;&#x6587;&#x4EF6;&#x65B9;&#x5F0F;&#x83DC;&#x5355;&#x7BA1;&#x7406;&#xFF0C;&#x65B9;&#x4FBF;&#x7A0B;&#x5E8F;&#x5347;&#x7EA7;</p>
+</li>
+<li><p>&#x4F18;&#x5316;&#x5BFC;&#x822A;&#x9F20;&#x6807;&#x5212;&#x8FC7;&#x4E0B;&#x62C9;&#x83DC;&#x5355;</p>
+</li>
+<li><p>&#x4F18;&#x5316;&#x7BA1;&#x7406;&#x5458;&#x4FE1;&#x606F;&#x7F16;&#x8F91;,&#x589E;&#x52A0;&#x5B57;&#x6BB5;&#x8FC7;&#x6EE4;</p>
+</li>
+<li><p>&#x4F18;&#x5316;&#x975E;&#x540E;&#x53F0;&#x5165;&#x53E3;&#x767B;&#x5F55;&#x8DF3;&#x8F6C;&#x5230;&#x9996;&#x9875;</p>
+</li>
+<li><p>&#x4FEE;&#x590D;simplebootx&#x641C;&#x7D22;&#x94FE;&#x63A5;&#x9519;&#x8BEF;</p>
+</li>
+<li><p>&#x4FEE;&#x590D;ucenter&#x5404;&#x79CD;&#x95EE;&#x9898;</p>
+</li>
+<li><p>&#x4FEE;&#x590D;&#x540E;&#x53F0;&#x90AE;&#x4EF6;&#x53D1;&#x4EF6;&#x4EBA;&#x65E0;&#x6CD5;&#x8BBE;&#x7F6E;</p>
+</li>
+<li><p>&#x4FEE;&#x590D;&#x5165;&#x53E3;&#x6587;&#x4EF6;SITE_PATH&#x5E38;&#x91CF;&#x90E8;&#x5206;&#x670D;&#x52A1;&#x5668;&#x5F02;&#x5E38;</p>
+</li>
+<li><p>&#x4FEE;&#x590D;sae&#x5934;&#x50CF;&#x88C1;&#x526A;</p>
+</li>
+<li><p>&#x4FEE;&#x590D;&#x5206;&#x7C7B;&#x7F16;&#x8F91;&#x65F6;&#x5C42;&#x7EA7;&#x51FA;&#x9519;</p>
+</li>
+<li><p>&#x4FEE;&#x590D;&#x5907;&#x4EFD;&#x8FD8;&#x539F;&#x6570;&#x636E;&#x4E3A;&#x7A7A;</p>
+</li>
+<li><p>&#x7EDF;&#x4E00;&#x6240;&#x6709;&#x6A21;&#x5757;&#x6A21;&#x677F;&#x8DEF;&#x5F84;&#x5206;&#x5272;&#x7B26;&#x4E3A;\/</p>
+</li>
+<li><p>&#x5220;&#x9664;thinkphp Vendor&#x76EE;&#x5F55;&#x7B2C;&#x4E09;&#x65B9;&#x7C7B;&#x5E93;</p>
+</li>
+<li><p>&#x79FB;&#x9664;SendMail&#x65B9;&#x6CD5;</p>
+</li>
+<li><p>&#x66FF;&#x6362;scandir&#x65B9;&#x6CD5;&#x4E3A;sp_scan_dir</p>
+</li>
+<li><p>&#x7EDF;&#x4E00;SAE&#x5224;&#x65AD;&#x65B9;&#x6CD5;</p>
+</li>
+<li><p>&#x7EDF;&#x4E00;ajaxReturn&#x4E3A;thinkphp 3.2.*&#x4EE5;&#x540E;&#x7528;&#x6CD5;&#xFF0C;&#x5982;&#x679C;&#x4E00;&#x76F4;&#x7528;thinkphp 3.0&#x4EE5;&#x524D;&#x7684;&#x7528;&#x6CD5;&#xFF0C;&#x6269;&#x5C55;&#x65F6;&#x6CE8;&#x610F;&#x7528;sp_ajax_return()&#x505A;&#x4E00;&#x4E0B;&#x5347;&#x7EA7;</p>
+</li>
+</ul>
+<p>&#x6CE8;&#xFF1A;&#x540E;&#x53F0;&#x6A21;&#x677F;&#x5206;&#x5272;&#x7B26;&#x5DF2;&#x7ECF;&#x7EDF;&#x4E00;&#x4E3A;\/&#xFF0C;&#x539F;&#x6765;&#x7684;&#x7C7B;&#x4F3C;Admin\/Main.index.html&#x6587;&#x4EF6;&#x5DF2;&#x7ECF;&#x6539;&#x4E3A;Admin\/Main\/index.html&#x8BF7;&#x540E;&#x53F0;&#x5F00;&#x53D1;&#x65F6;&#x6CE8;&#x610F;</p>
+<p>ThinkCMF&#x5168;&#x4F53;&#x8D21;&#x732E;&#x8005;&#x795D;&#x5927;&#x5BB6;2015&#x5E74;&#x5927;&#x5409;&#x5927;&#x5229;&#xFF0C;&#x5F00;&#x5FC3;&#x5E78;&#x798F;&#xFF01;&#x300A;&#x7ED9;&#x4F60;&#x4E00;&#x4E2A;&#x543B;&#x300B;</p>
+<h3 id="x130"><a name="x130" class="plugin-anchor" href="#x130"><i class="fa fa-link" aria-hidden="true"></i></a>X1.3.0</h3>
+<ul>
+<li><p>&#x7EDF;&#x4E00;Action&#x4E3A;Controller</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x6587;&#x7AE0;&#x641C;&#x7D22;&#x529F;&#x80FD;</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x524D;&#x53F0;&#x7F16;&#x8F91;&#x5668;</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x6A21;&#x677F;&#x5E38;&#x91CF;<strong>STATICS</strong></p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x6700;&#x540E;&#x8BC4;&#x8BBA;&#x65F6;&#x95F4;&#x5199;&#x5165;</p>
+</li>
+<li><p>&#x4FEE;&#x590D;leuu bug</p>
+</li>
+<li><p>CommonModel _before_write &#x6570;&#x636E;&#x8FC7;&#x6EE4;bug</p>
+</li>
+<li><p>&#x540E;&#x53F0;&#x8BC4;&#x8BBA;&#x7BA1;&#x7406;,&#x9ED8;&#x8BA4;&#x6240;&#x6709;&#x8BC4;&#x8BBA;</p>
+</li>
+<li><p>&#x6587;&#x7AE0;&#x5206;&#x7C7B;path&#x66F4;&#x65B0;&#x4F18;&#x5316;</p>
+</li>
+<li><p>simplebootx&#x6A21;&#x677F;&#x6587;&#x7AE0;&#x9875;css&#x6837;&#x5F0F;&#x4F18;&#x5316;</p>
+</li>
+<li><p>&#x4FEE;&#x590D;&#x5206;&#x9875;&#x7C7B;bug</p>
+</li>
+<li><p>&#x540E;&#x53F0;&#x6587;&#x7AE0;&#x7F16;&#x8F91;&#x6240;&#x6709;&#x6587;&#x7AE0;&#x94FE;&#x63A5;&#x9519;&#x8BEF;</p>
+</li>
+<li><p>&#x4FEE;&#x590D;bug#4&#x9A8C;&#x8BC1;&#x7801;&#x4E0D;&#x663E;&#x793A;</p>
+</li>
+<li><p>&#x4F18;&#x5316;bug#3&#x9875;&#x9762;&#x4F7F;&#x7528;LEUU&#x51FD;&#x6570;&#x540E;&#x6BCF;&#x4E2A;&#x9875;&#x9762;&#x90FD;&#x67E5;&#x8BE2;</p>
+</li>
+<li><p>&#x4F18;&#x5316;&#x516C;&#x5171;&#x6A21;&#x578B;&#x7684;&#x8C03;&#x7528;&#x65B9;&#x6CD5;&#xFF0C;&#x4EE5;&#x517C;&#x5BB9;php5.3.0-5.3.2</p>
+</li>
+<li><p>&#x4FEE;&#x590D;sp_sql_posts_bycatid&#x548C;sp_sql_posts_paged_bycatid&#x4E24;&#x4E2A;&#x65B9;&#x6CD5;where&#x8BED;&#x53E5;&#x95EE;&#x9898;</p>
+</li>
+<li><p>&#x4FEE;&#x590D;bluesky&#x4E3B;&#x9898;&#x5206;&#x9875;&#x6837;&#x5F0F;&#x95EE;&#x9898;</p>
+</li>
+<li><p>&#x4FEE;&#x590D;&#x6587;&#x7AE0;&#x63A8;&#x8350;&#xFF0C;&#x7F6E;&#x9876;bug</p>
+</li>
+</ul>
+<h3 id="x120"><a name="x120" class="plugin-anchor" href="#x120"><i class="fa fa-link" aria-hidden="true"></i></a>X1.2.0</h3>
+<ul>
+<li><p>url&#x7F8E;&#x5316;</p>
+</li>
+<li><p>&#x7279;&#x6B8A;&#x7528;&#x6237;&#x540D;&#x8FC7;&#x6EE4;</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x63A8;&#x8350;&#xFF0C;&#x7F6E;&#x9876;&#x529F;&#x80FD;</p>
+</li>
+<li><p>&#x5E7B;&#x706F;&#x7247;&#x9690;&#x85CF;&#x663E;&#x793A;&#x529F;&#x80FD;</p>
+</li>
+<li><p>&#x5E7F;&#x544A;&#x9690;&#x85CF;&#x663E;&#x793A;&#x529F;&#x80FD;</p>
+</li>
+<li><p>&#x53CB;&#x60C5;&#x94FE;&#x63A5;&#x9690;&#x85CF;&#x663E;&#x793A;&#x529F;&#x80FD;</p>
+</li>
+<li><p>&#x8BC4;&#x8BBA;&#x8BA1;&#x6570;</p>
+</li>
+</ul>
+<h3 id="x110"><a name="x110" class="plugin-anchor" href="#x110"><i class="fa fa-link" aria-hidden="true"></i></a>X1.1.0</h3>
+<p>&#x5168;&#x65B0;&#x7684;ThinkPHP 3.2.2&#x67B6;&#x6784;&#xFF0C;&#x4F7F;&#x7528;php&#x547D;&#x540D;&#x7A7A;&#x95F4;&#xFF0C;&#x8BA9;&#x5F00;&#x53D1;&#x5FEB;&#x8D77;&#x6765;&#x5427;&#xFF01;</p>
+<ul>
+<li><p>&#x7EDF;&#x4E00;Member&#x5E94;&#x7528;&#x4E3A;User,&#x5408;&#x5E76;&#x524D;&#x53F0;&#x4F1A;&#x5458;&#x548C;&#x540E;&#x53F0;&#x7BA1;&#x7406;&#x5458;</p>
+</li>
+<li><p>&#x5B8C;&#x5584;&#x7528;&#x6237;&#x4E2D;&#x5FC3;&#xFF0C;&#x4F1A;&#x5458;&#x767B;&#x5F55;&#x6CE8;&#x518C;</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x7F16;&#x8F91;&#x5934;&#x50CF;&#xFF0C;&#x7ED1;&#x5B9A;&#x8D26;&#x53F7;&#xFF0C;&#x6211;&#x7684;&#x8BC4;&#x8BBA;&#xFF0C;&#x6211;&#x7684;&#x6536;&#x85CF;</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x6587;&#x7AE0;&#x70B9;&#x8D5E;&#xFF0C;&#x6536;&#x85CF;&#xFF0C;&#x67E5;&#x770B;&#x529F;&#x80FD;&#xFF0C;&#x53EF;&#x4E0E;&#x5176;&#x5B83;&#x5E94;&#x7528;&#x5171;&#x7528;</p>
+</li>
+<li><p>&#x589E;&#x5F3A;&#x6587;&#x7AE0;&#x8BC4;&#x8BBA;&#x529F;&#x80FD;&#xFF0C;&#x65B9;&#x4FBF;&#x591A;&#x5E94;&#x7528;&#x5171;&#x7528;</p>
+</li>
+<li><p>&#x4F18;&#x5316;&#x7559;&#x8A00;&#x529F;&#x80FD;&#xFF0C;&#x589E;&#x5F3A;&#x5B89;&#x5168;&#x6027;</p>
+</li>
+<li><p>&#x4F18;&#x5316;&#x524D;&#x53F0;&#x6A21;&#x677F;&#xFF0C;&#x589E;&#x52A0;&#x591A;&#x4E2A;&#x5B9E;&#x7528;&#x7EC4;&#x4EF6;&#xFF0C;&#x65B9;&#x4FBF;&#x4EE5;&#x540E;&#x590D;&#x7528;</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x540E;&#x53F0;&#x98CE;&#x683C;&#x5207;&#x6362;&#x529F;&#x80FD;&#xFF1B;</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x540E;&#x53F0;&#x98CE;&#x683C;bluesky</p>
+</li>
+<li><p>&#x4F18;&#x5316;&#x540E;&#x53F0;&#x83DC;&#x5355;&#x4F7F;&#x7528;&#x65B9;&#x5F0F;</p>
+</li>
+<li><p>&#x4F18;&#x5316;&#x6570;&#x636E;&#x5E93;&#x4E2D;&#x4E00;&#x4E9B;&#x4E0D;&#x89C4;&#x8303;&#x5B57;&#x6BB5;</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x524D;&#x53F0;&#x6807;&#x7B7E;&#x5E93;TagLibHome&#xFF0C;&#x7EDF;&#x4E00;include&#x6807;&#x7B7E;&#x4E3A;tc_include</p>
+</li>
+</ul>
+<h3 id="x100"><a name="x100" class="plugin-anchor" href="#x100"><i class="fa fa-link" aria-hidden="true"></i></a>X1.0.0</h3>
+<p>&#x5168;&#x65B0;&#x7684;ThinkPHP 3.2.2&#x67B6;&#x6784;&#xFF0C;&#x4F7F;&#x7528;php&#x547D;&#x540D;&#x7A7A;&#x95F4;&#xFF0C;&#x8BA9;&#x5F00;&#x53D1;&#x5FEB;&#x8D77;&#x6765;&#x5427;&#xFF01;</p>
+<ul>
+<li><p>&#x7EDF;&#x4E00;&#x524D;&#x540E;&#x53F0;UI&#x6846;&#x67B6;&#x4E3A;simpleboot(bootstrap 2.3.2 ThinkCMF&#x4F18;&#x5316;&#x7248;)</p>
+</li>
+<li><p>&#x96C6;&#x6210;Ucenter</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x6587;&#x7AE0;&#x8BC4;&#x8BBA;&#x529F;&#x80FD;</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x7559;&#x8A00;&#x529F;&#x80FD;</p>
+</li>
+<li><p>&#x5168;&#x9762;&#x652F;&#x6301;SAE&#x4E91;&#x5E73;&#x53F0;</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x6587;&#x7AE0;&#x5185;&#x5206;&#x9875;&#x529F;&#x80FD;</p>
+</li>
+<li><p>&#x5347;&#x7EA7;&#x540E;&#x53F0;&#x7F16;&#x8F91;&#x5668;&#x5230;Ueditor&#x6700;&#x65B0;&#x7248;&#x672C;</p>
+</li>
+<li><p>&#x4F18;&#x5316;&#x540E;&#x53F0;ajax&#x63D0;&#x4EA4;&#xFF0C;&#x672A;&#x767B;&#x9646;&#x65F6;&#x81EA;&#x52A8;&#x9000;&#x51FA;</p>
+</li>
+<li><p>&#x4F18;&#x5316;&#x540E;&#x53F0;&#x6240;&#x6709;&#x6587;&#x7AE0;&#x6309;&#x53D1;&#x5E03;&#x65F6;&#x95F4;&#x9012;&#x51CF;&#x6392;&#x5E8F;</p>
+</li>
+<li><p>&#x4FEE;&#x590D;&#x540E;&#x53F0;&#x5BC6;&#x7801;&#x4F1A;&#x5076;&#x7136;&#x4E0D;&#x5BF9;&#x7684;&#x9519;&#x8BEF;</p>
+</li>
+<li><p>&#x4FEE;&#x590D;SAE&#xFF0C;linux&#x4E0B;&#x7C7B;&#x5E93;&#x52A0;&#x8F7D;&#x5931;&#x8D25;</p>
+</li>
+<li><p>&#x4FEE;&#x590D;ueditor chrome&#x6A21;&#x677F;&#x529F;&#x80FD;bug</p>
+</li>
+<li><p>&#x4FEE;&#x590D;&#x6587;&#x4EF6;&#x4E0A;&#x4F20;bug</p>
+</li>
+</ul>
+<h3 id="x100-alpha2"><a name="x100-alpha2" class="plugin-anchor" href="#x100-alpha2"><i class="fa fa-link" aria-hidden="true"></i></a>X1.0.0 alpha2</h3>
+<ul>
+<li><p>&#x4FEE;&#x590D;SAE&#xFF0C;linux&#x4E0B;&#x7C7B;&#x5E93;&#x52A0;&#x8F7D;&#x5931;&#x8D25;</p>
+</li>
+<li><p>&#x4FEE;&#x590D;ueditor chrome&#x6A21;&#x677F;&#x529F;&#x80FD;bug</p>
+</li>
+<li><p>&#x4FEE;&#x590D;&#x6587;&#x4EF6;&#x4E0A;&#x4F20;bug</p>
+</li>
+</ul>
+<h3 id="x100-alpha"><a name="x100-alpha" class="plugin-anchor" href="#x100-alpha"><i class="fa fa-link" aria-hidden="true"></i></a>X1.0.0 alpha</h3>
+<p>&#x5168;&#x65B0;&#x7684;ThinkPHP 3.2.2&#x67B6;&#x6784;&#xFF0C;&#x4F7F;&#x7528;php&#x547D;&#x540D;&#x7A7A;&#x95F4;&#xFF0C;&#x8BA9;&#x5F00;&#x53D1;&#x5FEB;&#x8D77;&#x6765;&#x5427;&#xFF01;</p>
+<ul>
+<li><p>&#x96C6;&#x6210;Ucenter</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x6587;&#x7AE0;&#x8BC4;&#x8BBA;&#x529F;&#x80FD;</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x7559;&#x8A00;&#x529F;&#x80FD;</p>
+</li>
+<li><p>&#x5168;&#x9762;&#x652F;&#x6301;SAE&#x4E91;&#x5E73;&#x53F0;</p>
+</li>
+<li><p>&#x589E;&#x52A0;&#x6587;&#x7AE0;&#x5185;&#x5206;&#x9875;&#x529F;&#x80FD;</p>
+</li>
+<li><p>&#x5347;&#x7EA7;&#x540E;&#x53F0;&#x7F16;&#x8F91;&#x5668;&#x5230;Ueditor&#x6700;&#x65B0;&#x7248;&#x672C;</p>
+</li>
+<li><p>&#x4F18;&#x5316;&#x540E;&#x53F0;ajax&#x63D0;&#x4EA4;&#xFF0C;&#x672A;&#x767B;&#x9646;&#x65F6;&#x81EA;&#x52A8;&#x9000;&#x51FA;</p>
+</li>
+<li><p>&#x4F18;&#x5316;&#x540E;&#x53F0;&#x6240;&#x6709;&#x6587;&#x7AE0;&#x6309;&#x53D1;&#x5E03;&#x65F6;&#x95F4;&#x9012;&#x51CF;&#x6392;&#x5E8F;</p>
+</li>
+<li><p>&#x4FEE;&#x590D;&#x540E;&#x53F0;&#x5BC6;&#x7801;&#x4F1A;&#x5076;&#x7136;&#x4E0D;&#x5BF9;&#x7684;&#x9519;&#x8BEF;</p>
+</li>
+</ul>
+<h2 id="install"><a name="install" class="plugin-anchor" href="#install"><i class="fa fa-link" aria-hidden="true"></i></a>INSTALL</h2>
+<p>&#x5B89;&#x88C5;&#x8BF7;&#x6267;&#x884C;<a href="http://yourdomain/" target="_blank">http://yourdomain/</a></p>
+<h2 id="thinkcmf-&#x514D;&#x8D23;&#x58F0;&#x660E;"><a name="thinkcmf-&#x514D;&#x8D23;&#x58F0;&#x660E;" class="plugin-anchor" href="#thinkcmf-&#x514D;&#x8D23;&#x58F0;&#x660E;"><i class="fa fa-link" aria-hidden="true"></i></a>ThinkCMF &#x514D;&#x8D23;&#x58F0;&#x660E;</h2>
+<p>1&#x3001;&#x5229;&#x7528; ThinkCMF &#x6784;&#x5EFA;&#x7684;&#x7F51;&#x7AD9;&#x7684;&#x4EFB;&#x4F55;&#x4FE1;&#x606F;&#x5185;&#x5BB9;&#x4EE5;&#x53CA;&#x5BFC;&#x81F4;&#x7684;&#x4EFB;&#x4F55;&#x7248;&#x6743;&#x7EA0;&#x7EB7;&#x548C;&#x6CD5;&#x5F8B;&#x4E89;&#x8BAE;&#x53CA;&#x540E;&#x679C;&#xFF0C;ThinkCMF &#x5B98;&#x65B9;&#x4E0D;&#x627F;&#x62C5;&#x4EFB;&#x4F55;&#x8D23;&#x4EFB;&#x3002;</p>
+<p>2&#x3001;&#x60A8;&#x4E00;&#x65E6;&#x5B89;&#x88C5;&#x4F7F;&#x7528;ThinkCMF&#xFF0C;&#x5373;&#x88AB;&#x89C6;&#x4E3A;&#x5B8C;&#x5168;&#x7406;&#x89E3;&#x5E76;&#x63A5;&#x53D7;&#x672C;&#x534F;&#x8BAE;&#x7684;&#x5404;&#x9879;&#x6761;&#x6B3E;&#xFF0C;&#x5728;&#x4EAB;&#x6709;&#x4E0A;&#x8FF0;&#x6761;&#x6B3E;&#x6388;&#x4E88;&#x7684;&#x6743;&#x529B;&#x7684;&#x540C;&#x65F6;&#xFF0C;&#x53D7;&#x5230;&#x76F8;&#x5173;&#x7684;&#x7EA6;&#x675F;&#x548C;&#x9650;&#x5236;&#x3002;</p>
+<h2 id="thinkcmf-&#x4F7F;&#x7528;&#x5EFA;&#x8BAE;"><a name="thinkcmf-&#x4F7F;&#x7528;&#x5EFA;&#x8BAE;" class="plugin-anchor" href="#thinkcmf-&#x4F7F;&#x7528;&#x5EFA;&#x8BAE;"><i class="fa fa-link" aria-hidden="true"></i></a>ThinkCMF &#x4F7F;&#x7528;&#x5EFA;&#x8BAE;</h2>
+<p>&#x8BF7;&#x5728;&#x60A8;&#x7684;&#x7F51;&#x7AD9;&#x9996;&#x9875;&#x52A0;&#x4E0A;ThinkCMF&#x76F8;&#x5173;&#x94FE;&#x63A5;&#xFF0C;O(&#x2229;_&#x2229;)O~ &#xFF01;</p>
+<h2 id="&#x6350;&#x8D60;thinkcmf"><a name="&#x6350;&#x8D60;thinkcmf" class="plugin-anchor" href="#&#x6350;&#x8D60;thinkcmf"><i class="fa fa-link" aria-hidden="true"></i></a>&#x6350;&#x8D60;ThinkCMF</h2>
+<p><a href="http://www.thinkcmf.com/donate/index.html" target="_blank">http://www.thinkcmf.com/donate/index.html</a></p>
+<p>&#x60A8;&#x7684;&#x6BCF;&#x4E00;&#x4EFD;&#x5E2E;&#x52A9;&#x90FD;&#x5C06;&#x652F;&#x6301;ThinkCMF&#x505A;&#x7684;&#x66F4;&#x597D;&#xFF0C;&#x8D70;&#x7684;&#x66F4;&#x8FDC;&#xFF01;</p>
+<p>ThinkCMF &#x6B63;&#x5728;&#x4E3A;&#x4F60;&#x5F00;&#x653E;&#x66F4;&#x591A;....</p>
+<footer class="page-footer"><span class="copyright">&#xA9; ThinkCMF all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x6700;&#x540E;&#x6587;&#x4EF6;&#x7F16;&#x8F91;&#x65F6;&#x95F4;:
+2016-10-30 06:55:55
+</span></footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="preface.html" class="navigation navigation-prev " aria-label="Previous page: 序言">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="bootstrap.html" class="navigation navigation-next " aria-label="Next page: 关于BootStrap">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"关于ThinkCMF","level":"1.2.1","depth":2,"next":{"title":"关于BootStrap","level":"1.2.2","depth":2,"path":"bootstrap.md","ref":"bootstrap.md","articles":[]},"previous":{"title":"序言","level":"1.2","depth":1,"path":"preface.md","ref":"preface.md","articles":[{"title":"关于ThinkCMF","level":"1.2.1","depth":2,"path":"about.md","ref":"about.md","articles":[]},{"title":"关于BootStrap","level":"1.2.2","depth":2,"path":"bootstrap.md","ref":"bootstrap.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["prism","-highlight","-sharing","github","editlink","anchors","ad","tbfed-pagefooter","sitemap","duoshuo"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"&copy ThinkCMF","modify_label":"最后文件编辑时间:","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{"css":["prismjs/themes/prism-solarizedlight.css"]},"ad":{"contentBottom":"%3Cscript%3Evar%20_hmt%20%3D%20_hmt%20%7C%7C%20%5B%5D%3B%28function%28%29%20%7B%20%20var%20hm%20%3D%20document.createElement%28%22script%22%29%3B%20%20hm.src%20%3D%20%22//hm.baidu.com/hm.js%3F3bd0ecf189515ac893b73c6f7e9beaa8%22%3B%20%20var%20s%20%3D%20document.getElementsByTagName%28%22script%22%29%5B0%5D%3B%20%20%20s.parentNode.insertBefore%28hm%2C%20s%29%3B%7D%29%28%29%3B%3C/script%3E","contentTop":""},"github":{"url":"https://github.com/thinkcmf/cmfx"},"editlink":{"label":"发现错误? 现在编辑","multilingual":false,"base":"https://github.com/thinkcmf/cmfx_doc/edit/master"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"duoshuo":{"short_name":"thinkcmf","theme":"default"},"fontsettings":{"theme":"white","family":"sans","size":2},"sitemap":{"hostname":"http://www.thinkcmf.com/"},"baidu":{"token":"3bd0ecf189515ac893b73c6f7e9beaa8"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{},"expandable-chapters":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"ThinkCMFX完全开发手册","language":"zh-hans","gitbook":"*","description":"ThinkCMF是一款基于ThinkPHP+MYSQL开发的中文内容管理框架(CMF),我们一直秉承ThinkPHP大道至简的理念，坚持做最简约的ThinkPHP开源软件,多应用化开发方式,让您更快地完成自己的创业项目！"},"file":{"path":"about.md","mtime":"2016-10-29T22:55:55.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-01-03T08:56:37.699Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-editlink/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-ad/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-duoshuo/duoshuo.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

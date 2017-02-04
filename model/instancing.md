@@ -59,7 +59,7 @@ D('Extend://Editor/Info');
 
 
 *名词解释*
-1. CURD(Creat,Update,Read,Delect),数据库的增删查改操作
+1. CURD(Create,Update,Read,Delete),数据库的增删查改操作
 
 *参考文献：*
 1. http://www.kancloud.cn/manual/thinkphp/1729

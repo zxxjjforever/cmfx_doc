@@ -6,7 +6,8 @@
 
 <!--如文章收藏：-->
 <a href="{:U('user/favorite/do_favorite',array('id'=>$object_id))}" class="js-favorite-btn" data-title="{$post_title}" data-url="{:U('article/index',array('id'=>$tid))}" data-key="{:sp_get_favorite_key('posts',$object_id)}">
- <i class="fa fa-star-o"></i></a>
+  <i class="fa fa-star-o"></i>
+</a>
 ```
 ```php
 sp_get_favorite_key($table,$object_id)

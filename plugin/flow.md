@@ -1,6 +1,6 @@
 # 插件开发流程
 
-1. 确定功能，先给插件启名，英文名和中文名 如：Demo,插件演示，然后在plugins目录里添加这个插件目录
+1. 确定功能，先给插件起名，英文名和中文名 如：Demo,插件演示，然后在plugins目录里添加这个插件目录
 
 2. 确定是否要后台配置文件，如果需要在插件根目录加上config.php，格式可看文档“插件配置文件”
 
@@ -10,7 +10,7 @@
 
 5. 确定是否可以外部访问，如需要请加Controller目录，再添加Controller文件
 
-6. 给自己的模板（tpl/simplebootx）添加钩子，把{:hook('钩子名')}放到模板相应位置，再在模板根目录添加hooks.html文件，让系统可以获取你模板里的钩子，如tpl/simplebootx/hooks.html文件，文件中以英文逗号分隔钩子，不能有空格；
+6. 给自己的模板（themes/simplebootx）添加钩子，把{:hook('钩子名')}放到模板相应位置，再在模板根目录添加hooks.html文件，让系统可以获取你模板里的钩子，如themes/simplebootx/hooks.html文件，文件中以英文逗号分隔钩子，不能有空格；
 hooks.html文件可以这样：
 footer_end,footer
 
